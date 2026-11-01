@@ -12,6 +12,8 @@
 
   [![Play Rhythm Forge](https://img.shields.io/badge/PLAY%20ONLINE-Rhythm%20Forge-7a5cff?style=for-the-badge)](https://tlongzuize.github.io/Rhythm-Forge/)
 
+  [Download pre-release](https://github.com/TLongzuize/Rhythm-Forge/releases)
+
   [Report a bug](https://github.com/TLongzuize/Rhythm-Forge/issues/new) ·
   [Source code](https://github.com/TLongzuize/Rhythm-Forge) ·
   [Contributing](#contributing)
@@ -231,6 +233,8 @@ Before the first deployment, open the repository's [Pages settings](https://gith
 <https://tlongzuize.github.io/Rhythm-Forge/>
 
 To host elsewhere, run the standalone build command and publish the resulting HTML file as the host's `index.html`. The regular source build uses root-relative asset paths and may need path changes when hosted below a domain subpath.
+
+Pre-releases are created from tags such as `v0.1.0-pre.1`. The [pre-release workflow](.github/workflows/prerelease.yml) attaches a standalone HTML game and a ZIP package containing the game, README, and MIT license to the GitHub Release.
 
 ## Project structure
 

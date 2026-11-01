@@ -1,0 +1,39 @@
+name: Build pre-release
+
+on:
+  push:
+    tags:
+      - "v*-pre*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build standalone game
+        run: |
+          mkdir -p release
+          python scripts/build-artifact.py release/index.html
+          cp README.md LICENSE release/
+          cd release
+          zip "../Rhythm-Forge-${GITHUB_REF_NAME}.zip" index.html README.md LICENSE
+
+      - name: Publish GitHub pre-release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Rhythm Forge ${{ github.ref_name }}
+          prerelease: true
+          generate_release_notes: true
+          files: |
+            release/index.html
+            Rhythm-Forge-${{ github.ref_name }}.zip
