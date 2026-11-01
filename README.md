@@ -12,7 +12,7 @@
 
   [![Play Rhythm Forge](https://img.shields.io/badge/PLAY%20ONLINE-Rhythm%20Forge-7a5cff?style=for-the-badge)](https://tlongzuize.github.io/Rhythm-Forge/)
 
-  [Download latest release](https://github.com/TLongzuize/Rhythm-Forge/releases/latest)
+  [Download current pre-release](https://github.com/TLongzuize/Rhythm-Forge/releases/tag/v0.1.0-pre.1)
 
   [Report a bug](https://github.com/TLongzuize/Rhythm-Forge/issues/new) ·
   [Source code](https://github.com/TLongzuize/Rhythm-Forge) ·
