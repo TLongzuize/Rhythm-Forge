@@ -85,8 +85,8 @@ The project is built with plain HTML, CSS, and JavaScript. It has **no runtime p
 Play Rhythm Forge on Vercel:
 
 - [rfplay.vercel.app](https://rfplay.vercel.app/)
-- [rf4k.vercel.app](https://rf4k.vercel.app/) — Production, valid configuration
-- [rhythm-forge-4k.vercel.app](https://rhythm-forge-4k.vercel.app/) — Production, valid configuration
+- [rf4k.vercel.app](https://rf4k.vercel.app/)
+- [rhythm-forge-4k.vercel.app](https://rhythm-forge-4k.vercel.app/)
 - [rhythm-forge-play.vercel.app](https://rhythm-forge-play.vercel.app/)
 
 The [GitHub Pages deployment](https://tlongzuize.github.io/Rhythm-Forge/) is also available as a fallback.
