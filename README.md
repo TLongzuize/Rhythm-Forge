@@ -10,7 +10,7 @@
   ![Runtime dependencies: zero](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen)
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
 
-  [![Play Rhythm Forge](https://img.shields.io/badge/PLAY%20ONLINE-Rhythm%20Forge-7a5cff?style=for-the-badge)](https://tlongzuize.github.io/Rhythm-Forge/)
+  [![Play Rhythm Forge](https://img.shields.io/badge/PLAY%20ONLINE-Rhythm%20Forge-7a5cff?style=for-the-badge)](https://rfplay.vercel.app/)
 
   [Download latest release](https://github.com/TLongzuize/Rhythm-Forge/releases/latest)
 
@@ -82,13 +82,20 @@ The project is built with plain HTML, CSS, and JavaScript. It has **no runtime p
 
 ## Play online
 
-After enabling GitHub Pages and completing the first deployment, play at **[tlongzuize.github.io/Rhythm-Forge](https://tlongzuize.github.io/Rhythm-Forge/)**. The workflow deploys on pushes to `main` and builds a self-contained HTML page so the game works from the repository's Pages subpath.
+Play Rhythm Forge on Vercel:
 
-To embed the game on another website, use:
+- [rfplay.vercel.app](https://rfplay.vercel.app/)
+- [rf4k.vercel.app](https://rf4k.vercel.app/) — Production, valid configuration
+- [rhythm-forge-4k.vercel.app](https://rhythm-forge-4k.vercel.app/) — Production, valid configuration
+- [rhythm-forge-play.vercel.app](https://rhythm-forge-play.vercel.app/)
+
+The [GitHub Pages deployment](https://tlongzuize.github.io/Rhythm-Forge/) is also available as a fallback.
+
+To embed the game on another website, use this iframe:
 
 ```html
 <iframe
-  src="https://tlongzuize.github.io/Rhythm-Forge/"
+  src="https://rfplay.vercel.app/"
   title="Play Rhythm Forge"
   width="100%"
   height="720"
@@ -98,11 +105,11 @@ To embed the game on another website, use:
 ></iframe>
 ```
 
-GitHub sanitizes iframe markup in repository READMEs, so use the **Play online** link above to open the game from GitHub. The iframe snippet is for pages you control.
+GitHub sanitizes iframe markup in repository READMEs, so use the links above to open the game from GitHub. The iframe snippet is for pages you control.
 
 ## Getting started
 
-1. Open the [online game](https://tlongzuize.github.io/Rhythm-Forge/).
+1. Open [Rhythm Forge on Vercel](https://rfplay.vercel.app/).
 2. Click the logo or start screen once to allow the browser to play audio.
 3. Choose **Play** and select the built-in **NEON CIRCUIT** demo, or use **Import** to add an audio file from your device.
 4. Open **Generate**, analyze the song, and create its charts.
