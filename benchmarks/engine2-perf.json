@@ -1,0 +1,27 @@
+{
+  "node": "v22.16.0",
+  "results": {
+    "30s": {
+      "analyzeMs": 408,
+      "tempoMapMs": 153,
+      "fingerprintMs": 7.4,
+      "generateHardMs": 325,
+      "notes": 169,
+      "quality": 100
+    },
+    "180s": {
+      "analyzeMs": 2818,
+      "tempoMapMs": 878,
+      "fingerprintMs": 14.1,
+      "generateHardMs": 1811,
+      "notes": 1024,
+      "quality": 100
+    },
+    "demo24Modes": {
+      "runs": 24,
+      "meanMs": 8.9,
+      "maxMs": 109.3
+    },
+    "cacheHitMs": 0.08
+  }
+}

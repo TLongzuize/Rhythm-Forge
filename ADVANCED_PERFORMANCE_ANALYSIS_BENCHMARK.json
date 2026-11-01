@@ -1,0 +1,88 @@
+{
+  "runtime": "v22.16.0",
+  "platform": "linux 6.18.57 x64",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "logicalCores": 3,
+  "sizes": [
+    {
+      "events": 1000,
+      "runsMs": [
+        9.02,
+        7.9,
+        8.53
+      ],
+      "medianMs": 8.53,
+      "heapDeltaMiB": 3.24,
+      "timingSamples": 989,
+      "skillStatuses": {
+        "stream": "measured",
+        "jack": "insufficient-data",
+        "chord": "insufficient-data",
+        "burst": "measured",
+        "jumpstream": "insufficient-data",
+        "hold": "insufficient-data",
+        "reading": "measured"
+      }
+    },
+    {
+      "events": 10000,
+      "runsMs": [
+        61.25,
+        58.16,
+        60.22
+      ],
+      "medianMs": 60.22,
+      "heapDeltaMiB": 28.58,
+      "timingSamples": 9896,
+      "skillStatuses": {
+        "stream": "measured",
+        "jack": "insufficient-data",
+        "chord": "insufficient-data",
+        "burst": "measured",
+        "jumpstream": "insufficient-data",
+        "hold": "insufficient-data",
+        "reading": "measured"
+      }
+    },
+    {
+      "events": 50000,
+      "runsMs": [
+        353.47,
+        361.82,
+        338.44
+      ],
+      "medianMs": 353.47,
+      "heapDeltaMiB": 86,
+      "timingSamples": 49484,
+      "skillStatuses": {
+        "stream": "measured",
+        "jack": "insufficient-data",
+        "chord": "insufficient-data",
+        "burst": "measured",
+        "jumpstream": "insufficient-data",
+        "hold": "insufficient-data",
+        "reading": "measured"
+      }
+    },
+    {
+      "events": 100000,
+      "runsMs": [
+        901.86,
+        724.91,
+        812.68
+      ],
+      "medianMs": 812.68,
+      "heapDeltaMiB": 26.66,
+      "timingSamples": 98969,
+      "skillStatuses": {
+        "stream": "measured",
+        "jack": "insufficient-data",
+        "chord": "insufficient-data",
+        "burst": "measured",
+        "jumpstream": "insufficient-data",
+        "hold": "insufficient-data",
+        "reading": "measured"
+      }
+    }
+  ]
+}

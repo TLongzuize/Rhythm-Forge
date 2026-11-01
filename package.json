@@ -1,0 +1,16 @@
+{
+  "name": "rhythm-forge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free browser 4-key rhythm game, audio chart generator, and editor.",
+  "scripts": {
+    "dev": "python3 scripts/server.py",
+    "build": "python3 scripts/build.py",
+    "preview": "python3 scripts/preview.py",
+    "test": "node --test --test-concurrency=2 tests/*.test.js",
+    "typecheck": "node scripts/syntax-check.mjs",
+    "browser:test": "python3 scripts/browser_test.py",
+    "benchmark": "node scripts/benchmark.js"
+  }
+}
