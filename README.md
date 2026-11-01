@@ -80,7 +80,7 @@ The project is built with plain HTML, CSS, and JavaScript. It has **no runtime p
 
 ## Play online
 
-After the first successful Pages deployment, play at **[tlongzuize.github.io/Rhythm-Forge](https://tlongzuize.github.io/Rhythm-Forge/)**. The workflow deploys on pushes to `main` and builds a self-contained HTML page so the game works from the repository's Pages subpath.
+After enabling GitHub Pages and completing the first deployment, play at **[tlongzuize.github.io/Rhythm-Forge](https://tlongzuize.github.io/Rhythm-Forge/)**. The workflow deploys on pushes to `main` and builds a self-contained HTML page so the game works from the repository's Pages subpath.
 
 To embed the game on another website, use:
 
@@ -226,7 +226,7 @@ For browser smoke tests, install Playwright and Chromium in your development env
 
 ## Deployment
 
-GitHub Pages is deployed automatically from pushes to `main` by [`.github/workflows/pages.yml`](.github/workflows/pages.yml). The workflow bundles the game and built-in demo into one `index.html`, then publishes it to:
+Before the first deployment, open the repository's [Pages settings](https://github.com/TLongzuize/Rhythm-Forge/settings/pages) and set **Build and deployment → Source** to **GitHub Actions**. The workflow in [`.github/workflows/pages.yml`](.github/workflows/pages.yml) then deploys automatically from pushes to `main`. It bundles the game and built-in demo into one `index.html`, then publishes it to:
 
 <https://tlongzuize.github.io/Rhythm-Forge/>
 
