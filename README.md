@@ -57,7 +57,7 @@ The project is built with plain HTML, CSS, and JavaScript. It has **no runtime p
 
 Version 0.2.0 is a quality-first overhaul focused on musical synchronization, restrained long-note generation, stable scoring, and deeper practice tools:
 
-- **RF Generator V2.3** performs fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo mapping, onset-latency compensation, and evidence-ranked hold planning.
+- **RF Generator V2** performs fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo mapping, onset-latency compensation, and evidence-ranked hold planning.
 - Long notes require sustained musical evidence, respect same-lane space and grid-safe tails, and are capped to prevent four-lane hold walls.
 - Gameplay now includes stable ScoreV2 cells, fixed-width accuracy, live segment BPM, health and fail/no-fail behavior, raw CPS with peak, and live **Rhythm Points (RP)**.
 - The Gameplay Lab adds rate control, looped Practice Mode, a 12-beat timing calibration wizard, previous-play ghost pulses, and three hit-sound skins.
