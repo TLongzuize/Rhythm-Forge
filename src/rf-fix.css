@@ -150,3 +150,41 @@ body.rf-playing{touch-action:none;-webkit-user-select:none;user-select:none;-web
   .osu-loader .ol-start{position:fixed!important;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:30;height:54px;width:140px;margin:0;padding:0;font-size:16px!important}
 }
 @media(max-width:900px){.osu-loader .ol-back{padding:0 0 0 20px!important;gap:10px!important;clip-path:none!important;border-radius:12px!important;justify-content:flex-start;width:calc(100% - 176px)!important}}
+
+/* ---------- 2026 polish pass: preserve structure, improve depth and feedback ---------- */
+.app-shell{--rf-radius:16px;--rf-border:rgba(255,255,255,.105);--rf-glass:rgba(17,18,31,.76)}
+.osu-bg{background-image:radial-gradient(circle at 18% 12%,color-mix(in srgb,var(--pink) 14%,transparent),transparent 32%),radial-gradient(circle at 84% 70%,color-mix(in srgb,var(--blue) 10%,transparent),transparent 38%),linear-gradient(150deg,#090a11,#11111d 58%,#090b13)}
+.osu-top{background:linear-gradient(180deg,rgba(11,12,21,.92),rgba(11,12,21,.72));border-bottom:1px solid var(--rf-border);backdrop-filter:blur(18px) saturate(135%);box-shadow:0 10px 40px #0005}
+.panel,.lz-card,.diagnostic-panel,.settings-summary,.calibration-card{border:1px solid var(--rf-border);box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 18px 50px rgba(0,0,0,.24);backdrop-filter:blur(14px) saturate(120%)}
+.panel{border-radius:var(--rf-radius);background:linear-gradient(145deg,rgba(255,255,255,.035),transparent 42%),var(--rf-glass)}
+.btn,.icon-btn,.key-cap,.gen-mode-option{transition:transform .16s cubic-bezier(.2,.8,.3,1),box-shadow .16s,border-color .16s,background .16s,color .16s}
+.btn:hover:not(:disabled),.icon-btn:hover:not(:disabled),.key-cap:hover,.gen-mode-option:hover{transform:translateY(-2px)}
+.btn:active:not(:disabled),.icon-btn:active:not(:disabled),.key-cap:active,.gen-mode-option:active{transform:translateY(0) scale(.975)}
+.btn:focus-visible,.icon-btn:focus-visible,.key-cap:focus-visible,select:focus-visible,input:focus-visible,[role="switch"]:focus-visible{outline:2px solid var(--pink);outline-offset:3px}
+.btn-primary{box-shadow:0 10px 30px color-mix(in srgb,var(--pink) 24%,transparent),inset 0 1px 0 #ffffff55}
+.settings-panel{overflow:hidden}.settings-panel .panel-heading{margin:-1px -1px 8px;padding:22px 24px 18px;background:linear-gradient(105deg,color-mix(in srgb,var(--pink) 8%,transparent),transparent);border-bottom:1px solid rgba(255,255,255,.065)}
+.settings-control-row,.scroll-speed-setting,.range-setting{border-radius:12px;margin-inline:8px;padding-inline:16px;transition:background .16s,border-color .16s}
+.settings-control-row:hover,.scroll-speed-setting:hover,.range-setting:hover{background:rgba(255,255,255,.027)}
+.settings-control-row select{min-width:170px;color:#f8f7ff;background:#131523;border:1px solid rgba(255,255,255,.14);border-radius:9px;padding:10px 34px 10px 12px}
+.rf-skin-studio{margin:16px 8px 8px;border:1px solid color-mix(in srgb,var(--pink) 25%,transparent);border-radius:14px;background:linear-gradient(140deg,color-mix(in srgb,var(--pink) 7%,transparent),rgba(255,255,255,.012));overflow:hidden}
+.rf-skin-heading{display:flex;align-items:center;justify-content:space-between;padding:13px 16px;border-bottom:1px solid rgba(255,255,255,.07)}
+.rf-skin-heading span{font:800 10px 'DM Mono',monospace;letter-spacing:.16em;color:var(--pink)}.rf-skin-heading small{color:#8e92a7}
+.rf-skin-studio .settings-control-row{margin:0;border-radius:0}
+.lz-card{border-radius:14px;margin-block:7px;background:linear-gradient(100deg,rgba(255,255,255,.035),rgba(255,255,255,.012));overflow:visible}
+.lz-card:hover{border-color:color-mix(in srgb,var(--pink) 32%,transparent);box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 18px 48px #0005}
+.lz-card.active{background:linear-gradient(100deg,color-mix(in srgb,var(--pink) 16%,rgba(20,21,35,.92)),rgba(20,21,35,.88));border-color:color-mix(in srgb,var(--pink) 48%,transparent)}
+.diagnostic-stat{border:1px solid rgba(255,255,255,.07);border-radius:12px;background:rgba(255,255,255,.025)}
+.toast{border:1px solid color-mix(in srgb,var(--pink) 30%,transparent);background:rgba(16,17,28,.92);backdrop-filter:blur(18px);box-shadow:0 16px 50px #0007}
+@media(prefers-reduced-motion:reduce){.btn,.icon-btn,.key-cap,.gen-mode-option,.lz-card{transition:none!important}}
+@media(max-width:720px){.settings-control-row select{min-width:130px;max-width:48vw}.rf-skin-heading{align-items:flex-start;gap:5px;flex-direction:column}}
+
+/* Gameplay Lab: compact additions that inherit the existing settings system. */
+.rf-gameplay-studio{margin-top:22px;border-color:rgba(127,227,255,.2);background:linear-gradient(145deg,rgba(58,209,255,.07),rgba(128,82,255,.045))}
+.rf-gameplay-studio .settings-control-row{padding-inline:2px}
+.rf-skin-preview{display:block;width:calc(100% - 24px);height:auto;max-height:180px;margin:12px;border:1px solid rgba(255,255,255,.09);border-radius:12px;background:#080a12}
+.rf-calibration-modal{max-width:480px;text-align:center;overflow:hidden}
+.rf-calibration-modal>small{display:block;margin:10px 0 2px;color:var(--muted,#9aa4b7)}
+.rf-cal-pulse{width:76px;height:76px;margin:4px auto 20px;border-radius:50%;border:2px solid rgba(127,227,255,.45);box-shadow:0 0 0 0 rgba(127,227,255,.32),inset 0 0 20px rgba(127,227,255,.12)}
+.rf-cal-pulse.hit{animation:rf-cal-hit .26s ease-out}
+@keyframes rf-cal-hit{0%{transform:scale(.78);background:#7fe3ff;box-shadow:0 0 0 0 rgba(127,227,255,.6)}100%{transform:scale(1.12);background:transparent;box-shadow:0 0 0 28px rgba(127,227,255,0)}}
+@media(prefers-reduced-motion:reduce){.rf-cal-pulse.hit{animation:none;background:rgba(127,227,255,.45)}}

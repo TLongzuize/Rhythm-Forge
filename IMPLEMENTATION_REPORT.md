@@ -1,28 +1,30 @@
-# Rhythm Forge implementation report — isolated play screen and hold input update
+# Rhythm Forge V2.3 implementation report
 
-## Gameplay screen
-- Gameplay replaces the app root with a dedicated full-viewport play surface. The studio sidebar, topbar, footer, song metadata, combo, judgement counters, editor link, and toast overlays are absent while playing.
-- Gameplay HUD is limited to score, accuracy, the latest judgement, the playfield, and Audio / Retry / Pause / Exit buttons.
-- Fullscreen is attempted when the browser supports it; CSS keeps the game viewport-filling where the native Fullscreen API is unavailable.
-- No landscape orientation lock or rotated portrait layout is used. The same layout adapts to portrait and landscape sizes, with viewport-safe-area padding.
-- Viewport meta includes `viewport-fit=cover` for devices with display cutouts.
+## Generator and sync
 
-## Settings
-- Note scroll speed is a touch-friendly slider from 0.5× to 3.0× (0.1× steps), with a live value readout and locally persisted setting.
-- Higher values make notes travel faster; lower values increase approach time.
+- Tempo analysis refines the strongest independent autocorrelation basins to 0.05 BPM instead of rounding every song to an integer tempo.
+- Synthetic impulse calibration compensates the stable 17 ms onset-frame lead. Residual phase bias is approximately 0.3–0.4 ms on synthetic 70–180 BPM tests.
+- The continuous tempo map is serialized in every V2 chart. Gameplay reads the active segment, so live BPM follows the current musical section.
+- Short 3:4 / 4:3 tempo aliases surrounded by a stable tempo are removed. Long or one-way tempo changes remain intact.
+- V2 preserves onset-backed triplet and 1/32 slots instead of re-quantizing every selected event to 1/16.
+- The evidence-ranked hold planner caps hold ratio and simultaneous holds; transient drums and reverb tails do not become long notes without sustain evidence.
 
-## Long note/input improvements
-- Long note bodies and tails are wider/brighter for better visibility.
-- Keyboard and pointer/touch hold logic now tolerates brief releases for 145 ms, and the final 170 ms of a hold is more forgiving.
-- Removed the touch-event time throttle that could drop legitimate quick taps/chords.
-- Touch lanes still use the full width of each lane; multi-pointer holds can be tracked independently.
+## Gameplay and ScoreV2
+
+- ScoreV2 now separates current judged accuracy from map-completion progress. Future notes are not counted as misses, eliminating end-of-map score ballooning.
+- The canvas HUD uses seven fixed score cells and exact score/accuracy values rather than per-frame interpolation, eliminating layout growth and number shake.
+- CPS counts every raw keyboard/pointer press in the rolling one-second window, including presses that do not hit a note, and displays peak CPS.
+- The HUD adds segment-local live BPM, health, and a full-width song progress indicator.
+
+## UI and customization
+
+- Core navigation and buttons are preserved while panels, cards, focus states, transitions, depth, responsiveness, and reduced-motion behaviour receive a consistent polish pass.
+- Nine workspace skins are available, including Cyber Pulse and Sakura Glass.
+- Gameplay adds five note skins, four receptor skins, per-lane skin colors, and optional lane guides.
 
 ## Verification
-- `npm test`: 11/11 tests passed, including chart generation, judgement tiers, and long-note chart validity.
-- `npm run typecheck`: `app.js`, `core.js`, and `analysis-worker.js` syntax checks passed.
-- `npm run build`: static production build completed successfully.
-- The updated browser smoke test was attempted, but Chromium navigation to the local test server was blocked by the environment with `ERR_BLOCKED_BY_ADMINISTRATOR`. Browser interaction on a physical mobile device is therefore not claimed as verified.
 
-## Remaining limits
-- Native fullscreen behavior depends on browser support and user gesture rules. On browsers without an element Fullscreen API, the CSS-only dedicated play surface is used, though browser chrome may remain visible.
-- Dedicated advanced hold-tail editing in the chart editor remains limited.
+- Syntax/typecheck covers every runtime module.
+- The automated suite covers ScoreV2 partial-map progress, tempo phase, gradual and abrupt tempo changes, V2 grid sync, long-note constraints, and the standalone bundle.
+- Real-audio validation covers 12 MP3 files and all four difficulties per generator. Generated V2 charts remain structurally valid.
+- A headless Chrome production render successfully painted the live dev server. Playwright is not installed in this environment, so the Playwright-specific browser suite could not run.

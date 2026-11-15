@@ -1,0 +1,6134 @@
+{
+  "generatedAt": "2026-11-15T11:28:51.968Z",
+  "sampleRate": 22050,
+  "files": [
+    {
+      "file": "2 Phut Hon Funk (Pháo) - Hove Funk - DJ版 Remix - Hot TikTok - Douyin.mp3",
+      "durationMs": 131935.78231292518,
+      "bpmInfo": {
+        "coreBpm": 102,
+        "coreConfidence": 0.55,
+        "mapBpms": [
+          "102@0s(c0.74)"
+        ],
+        "strongPerMin": 414.3,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 268,
+          "nps": 2.0312912486800423,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 38,
+          "totalHoldMs": 17054,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7425373134328358,
+          "valid": true,
+          "errors": [],
+          "bpm": 102,
+          "rating": 6.1,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 498,
+          "nps": 3.774563588965153,
+          "chords": 60,
+          "jumpChords": 31,
+          "maxChordSize": 2,
+          "holdCount": 85,
+          "totalHoldMs": 46348,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6024096385542169,
+          "valid": true,
+          "errors": [],
+          "bpm": 102,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 727,
+          "nps": 5.510256484292503,
+          "chords": 81,
+          "jumpChords": 45,
+          "maxChordSize": 2,
+          "holdCount": 141,
+          "totalHoldMs": 68051,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5199449793672627,
+          "valid": true,
+          "errors": [],
+          "bpm": 102,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 957,
+          "nps": 7.2535288245776135,
+          "chords": 197,
+          "jumpChords": 119,
+          "maxChordSize": 3,
+          "holdCount": 322,
+          "totalHoldMs": 142854,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.509926854754441,
+          "valid": true,
+          "errors": [],
+          "bpm": 102,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 403,
+          "nps": 3.05,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 16,
+          "totalHoldMs": 5602,
+          "patternCount": 89,
+          "uniquePatterns": 4,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Breakdown": 1,
+            "Low Energy": 1,
+            "Medium Energy": 3,
+            "High Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5930521091811415,
+          "valid": true,
+          "errors": [],
+          "bpm": 102.03,
+          "rating": 3.8,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Breakdown",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.33
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 2519,
+              "endMs": 12506,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.51
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 74897,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 77393,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 77388,
+              "endMs": 129801,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 131936,
+              "energy": 0.52
+            }
+          ]
+        },
+        "normal": {
+          "notes": 475,
+          "nps": 3.6,
+          "chords": 58,
+          "jumpChords": 58,
+          "maxChordSize": 2,
+          "holdCount": 26,
+          "totalHoldMs": 8993,
+          "patternCount": 90,
+          "uniquePatterns": 9,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Breakdown": 1,
+            "Low Energy": 1,
+            "Medium Energy": 3,
+            "High Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6252631578947369,
+          "valid": true,
+          "errors": [],
+          "bpm": 102.03,
+          "rating": 4.4,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Breakdown",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.33
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 2519,
+              "endMs": 12506,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.51
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 74897,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 77393,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 77388,
+              "endMs": 129801,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 131936,
+              "energy": 0.52
+            }
+          ]
+        },
+        "hard": {
+          "notes": 934,
+          "nps": 7.08,
+          "chords": 131,
+          "jumpChords": 131,
+          "maxChordSize": 2,
+          "holdCount": 45,
+          "totalHoldMs": 14745,
+          "patternCount": 126,
+          "uniquePatterns": 8,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Breakdown": 1,
+            "Low Energy": 1,
+            "Medium Energy": 3,
+            "High Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4603854389721627,
+          "valid": true,
+          "errors": [],
+          "bpm": 102.03,
+          "rating": 8.3,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Breakdown",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.33
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 2519,
+              "endMs": 12506,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.51
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 74897,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 77393,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 77388,
+              "endMs": 129801,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 131936,
+              "energy": 0.52
+            }
+          ]
+        },
+        "expert": {
+          "notes": 1007,
+          "nps": 7.63,
+          "chords": 205,
+          "jumpChords": 205,
+          "maxChordSize": 2,
+          "holdCount": 46,
+          "totalHoldMs": 16510,
+          "patternCount": 147,
+          "uniquePatterns": 4,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Breakdown": 1,
+            "Low Energy": 1,
+            "Medium Energy": 3,
+            "High Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.49950347567030784,
+          "valid": true,
+          "errors": [],
+          "bpm": 102.03,
+          "rating": 8.7,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Breakdown",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.33
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 2519,
+              "endMs": 12506,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.51
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 74897,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 77393,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 77388,
+              "endMs": 129801,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 131936,
+              "energy": 0.52
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "Abdullah Khan Tomal - Sigma Boy (Phonk Remix).mp3",
+      "durationMs": 128731.42857142858,
+      "bpmInfo": {
+        "coreBpm": 130,
+        "coreConfidence": 0.462,
+        "mapBpms": [
+          "130@0s(c0.67)"
+        ],
+        "strongPerMin": 545.3,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 263,
+          "nps": 2.0430131392045454,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 31,
+          "totalHoldMs": 11886,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7186311787072244,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 5.6,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 595,
+          "nps": 4.622025923295454,
+          "chords": 73,
+          "jumpChords": 53,
+          "maxChordSize": 2,
+          "holdCount": 123,
+          "totalHoldMs": 47252,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5983193277310924,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 878,
+          "nps": 6.820401278409091,
+          "chords": 113,
+          "jumpChords": 73,
+          "maxChordSize": 2,
+          "holdCount": 126,
+          "totalHoldMs": 48407,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.48405466970387245,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 1069,
+          "nps": 8.304110440340908,
+          "chords": 186,
+          "jumpChords": 99,
+          "maxChordSize": 3,
+          "holdCount": 351,
+          "totalHoldMs": 119572,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4546304957904584,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 294,
+          "nps": 2.28,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 11,
+          "totalHoldMs": 5776,
+          "patternCount": 94,
+          "uniquePatterns": 4,
+          "sectionCount": 10,
+          "sectionLabels": {
+            "Low Energy": 2,
+            "Medium Energy": 4,
+            "High Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7142857142857143,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.01,
+          "rating": 3.5,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.08
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 19993,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 19988,
+              "endMs": 27480,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 34967,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 34962,
+              "endMs": 89871,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 89866,
+              "endMs": 97358,
+              "energy": 0.49
+            },
+            {
+              "label": "High Energy",
+              "startMs": 97353,
+              "endMs": 122314,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 124810,
+              "energy": 0.52
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 124806,
+              "endMs": 127306,
+              "energy": 0.18
+            },
+            {
+              "label": "Silence",
+              "startMs": 127301,
+              "endMs": 128731,
+              "energy": 0
+            }
+          ]
+        },
+        "normal": {
+          "notes": 558,
+          "nps": 4.33,
+          "chords": 71,
+          "jumpChords": 71,
+          "maxChordSize": 2,
+          "holdCount": 30,
+          "totalHoldMs": 12941,
+          "patternCount": 133,
+          "uniquePatterns": 9,
+          "sectionCount": 10,
+          "sectionLabels": {
+            "Low Energy": 2,
+            "Medium Energy": 4,
+            "High Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6630824372759857,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.01,
+          "rating": 5.5,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.08
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 19993,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 19988,
+              "endMs": 27480,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 34967,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 34962,
+              "endMs": 89871,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 89866,
+              "endMs": 97358,
+              "energy": 0.49
+            },
+            {
+              "label": "High Energy",
+              "startMs": 97353,
+              "endMs": 122314,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 124810,
+              "energy": 0.52
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 124806,
+              "endMs": 127306,
+              "energy": 0.18
+            },
+            {
+              "label": "Silence",
+              "startMs": 127301,
+              "endMs": 128731,
+              "energy": 0
+            }
+          ]
+        },
+        "hard": {
+          "notes": 1069,
+          "nps": 8.3,
+          "chords": 179,
+          "jumpChords": 179,
+          "maxChordSize": 2,
+          "holdCount": 49,
+          "totalHoldMs": 16989,
+          "patternCount": 134,
+          "uniquePatterns": 7,
+          "sectionCount": 10,
+          "sectionLabels": {
+            "Low Energy": 2,
+            "Medium Energy": 4,
+            "High Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4761459307764266,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.01,
+          "rating": 9.8,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.08
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 19993,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 19988,
+              "endMs": 27480,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 34967,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 34962,
+              "endMs": 89871,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 89866,
+              "endMs": 97358,
+              "energy": 0.49
+            },
+            {
+              "label": "High Energy",
+              "startMs": 97353,
+              "endMs": 122314,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 124810,
+              "energy": 0.52
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 124806,
+              "endMs": 127306,
+              "energy": 0.18
+            },
+            {
+              "label": "Silence",
+              "startMs": 127301,
+              "endMs": 128731,
+              "energy": 0
+            }
+          ]
+        },
+        "expert": {
+          "notes": 1181,
+          "nps": 9.17,
+          "chords": 270,
+          "jumpChords": 270,
+          "maxChordSize": 2,
+          "holdCount": 34,
+          "totalHoldMs": 13752,
+          "patternCount": 151,
+          "uniquePatterns": 4,
+          "sectionCount": 10,
+          "sectionLabels": {
+            "Low Energy": 2,
+            "Medium Energy": 4,
+            "High Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5080440304826418,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.01,
+          "rating": 10,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.08
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 19993,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 19988,
+              "endMs": 27480,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 34967,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 34962,
+              "endMs": 89871,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 89866,
+              "endMs": 97358,
+              "energy": 0.49
+            },
+            {
+              "label": "High Energy",
+              "startMs": 97353,
+              "endMs": 122314,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 124810,
+              "energy": 0.52
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 124806,
+              "endMs": 127306,
+              "energy": 0.18
+            },
+            {
+              "label": "Silence",
+              "startMs": 127301,
+              "endMs": 128731,
+              "energy": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "FUNK ABNORMAL (Slowed) - DJ V12.mp3",
+      "durationMs": 101099.68253968253,
+      "bpmInfo": {
+        "coreBpm": 115.8,
+        "coreConfidence": 0.508,
+        "mapBpms": [
+          "112.4@0s(c0.34)",
+          "116.7@8000s(c0.53)",
+          "115.8@31700s(c0.68)"
+        ],
+        "strongPerMin": 358.5,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 234,
+          "nps": 2.314547327170418,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 35,
+          "totalHoldMs": 15837,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5897435897435898,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 6.3,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 394,
+          "nps": 3.8971437901929264,
+          "chords": 35,
+          "jumpChords": 20,
+          "maxChordSize": 2,
+          "holdCount": 98,
+          "totalHoldMs": 60663,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5177664974619289,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 583,
+          "nps": 5.766585862138264,
+          "chords": 48,
+          "jumpChords": 31,
+          "maxChordSize": 2,
+          "holdCount": 122,
+          "totalHoldMs": 69613,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3979416809605489,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 787,
+          "nps": 7.784396352491962,
+          "chords": 123,
+          "jumpChords": 65,
+          "maxChordSize": 3,
+          "holdCount": 249,
+          "totalHoldMs": 117485,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3583227445997459,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 192,
+          "nps": 1.9,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 7,
+          "totalHoldMs": 4265,
+          "patternCount": 65,
+          "uniquePatterns": 4,
+          "sectionCount": 14,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 6,
+            "Breakdown": 1,
+            "High Energy": 4
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6614583333333334,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.79,
+          "rating": 4,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.1
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 17497,
+              "energy": 0.5
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.26
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 29975,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 29971,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 67410,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 67406,
+              "endMs": 69906,
+              "energy": 0.6
+            },
+            {
+              "label": "High Energy",
+              "startMs": 69901,
+              "endMs": 74897,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 79888,
+              "energy": 0.58
+            },
+            {
+              "label": "High Energy",
+              "startMs": 79884,
+              "endMs": 97358,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101100,
+              "energy": 0.2
+            }
+          ]
+        },
+        "normal": {
+          "notes": 369,
+          "nps": 3.65,
+          "chords": 40,
+          "jumpChords": 40,
+          "maxChordSize": 2,
+          "holdCount": 18,
+          "totalHoldMs": 7882,
+          "patternCount": 73,
+          "uniquePatterns": 8,
+          "sectionCount": 14,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 6,
+            "Breakdown": 1,
+            "High Energy": 4
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5040650406504065,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.79,
+          "rating": 6.1,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.1
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 17497,
+              "energy": 0.5
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.26
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 29975,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 29971,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 67410,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 67406,
+              "endMs": 69906,
+              "energy": 0.6
+            },
+            {
+              "label": "High Energy",
+              "startMs": 69901,
+              "endMs": 74897,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 79888,
+              "energy": 0.58
+            },
+            {
+              "label": "High Energy",
+              "startMs": 79884,
+              "endMs": 97358,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101100,
+              "energy": 0.2
+            }
+          ]
+        },
+        "hard": {
+          "notes": 718,
+          "nps": 7.1,
+          "chords": 82,
+          "jumpChords": 82,
+          "maxChordSize": 2,
+          "holdCount": 35,
+          "totalHoldMs": 14496,
+          "patternCount": 90,
+          "uniquePatterns": 7,
+          "sectionCount": 14,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 6,
+            "Breakdown": 1,
+            "High Energy": 4
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.33565459610027853,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.79,
+          "rating": 8.7,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.1
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 17497,
+              "energy": 0.5
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.26
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 29975,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 29971,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 67410,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 67406,
+              "endMs": 69906,
+              "energy": 0.6
+            },
+            {
+              "label": "High Energy",
+              "startMs": 69901,
+              "endMs": 74897,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 79888,
+              "energy": 0.58
+            },
+            {
+              "label": "High Energy",
+              "startMs": 79884,
+              "endMs": 97358,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101100,
+              "energy": 0.2
+            }
+          ]
+        },
+        "expert": {
+          "notes": 769,
+          "nps": 7.61,
+          "chords": 130,
+          "jumpChords": 130,
+          "maxChordSize": 2,
+          "holdCount": 38,
+          "totalHoldMs": 14880,
+          "patternCount": 101,
+          "uniquePatterns": 4,
+          "sectionCount": 14,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 6,
+            "Breakdown": 1,
+            "High Energy": 4
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.37711313394018203,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.79,
+          "rating": 9.2,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.1
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 17497,
+              "energy": 0.5
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.26
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 29975,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 29971,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 67410,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 67406,
+              "endMs": 69906,
+              "energy": 0.6
+            },
+            {
+              "label": "High Energy",
+              "startMs": 69901,
+              "endMs": 74897,
+              "energy": 0.66
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 74893,
+              "endMs": 79888,
+              "energy": 0.58
+            },
+            {
+              "label": "High Energy",
+              "startMs": 79884,
+              "endMs": 97358,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101100,
+              "energy": 0.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "HOMAGE FUNK.mp3",
+      "durationMs": 122740.68027210885,
+      "bpmInfo": {
+        "coreBpm": 130,
+        "coreConfidence": 0.439,
+        "mapBpms": [
+          "130@0s(c0.66)"
+        ],
+        "strongPerMin": 512.8,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 249,
+          "nps": 2.0286672637627694,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 46,
+          "totalHoldMs": 19849,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7590361445783133,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 6.8,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 579,
+          "nps": 4.717262432604994,
+          "chords": 73,
+          "jumpChords": 43,
+          "maxChordSize": 2,
+          "holdCount": 105,
+          "totalHoldMs": 45164,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5716753022452504,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 827,
+          "nps": 6.737782438280363,
+          "chords": 95,
+          "jumpChords": 59,
+          "maxChordSize": 2,
+          "holdCount": 116,
+          "totalHoldMs": 62540,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4316807738814994,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 1020,
+          "nps": 8.310203249148694,
+          "chords": 122,
+          "jumpChords": 58,
+          "maxChordSize": 3,
+          "holdCount": 274,
+          "totalHoldMs": 109047,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3803921568627451,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 245,
+          "nps": 2,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 9,
+          "totalHoldMs": 6468,
+          "patternCount": 87,
+          "uniquePatterns": 4,
+          "sectionCount": 11,
+          "sectionLabels": {
+            "Low Energy": 3,
+            "Medium Energy": 5,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.763265306122449,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 3.2,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 12506,
+              "energy": 0.13
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 17493,
+              "endMs": 42454,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 49940,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 77393,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 77388,
+              "endMs": 79888,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 79884,
+              "endMs": 92366,
+              "energy": 0.11
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 94862,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 94858,
+              "endMs": 119819,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 122310,
+              "endMs": 122741,
+              "energy": 0.16
+            }
+          ]
+        },
+        "normal": {
+          "notes": 477,
+          "nps": 3.89,
+          "chords": 66,
+          "jumpChords": 66,
+          "maxChordSize": 2,
+          "holdCount": 21,
+          "totalHoldMs": 11550,
+          "patternCount": 124,
+          "uniquePatterns": 9,
+          "sectionCount": 11,
+          "sectionLabels": {
+            "Low Energy": 3,
+            "Medium Energy": 5,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7064989517819706,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 5.2,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 12506,
+              "energy": 0.13
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 17493,
+              "endMs": 42454,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 49940,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 77393,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 77388,
+              "endMs": 79888,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 79884,
+              "endMs": 92366,
+              "energy": 0.11
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 94862,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 94858,
+              "endMs": 119819,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 122310,
+              "endMs": 122741,
+              "energy": 0.16
+            }
+          ]
+        },
+        "hard": {
+          "notes": 869,
+          "nps": 7.08,
+          "chords": 139,
+          "jumpChords": 139,
+          "maxChordSize": 2,
+          "holdCount": 51,
+          "totalHoldMs": 21723,
+          "patternCount": 127,
+          "uniquePatterns": 8,
+          "sectionCount": 11,
+          "sectionLabels": {
+            "Low Energy": 3,
+            "Medium Energy": 5,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.47410817031070196,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 9,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 12506,
+              "energy": 0.13
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 17493,
+              "endMs": 42454,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 49940,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 77393,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 77388,
+              "endMs": 79888,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 79884,
+              "endMs": 92366,
+              "energy": 0.11
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 94862,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 94858,
+              "endMs": 119819,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 122310,
+              "endMs": 122741,
+              "energy": 0.16
+            }
+          ]
+        },
+        "expert": {
+          "notes": 1033,
+          "nps": 8.42,
+          "chords": 227,
+          "jumpChords": 227,
+          "maxChordSize": 2,
+          "holdCount": 45,
+          "totalHoldMs": 20913,
+          "patternCount": 141,
+          "uniquePatterns": 4,
+          "sectionCount": 11,
+          "sectionLabels": {
+            "Low Energy": 3,
+            "Medium Energy": 5,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4849951597289448,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 9.9,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Low Energy",
+              "startMs": 23,
+              "endMs": 12506,
+              "energy": 0.13
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 17493,
+              "endMs": 42454,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 49940,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 77393,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 77388,
+              "endMs": 79888,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 79884,
+              "endMs": 92366,
+              "energy": 0.11
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 94862,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 94858,
+              "endMs": 119819,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 122310,
+              "endMs": 122741,
+              "energy": 0.16
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "MALVADO DE VAPO.mp3",
+      "durationMs": 77340.95238095238,
+      "bpmInfo": {
+        "coreBpm": 130,
+        "coreConfidence": 0.327,
+        "mapBpms": [
+          "130@0s(c0.58)"
+        ],
+        "strongPerMin": 99.3,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 155,
+          "nps": 2.004112895281253,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 28,
+          "totalHoldMs": 16850,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.34838709677419355,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 5.3,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 335,
+          "nps": 4.33146980593045,
+          "chords": 25,
+          "jumpChords": 19,
+          "maxChordSize": 2,
+          "holdCount": 103,
+          "totalHoldMs": 63887,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.19402985074626866,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 543,
+          "nps": 7.020860013791744,
+          "chords": 53,
+          "jumpChords": 24,
+          "maxChordSize": 2,
+          "holdCount": 84,
+          "totalHoldMs": 41992,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.13443830570902393,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 635,
+          "nps": 8.210397990345777,
+          "chords": 80,
+          "jumpChords": 37,
+          "maxChordSize": 3,
+          "holdCount": 231,
+          "totalHoldMs": 127061,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.13543307086614173,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 145,
+          "nps": 1.87,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 5,
+          "totalHoldMs": 2310,
+          "patternCount": 51,
+          "uniquePatterns": 4,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "High Energy": 3,
+            "Medium Energy": 4,
+            "Low Energy": 2,
+            "Breakdown": 2,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3724137931034483,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 3.1,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 2519,
+              "endMs": 5019,
+              "energy": 0.54
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.65
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 17493,
+              "endMs": 19993,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 19988,
+              "endMs": 34967,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 37462,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 37458,
+              "endMs": 39958,
+              "energy": 0.63
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 39954,
+              "endMs": 52436,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 74897,
+              "energy": 0.19
+            },
+            {
+              "label": "Silence",
+              "startMs": 74893,
+              "endMs": 77341,
+              "energy": 0
+            }
+          ]
+        },
+        "normal": {
+          "notes": 244,
+          "nps": 3.15,
+          "chords": 11,
+          "jumpChords": 11,
+          "maxChordSize": 2,
+          "holdCount": 13,
+          "totalHoldMs": 5891,
+          "patternCount": 75,
+          "uniquePatterns": 8,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "High Energy": 3,
+            "Medium Energy": 4,
+            "Low Energy": 2,
+            "Breakdown": 2,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.27459016393442626,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 4.3,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 2519,
+              "endMs": 5019,
+              "energy": 0.54
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.65
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 17493,
+              "endMs": 19993,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 19988,
+              "endMs": 34967,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 37462,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 37458,
+              "endMs": 39958,
+              "energy": 0.63
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 39954,
+              "endMs": 52436,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 74897,
+              "energy": 0.19
+            },
+            {
+              "label": "Silence",
+              "startMs": 74893,
+              "endMs": 77341,
+              "energy": 0
+            }
+          ]
+        },
+        "hard": {
+          "notes": 392,
+          "nps": 5.07,
+          "chords": 27,
+          "jumpChords": 27,
+          "maxChordSize": 2,
+          "holdCount": 25,
+          "totalHoldMs": 11434,
+          "patternCount": 75,
+          "uniquePatterns": 6,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "High Energy": 3,
+            "Medium Energy": 4,
+            "Low Energy": 2,
+            "Breakdown": 2,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.21683673469387754,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 7.2,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 2519,
+              "endMs": 5019,
+              "energy": 0.54
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.65
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 17493,
+              "endMs": 19993,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 19988,
+              "endMs": 34967,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 37462,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 37458,
+              "endMs": 39958,
+              "energy": 0.63
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 39954,
+              "endMs": 52436,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 74897,
+              "energy": 0.19
+            },
+            {
+              "label": "Silence",
+              "startMs": 74893,
+              "endMs": 77341,
+              "energy": 0
+            }
+          ]
+        },
+        "expert": {
+          "notes": 566,
+          "nps": 7.32,
+          "chords": 48,
+          "jumpChords": 48,
+          "maxChordSize": 2,
+          "holdCount": 31,
+          "totalHoldMs": 11209,
+          "patternCount": 88,
+          "uniquePatterns": 4,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "High Energy": 3,
+            "Medium Energy": 4,
+            "Low Energy": 2,
+            "Breakdown": 2,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.1872791519434629,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 8.8,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 2523,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 2519,
+              "endMs": 5019,
+              "energy": 0.54
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 17497,
+              "energy": 0.65
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 17493,
+              "endMs": 19993,
+              "energy": 0.49
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 19988,
+              "endMs": 34967,
+              "energy": 0.16
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 37462,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 37458,
+              "endMs": 39958,
+              "energy": 0.63
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 39954,
+              "endMs": 52436,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 74897,
+              "energy": 0.19
+            },
+            {
+              "label": "Silence",
+              "startMs": 74893,
+              "endMs": 77341,
+              "energy": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "OnlyMP3_to_-_FUNK_ABNORMAL_Slowed_-_DJ_V12.mp3",
+      "durationMs": 101030.02267573695,
+      "bpmInfo": {
+        "coreBpm": 115.8,
+        "coreConfidence": 0.517,
+        "mapBpms": [
+          "115.5@0s(c0.65)"
+        ],
+        "strongPerMin": 375.3,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 234,
+          "nps": 2.3161431998391175,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 32,
+          "totalHoldMs": 14282,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6025641025641025,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 6,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 398,
+          "nps": 3.9394230492990117,
+          "chords": 38,
+          "jumpChords": 22,
+          "maxChordSize": 2,
+          "holdCount": 83,
+          "totalHoldMs": 51710,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5376884422110553,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 594,
+          "nps": 5.8794404303608365,
+          "chords": 57,
+          "jumpChords": 34,
+          "maxChordSize": 2,
+          "holdCount": 108,
+          "totalHoldMs": 68286,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4057239057239057,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 772,
+          "nps": 7.641292949896576,
+          "chords": 120,
+          "jumpChords": 83,
+          "maxChordSize": 3,
+          "holdCount": 270,
+          "totalHoldMs": 119974,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.37176165803108807,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.8,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 186,
+          "nps": 1.84,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 7,
+          "totalHoldMs": 4159,
+          "patternCount": 65,
+          "uniquePatterns": 4,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6451612903225806,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.55,
+          "rating": 3.3,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.12
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.55
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 27480,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101030,
+              "energy": 0.2
+            }
+          ]
+        },
+        "normal": {
+          "notes": 362,
+          "nps": 3.58,
+          "chords": 34,
+          "jumpChords": 34,
+          "maxChordSize": 2,
+          "holdCount": 19,
+          "totalHoldMs": 9097,
+          "patternCount": 72,
+          "uniquePatterns": 8,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.505524861878453,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.55,
+          "rating": 5.3,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.12
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.55
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 27480,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101030,
+              "energy": 0.2
+            }
+          ]
+        },
+        "hard": {
+          "notes": 698,
+          "nps": 6.91,
+          "chords": 80,
+          "jumpChords": 80,
+          "maxChordSize": 2,
+          "holdCount": 37,
+          "totalHoldMs": 14686,
+          "patternCount": 90,
+          "uniquePatterns": 7,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3524355300859599,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.55,
+          "rating": 8.6,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.12
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.55
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 27480,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101030,
+              "energy": 0.2
+            }
+          ]
+        },
+        "expert": {
+          "notes": 749,
+          "nps": 7.41,
+          "chords": 132,
+          "jumpChords": 132,
+          "maxChordSize": 2,
+          "holdCount": 40,
+          "totalHoldMs": 15338,
+          "patternCount": 102,
+          "uniquePatterns": 4,
+          "sectionCount": 12,
+          "sectionLabels": {
+            "Quiet": 1,
+            "Low Energy": 2,
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4045393858477971,
+          "valid": true,
+          "errors": [],
+          "bpm": 115.55,
+          "rating": 9.3,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Quiet",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.01
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 5015,
+              "endMs": 10010,
+              "energy": 0.12
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 10006,
+              "endMs": 12506,
+              "energy": 0.44
+            },
+            {
+              "label": "High Energy",
+              "startMs": 12501,
+              "endMs": 15001,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.55
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 22488,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 22484,
+              "endMs": 27480,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 49940,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 49936,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 99853,
+              "energy": 0.55
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 99849,
+              "endMs": 101030,
+              "energy": 0.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "OnlyMP3_to_-_TheFatRat_-_Unity.mp3",
+      "durationMs": 248964.3537414966,
+      "bpmInfo": {
+        "coreBpm": 105,
+        "coreConfidence": 0.555,
+        "mapBpms": [
+          "105@0s(c0.67)",
+          "105.1@157750s(c0.7)"
+        ],
+        "strongPerMin": 491.2,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 514,
+          "nps": 2.0645525846390598,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 68,
+          "totalHoldMs": 34012,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6712062256809338,
+          "valid": true,
+          "errors": [],
+          "bpm": 105,
+          "rating": 8.6,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 882,
+          "nps": 3.5426758358981534,
+          "chords": 105,
+          "jumpChords": 51,
+          "maxChordSize": 2,
+          "holdCount": 182,
+          "totalHoldMs": 112206,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6077097505668935,
+          "valid": true,
+          "errors": [],
+          "bpm": 105,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 1334,
+          "nps": 5.358196785814213,
+          "chords": 146,
+          "jumpChords": 84,
+          "maxChordSize": 2,
+          "holdCount": 250,
+          "totalHoldMs": 142556,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5689655172413793,
+          "valid": true,
+          "errors": [],
+          "bpm": 105,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 1655,
+          "nps": 6.647537991396194,
+          "chords": 283,
+          "jumpChords": 163,
+          "maxChordSize": 3,
+          "holdCount": 520,
+          "totalHoldMs": 231651,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5546827794561934,
+          "valid": true,
+          "errors": [],
+          "bpm": 105,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 599,
+          "nps": 2.41,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 23,
+          "totalHoldMs": 12010,
+          "patternCount": 194,
+          "uniquePatterns": 4,
+          "sectionCount": 20,
+          "sectionLabels": {
+            "Medium Energy": 6,
+            "High Energy": 3,
+            "Breakdown": 8,
+            "Low Energy": 1,
+            "Quiet": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7161936560934892,
+          "valid": true,
+          "errors": [],
+          "bpm": 104.97,
+          "rating": 3.6,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 5015,
+              "endMs": 7515,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 12506,
+              "energy": 0.41
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 12501,
+              "endMs": 32471,
+              "energy": 0.21
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 32467,
+              "endMs": 37462,
+              "energy": 0.31
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 37458,
+              "endMs": 42454,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 44949,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 44945,
+              "endMs": 117323,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 117319,
+              "endMs": 122314,
+              "energy": 0.44
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 122310,
+              "endMs": 137288,
+              "energy": 0.15
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 137284,
+              "endMs": 152262,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 152258,
+              "endMs": 154758,
+              "energy": 0.22
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 154753,
+              "endMs": 159749,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 159745,
+              "endMs": 207166,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 207162,
+              "endMs": 209662,
+              "energy": 0.54
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 209658,
+              "endMs": 214653,
+              "energy": 0.26
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 214649,
+              "endMs": 222140,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 222136,
+              "endMs": 229627,
+              "energy": 0.17
+            },
+            {
+              "label": "Quiet",
+              "startMs": 229623,
+              "endMs": 234618,
+              "energy": 0.01
+            },
+            {
+              "label": "Silence",
+              "startMs": 234614,
+              "endMs": 248964,
+              "energy": 0
+            }
+          ]
+        },
+        "normal": {
+          "notes": 793,
+          "nps": 3.19,
+          "chords": 95,
+          "jumpChords": 95,
+          "maxChordSize": 2,
+          "holdCount": 38,
+          "totalHoldMs": 19441,
+          "patternCount": 160,
+          "uniquePatterns": 8,
+          "sectionCount": 20,
+          "sectionLabels": {
+            "Medium Energy": 6,
+            "High Energy": 3,
+            "Breakdown": 8,
+            "Low Energy": 1,
+            "Quiet": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6620428751576293,
+          "valid": true,
+          "errors": [],
+          "bpm": 104.97,
+          "rating": 4.4,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 5015,
+              "endMs": 7515,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 12506,
+              "energy": 0.41
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 12501,
+              "endMs": 32471,
+              "energy": 0.21
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 32467,
+              "endMs": 37462,
+              "energy": 0.31
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 37458,
+              "endMs": 42454,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 44949,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 44945,
+              "endMs": 117323,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 117319,
+              "endMs": 122314,
+              "energy": 0.44
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 122310,
+              "endMs": 137288,
+              "energy": 0.15
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 137284,
+              "endMs": 152262,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 152258,
+              "endMs": 154758,
+              "energy": 0.22
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 154753,
+              "endMs": 159749,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 159745,
+              "endMs": 207166,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 207162,
+              "endMs": 209662,
+              "energy": 0.54
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 209658,
+              "endMs": 214653,
+              "energy": 0.26
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 214649,
+              "endMs": 222140,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 222136,
+              "endMs": 229627,
+              "energy": 0.17
+            },
+            {
+              "label": "Quiet",
+              "startMs": 229623,
+              "endMs": 234618,
+              "energy": 0.01
+            },
+            {
+              "label": "Silence",
+              "startMs": 234614,
+              "endMs": 248964,
+              "energy": 0
+            }
+          ]
+        },
+        "hard": {
+          "notes": 1580,
+          "nps": 6.35,
+          "chords": 271,
+          "jumpChords": 271,
+          "maxChordSize": 2,
+          "holdCount": 76,
+          "totalHoldMs": 36028,
+          "patternCount": 204,
+          "uniquePatterns": 8,
+          "sectionCount": 20,
+          "sectionLabels": {
+            "Medium Energy": 6,
+            "High Energy": 3,
+            "Breakdown": 8,
+            "Low Energy": 1,
+            "Quiet": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5310126582278482,
+          "valid": true,
+          "errors": [],
+          "bpm": 104.97,
+          "rating": 8.3,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 5015,
+              "endMs": 7515,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 12506,
+              "energy": 0.41
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 12501,
+              "endMs": 32471,
+              "energy": 0.21
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 32467,
+              "endMs": 37462,
+              "energy": 0.31
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 37458,
+              "endMs": 42454,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 44949,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 44945,
+              "endMs": 117323,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 117319,
+              "endMs": 122314,
+              "energy": 0.44
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 122310,
+              "endMs": 137288,
+              "energy": 0.15
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 137284,
+              "endMs": 152262,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 152258,
+              "endMs": 154758,
+              "energy": 0.22
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 154753,
+              "endMs": 159749,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 159745,
+              "endMs": 207166,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 207162,
+              "endMs": 209662,
+              "energy": 0.54
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 209658,
+              "endMs": 214653,
+              "energy": 0.26
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 214649,
+              "endMs": 222140,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 222136,
+              "endMs": 229627,
+              "energy": 0.17
+            },
+            {
+              "label": "Quiet",
+              "startMs": 229623,
+              "endMs": 234618,
+              "energy": 0.01
+            },
+            {
+              "label": "Silence",
+              "startMs": 234614,
+              "endMs": 248964,
+              "energy": 0
+            }
+          ]
+        },
+        "expert": {
+          "notes": 1786,
+          "nps": 7.17,
+          "chords": 430,
+          "jumpChords": 430,
+          "maxChordSize": 2,
+          "holdCount": 77,
+          "totalHoldMs": 33456,
+          "patternCount": 265,
+          "uniquePatterns": 4,
+          "sectionCount": 20,
+          "sectionLabels": {
+            "Medium Energy": 6,
+            "High Energy": 3,
+            "Breakdown": 8,
+            "Low Energy": 1,
+            "Quiet": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5627099664053752,
+          "valid": true,
+          "errors": [],
+          "bpm": 104.97,
+          "rating": 8.9,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 5019,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 5015,
+              "endMs": 7515,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 12506,
+              "energy": 0.41
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 12501,
+              "endMs": 32471,
+              "energy": 0.21
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 32467,
+              "endMs": 37462,
+              "energy": 0.31
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 37458,
+              "endMs": 42454,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 42449,
+              "endMs": 44949,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 44945,
+              "endMs": 117323,
+              "energy": 0.71
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 117319,
+              "endMs": 122314,
+              "energy": 0.44
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 122310,
+              "endMs": 137288,
+              "energy": 0.15
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 137284,
+              "endMs": 152262,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 152258,
+              "endMs": 154758,
+              "energy": 0.22
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 154753,
+              "endMs": 159749,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 159745,
+              "endMs": 207166,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 207162,
+              "endMs": 209662,
+              "energy": 0.54
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 209658,
+              "endMs": 214653,
+              "energy": 0.26
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 214649,
+              "endMs": 222140,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 222136,
+              "endMs": 229627,
+              "energy": 0.17
+            },
+            {
+              "label": "Quiet",
+              "startMs": 229623,
+              "endMs": 234618,
+              "energy": 0.01
+            },
+            {
+              "label": "Silence",
+              "startMs": 234614,
+              "endMs": 248964,
+              "energy": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "OnlyMP3_to_-__-_Galaxy_Collapse.mp3",
+      "durationMs": 407093.3333333333,
+      "bpmInfo": {
+        "coreBpm": 135,
+        "coreConfidence": 0.065,
+        "mapBpms": [
+          "108.4@0s(c0.67)",
+          "90.3@41200s(c0.68)",
+          "131.3@202500s(c0.68)"
+        ],
+        "strongPerMin": 618,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 874,
+          "nps": 2.146927813441635,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 173,
+          "totalHoldMs": 102800,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6613272311212814,
+          "valid": true,
+          "errors": [],
+          "bpm": 135.07,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 1951,
+          "nps": 4.792512773483558,
+          "chords": 183,
+          "jumpChords": 108,
+          "maxChordSize": 2,
+          "holdCount": 500,
+          "totalHoldMs": 286760,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.67247565351102,
+          "valid": true,
+          "errors": [],
+          "bpm": 135.07,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 2712,
+          "nps": 6.661862963448186,
+          "chords": 331,
+          "jumpChords": 205,
+          "maxChordSize": 2,
+          "holdCount": 623,
+          "totalHoldMs": 316233,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7105457227138643,
+          "valid": true,
+          "errors": [],
+          "bpm": 135.07,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 3709,
+          "nps": 9.110932791824972,
+          "chords": 641,
+          "jumpChords": 372,
+          "maxChordSize": 3,
+          "holdCount": 1464,
+          "totalHoldMs": 643865,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6691830682124562,
+          "valid": true,
+          "errors": [],
+          "bpm": 135.07,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 982,
+          "nps": 2.41,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 39,
+          "totalHoldMs": 17757,
+          "patternCount": 308,
+          "uniquePatterns": 4,
+          "sectionCount": 18,
+          "sectionLabels": {
+            "High Energy": 5,
+            "Medium Energy": 6,
+            "Breakdown": 3,
+            "Low Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7016293279022403,
+          "valid": true,
+          "errors": [],
+          "bpm": 131.31,
+          "rating": 4.2,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 19993,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 32471,
+              "energy": 0.46
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 114827,
+              "energy": 0.74
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 114823,
+              "endMs": 124810,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 124806,
+              "endMs": 129801,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 132292,
+              "endMs": 272053,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 272049,
+              "endMs": 274549,
+              "energy": 0.34
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 274544,
+              "endMs": 284531,
+              "energy": 0.11
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 284527,
+              "endMs": 287027,
+              "energy": 0.34
+            },
+            {
+              "label": "High Energy",
+              "startMs": 287023,
+              "endMs": 299505,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 299501,
+              "endMs": 302001,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 301996,
+              "endMs": 351914,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 351909,
+              "endMs": 354409,
+              "energy": 0.57
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 354405,
+              "endMs": 394340,
+              "energy": 0.17
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 394335,
+              "endMs": 399331,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 399327,
+              "endMs": 404322,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 404318,
+              "endMs": 407093,
+              "energy": 0
+            }
+          ]
+        },
+        "normal": {
+          "notes": 1928,
+          "nps": 4.74,
+          "chords": 223,
+          "jumpChords": 223,
+          "maxChordSize": 2,
+          "holdCount": 80,
+          "totalHoldMs": 32840,
+          "patternCount": 394,
+          "uniquePatterns": 9,
+          "sectionCount": 18,
+          "sectionLabels": {
+            "High Energy": 5,
+            "Medium Energy": 6,
+            "Breakdown": 3,
+            "Low Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6576763485477178,
+          "valid": true,
+          "errors": [],
+          "bpm": 131.31,
+          "rating": 6.9,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 19993,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 32471,
+              "energy": 0.46
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 114827,
+              "energy": 0.74
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 114823,
+              "endMs": 124810,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 124806,
+              "endMs": 129801,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 132292,
+              "endMs": 272053,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 272049,
+              "endMs": 274549,
+              "energy": 0.34
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 274544,
+              "endMs": 284531,
+              "energy": 0.11
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 284527,
+              "endMs": 287027,
+              "energy": 0.34
+            },
+            {
+              "label": "High Energy",
+              "startMs": 287023,
+              "endMs": 299505,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 299501,
+              "endMs": 302001,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 301996,
+              "endMs": 351914,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 351909,
+              "endMs": 354409,
+              "energy": 0.57
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 354405,
+              "endMs": 394340,
+              "energy": 0.17
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 394335,
+              "endMs": 399331,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 399327,
+              "endMs": 404322,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 404318,
+              "endMs": 407093,
+              "energy": 0
+            }
+          ]
+        },
+        "hard": {
+          "notes": 3266,
+          "nps": 8.02,
+          "chords": 612,
+          "jumpChords": 612,
+          "maxChordSize": 2,
+          "holdCount": 99,
+          "totalHoldMs": 36285,
+          "patternCount": 413,
+          "uniquePatterns": 9,
+          "sectionCount": 18,
+          "sectionLabels": {
+            "High Energy": 5,
+            "Medium Energy": 6,
+            "Breakdown": 3,
+            "Low Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6169626454378444,
+          "valid": true,
+          "errors": [],
+          "bpm": 131.31,
+          "rating": 9.8,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 19993,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 32471,
+              "energy": 0.46
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 114827,
+              "energy": 0.74
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 114823,
+              "endMs": 124810,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 124806,
+              "endMs": 129801,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 132292,
+              "endMs": 272053,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 272049,
+              "endMs": 274549,
+              "energy": 0.34
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 274544,
+              "endMs": 284531,
+              "energy": 0.11
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 284527,
+              "endMs": 287027,
+              "energy": 0.34
+            },
+            {
+              "label": "High Energy",
+              "startMs": 287023,
+              "endMs": 299505,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 299501,
+              "endMs": 302001,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 301996,
+              "endMs": 351914,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 351909,
+              "endMs": 354409,
+              "energy": 0.57
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 354405,
+              "endMs": 394340,
+              "energy": 0.17
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 394335,
+              "endMs": 399331,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 399327,
+              "endMs": 404322,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 404318,
+              "endMs": 407093,
+              "energy": 0
+            }
+          ]
+        },
+        "expert": {
+          "notes": 3819,
+          "nps": 9.38,
+          "chords": 963,
+          "jumpChords": 963,
+          "maxChordSize": 2,
+          "holdCount": 97,
+          "totalHoldMs": 34725,
+          "patternCount": 458,
+          "uniquePatterns": 4,
+          "sectionCount": 18,
+          "sectionLabels": {
+            "High Energy": 5,
+            "Medium Energy": 6,
+            "Breakdown": 3,
+            "Low Energy": 3,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6229379418695994,
+          "valid": true,
+          "errors": [],
+          "bpm": 131.31,
+          "rating": 10,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 19993,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 32471,
+              "energy": 0.46
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 114827,
+              "energy": 0.74
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 114823,
+              "endMs": 124810,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 124806,
+              "endMs": 129801,
+              "energy": 0.29
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 132292,
+              "endMs": 272053,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 272049,
+              "endMs": 274549,
+              "energy": 0.34
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 274544,
+              "endMs": 284531,
+              "energy": 0.11
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 284527,
+              "endMs": 287027,
+              "energy": 0.34
+            },
+            {
+              "label": "High Energy",
+              "startMs": 287023,
+              "endMs": 299505,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 299501,
+              "endMs": 302001,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 301996,
+              "endMs": 351914,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 351909,
+              "endMs": 354409,
+              "energy": 0.57
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 354405,
+              "endMs": 394340,
+              "energy": 0.17
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 394335,
+              "endMs": 399331,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 399327,
+              "endMs": 404322,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 404318,
+              "endMs": 407093,
+              "energy": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "OnlyMP3_to_-___-_Kht_Vng_Tui_Tr_Funk___LegendHuy.mp3",
+      "durationMs": 106045.5328798186,
+      "bpmInfo": {
+        "coreBpm": 129,
+        "coreConfidence": 0.682,
+        "mapBpms": [
+          "128.9@0s(c0.72)"
+        ],
+        "strongPerMin": 638.8,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 225,
+          "nps": 2.121730108659952,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 36,
+          "totalHoldMs": 22326,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6488888888888888,
+          "valid": true,
+          "errors": [],
+          "bpm": 129,
+          "rating": 6.1,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 497,
+          "nps": 4.686666062239983,
+          "chords": 48,
+          "jumpChords": 31,
+          "maxChordSize": 2,
+          "holdCount": 122,
+          "totalHoldMs": 72363,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.641851106639839,
+          "valid": true,
+          "errors": [],
+          "bpm": 129,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 765,
+          "nps": 7.213882369443836,
+          "chords": 58,
+          "jumpChords": 39,
+          "maxChordSize": 2,
+          "holdCount": 159,
+          "totalHoldMs": 84831,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5908496732026144,
+          "valid": true,
+          "errors": [],
+          "bpm": 129,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 932,
+          "nps": 8.788677605649223,
+          "chords": 125,
+          "jumpChords": 72,
+          "maxChordSize": 3,
+          "holdCount": 336,
+          "totalHoldMs": 165629,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5686695278969958,
+          "valid": true,
+          "errors": [],
+          "bpm": 129,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 238,
+          "nps": 2.24,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 9,
+          "totalHoldMs": 3376,
+          "patternCount": 84,
+          "uniquePatterns": 4,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "High Energy": 2,
+            "Breakdown": 1,
+            "Low Energy": 2,
+            "Medium Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.7058823529411765,
+          "valid": true,
+          "errors": [],
+          "bpm": 128.94,
+          "rating": 3.7,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 52436,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 54932,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 59923,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 59919,
+              "endMs": 87375,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 92366,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 92362,
+              "endMs": 106046,
+              "energy": 0.12
+            }
+          ]
+        },
+        "normal": {
+          "notes": 418,
+          "nps": 3.94,
+          "chords": 44,
+          "jumpChords": 44,
+          "maxChordSize": 2,
+          "holdCount": 22,
+          "totalHoldMs": 7917,
+          "patternCount": 103,
+          "uniquePatterns": 9,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "High Energy": 2,
+            "Breakdown": 1,
+            "Low Energy": 2,
+            "Medium Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6578947368421053,
+          "valid": true,
+          "errors": [],
+          "bpm": 128.94,
+          "rating": 6,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 52436,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 54932,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 59923,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 59919,
+              "endMs": 87375,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 92366,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 92362,
+              "endMs": 106046,
+              "energy": 0.12
+            }
+          ]
+        },
+        "hard": {
+          "notes": 889,
+          "nps": 8.38,
+          "chords": 95,
+          "jumpChords": 95,
+          "maxChordSize": 2,
+          "holdCount": 37,
+          "totalHoldMs": 11293,
+          "patternCount": 111,
+          "uniquePatterns": 8,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "High Energy": 2,
+            "Breakdown": 1,
+            "Low Energy": 2,
+            "Medium Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.45894263217097864,
+          "valid": true,
+          "errors": [],
+          "bpm": 128.94,
+          "rating": 9.7,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 52436,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 54932,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 59923,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 59919,
+              "endMs": 87375,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 92366,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 92362,
+              "endMs": 106046,
+              "energy": 0.12
+            }
+          ]
+        },
+        "expert": {
+          "notes": 1001,
+          "nps": 9.44,
+          "chords": 179,
+          "jumpChords": 179,
+          "maxChordSize": 2,
+          "holdCount": 42,
+          "totalHoldMs": 12108,
+          "patternCount": 126,
+          "uniquePatterns": 4,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "High Energy": 2,
+            "Breakdown": 1,
+            "Low Energy": 2,
+            "Medium Energy": 2
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4965034965034965,
+          "valid": true,
+          "errors": [],
+          "bpm": 128.94,
+          "rating": 10,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 52436,
+              "energy": 0.72
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 52432,
+              "endMs": 54932,
+              "energy": 0.39
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.27
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 59923,
+              "energy": 0.47
+            },
+            {
+              "label": "High Energy",
+              "startMs": 59919,
+              "endMs": 87375,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 92366,
+              "energy": 0.45
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 92362,
+              "endMs": 106046,
+              "energy": 0.12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "PHÁO, WUYS, MGD, SHX4 - SỰ NGHIỆP CHƯỚNG FUNK (Phụ Đề) - LegendHuy.mp3",
+      "durationMs": 149675.82766439908,
+      "bpmInfo": {
+        "coreBpm": 130,
+        "coreConfidence": 0.473,
+        "mapBpms": [
+          "130.1@0s(c0.63)"
+        ],
+        "strongPerMin": 470.6,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 324,
+          "nps": 2.1646781919019547,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 63,
+          "totalHoldMs": 34849,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6111111111111112,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 8.3,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 707,
+          "nps": 4.723541610107043,
+          "chords": 60,
+          "jumpChords": 37,
+          "maxChordSize": 2,
+          "holdCount": 187,
+          "totalHoldMs": 110032,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5403111739745403,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 1037,
+          "nps": 6.9283064351923676,
+          "chords": 92,
+          "jumpChords": 59,
+          "maxChordSize": 2,
+          "holdCount": 235,
+          "totalHoldMs": 132926,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.4503375120540019,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 1265,
+          "nps": 8.45159849616041,
+          "chords": 191,
+          "jumpChords": 112,
+          "maxChordSize": 3,
+          "holdCount": 478,
+          "totalHoldMs": 240680,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.416600790513834,
+          "valid": true,
+          "errors": [],
+          "bpm": 130,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 353,
+          "nps": 2.36,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 14,
+          "totalHoldMs": 6118,
+          "patternCount": 114,
+          "uniquePatterns": 4,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Medium Energy": 4,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.603399433427762,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.13,
+          "rating": 3.7,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 27480,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 57427,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 62419,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 62414,
+              "endMs": 87375,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 102349,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 102345,
+              "endMs": 144775,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 144771,
+              "endMs": 149676,
+              "energy": 0.44
+            }
+          ]
+        },
+        "normal": {
+          "notes": 656,
+          "nps": 4.38,
+          "chords": 55,
+          "jumpChords": 55,
+          "maxChordSize": 2,
+          "holdCount": 36,
+          "totalHoldMs": 12931,
+          "patternCount": 156,
+          "uniquePatterns": 8,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Medium Energy": 4,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.5121951219512195,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.13,
+          "rating": 5.5,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 27480,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 57427,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 62419,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 62414,
+              "endMs": 87375,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 102349,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 102345,
+              "endMs": 144775,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 144771,
+              "endMs": 149676,
+              "energy": 0.44
+            }
+          ]
+        },
+        "hard": {
+          "notes": 1289,
+          "nps": 8.61,
+          "chords": 124,
+          "jumpChords": 124,
+          "maxChordSize": 2,
+          "holdCount": 69,
+          "totalHoldMs": 21585,
+          "patternCount": 161,
+          "uniquePatterns": 8,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Medium Energy": 4,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.34988363072148954,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.13,
+          "rating": 9.7,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 27480,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 57427,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 62419,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 62414,
+              "endMs": 87375,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 102349,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 102345,
+              "endMs": 144775,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 144771,
+              "endMs": 149676,
+              "energy": 0.44
+            }
+          ]
+        },
+        "expert": {
+          "notes": 1398,
+          "nps": 9.34,
+          "chords": 194,
+          "jumpChords": 194,
+          "maxChordSize": 2,
+          "holdCount": 68,
+          "totalHoldMs": 20892,
+          "patternCount": 182,
+          "uniquePatterns": 4,
+          "sectionCount": 7,
+          "sectionLabels": {
+            "Medium Energy": 4,
+            "High Energy": 3
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.37052932761087265,
+          "valid": true,
+          "errors": [],
+          "bpm": 130.13,
+          "rating": 10,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 27480,
+              "energy": 0.53
+            },
+            {
+              "label": "High Energy",
+              "startMs": 27475,
+              "endMs": 57427,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 57423,
+              "endMs": 62419,
+              "energy": 0.52
+            },
+            {
+              "label": "High Energy",
+              "startMs": 62414,
+              "endMs": 87375,
+              "energy": 0.7
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 87371,
+              "endMs": 102349,
+              "energy": 0.45
+            },
+            {
+              "label": "High Energy",
+              "startMs": 102345,
+              "endMs": 144775,
+              "energy": 0.72
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 144771,
+              "endMs": 149676,
+              "energy": 0.44
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "TheFatRat - No No No.mp3",
+      "durationMs": 181951.56462585035,
+      "bpmInfo": {
+        "coreBpm": 74,
+        "coreConfidence": 0.473,
+        "mapBpms": [
+          "79.2@0s(c0.54)",
+          "74.3@76250s(c0.42)",
+          "85.4@99200s(c0.56)",
+          "74@145150s(c0.45)"
+        ],
+        "strongPerMin": 188.6,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 279,
+          "nps": 1.5333751076761102,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 45,
+          "totalHoldMs": 46755,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3978494623655914,
+          "valid": true,
+          "errors": [],
+          "bpm": 74,
+          "rating": 6,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 468,
+          "nps": 2.5721130838437976,
+          "chords": 32,
+          "jumpChords": 11,
+          "maxChordSize": 2,
+          "holdCount": 137,
+          "totalHoldMs": 159260,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3547008547008547,
+          "valid": true,
+          "errors": [],
+          "bpm": 74,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 722,
+          "nps": 3.9680889883231236,
+          "chords": 48,
+          "jumpChords": 27,
+          "maxChordSize": 2,
+          "holdCount": 246,
+          "totalHoldMs": 233165,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.296398891966759,
+          "valid": true,
+          "errors": [],
+          "bpm": 74,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 935,
+          "nps": 5.138730199559724,
+          "chords": 184,
+          "jumpChords": 100,
+          "maxChordSize": 2,
+          "holdCount": 392,
+          "totalHoldMs": 369153,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.2823529411764706,
+          "valid": true,
+          "errors": [],
+          "bpm": 74,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 381,
+          "nps": 2.09,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 15,
+          "totalHoldMs": 10823,
+          "patternCount": 98,
+          "uniquePatterns": 4,
+          "sectionCount": 13,
+          "sectionLabels": {
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 3,
+            "Low Energy": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.25196850393700787,
+          "valid": true,
+          "errors": [],
+          "bpm": 79.23,
+          "rating": 3.6,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 15001,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.62
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 27480,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 27475,
+              "endMs": 54932,
+              "energy": 0.24
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 104845,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 104840,
+              "endMs": 134792,
+              "energy": 0.23
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 134788,
+              "endMs": 137288,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 137284,
+              "endMs": 169732,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 169727,
+              "endMs": 172227,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 172223,
+              "endMs": 177218,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 177214,
+              "endMs": 181952,
+              "energy": 0
+            }
+          ]
+        },
+        "normal": {
+          "notes": 726,
+          "nps": 3.99,
+          "chords": 17,
+          "jumpChords": 17,
+          "maxChordSize": 2,
+          "holdCount": 39,
+          "totalHoldMs": 21359,
+          "patternCount": 108,
+          "uniquePatterns": 9,
+          "sectionCount": 13,
+          "sectionLabels": {
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 3,
+            "Low Energy": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.18319559228650137,
+          "valid": true,
+          "errors": [],
+          "bpm": 79.23,
+          "rating": 5.9,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 15001,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.62
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 27480,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 27475,
+              "endMs": 54932,
+              "energy": 0.24
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 104845,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 104840,
+              "endMs": 134792,
+              "energy": 0.23
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 134788,
+              "endMs": 137288,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 137284,
+              "endMs": 169732,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 169727,
+              "endMs": 172227,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 172223,
+              "endMs": 177218,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 177214,
+              "endMs": 181952,
+              "energy": 0
+            }
+          ]
+        },
+        "hard": {
+          "notes": 901,
+          "nps": 4.95,
+          "chords": 43,
+          "jumpChords": 43,
+          "maxChordSize": 2,
+          "holdCount": 53,
+          "totalHoldMs": 25795,
+          "patternCount": 160,
+          "uniquePatterns": 7,
+          "sectionCount": 13,
+          "sectionLabels": {
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 3,
+            "Low Energy": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.18423973362930077,
+          "valid": true,
+          "errors": [],
+          "bpm": 79.23,
+          "rating": 6.7,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 15001,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.62
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 27480,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 27475,
+              "endMs": 54932,
+              "energy": 0.24
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 104845,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 104840,
+              "endMs": 134792,
+              "energy": 0.23
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 134788,
+              "endMs": 137288,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 137284,
+              "endMs": 169732,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 169727,
+              "endMs": 172227,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 172223,
+              "endMs": 177218,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 177214,
+              "endMs": 181952,
+              "energy": 0
+            }
+          ]
+        },
+        "expert": {
+          "notes": 943,
+          "nps": 5.18,
+          "chords": 68,
+          "jumpChords": 68,
+          "maxChordSize": 2,
+          "holdCount": 51,
+          "totalHoldMs": 25737,
+          "patternCount": 194,
+          "uniquePatterns": 4,
+          "sectionCount": 13,
+          "sectionLabels": {
+            "Medium Energy": 5,
+            "High Energy": 3,
+            "Breakdown": 3,
+            "Low Energy": 1,
+            "Silence": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.2067868504772004,
+          "valid": true,
+          "errors": [],
+          "bpm": 79.23,
+          "rating": 6.9,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "Medium Energy",
+              "startMs": 23,
+              "endMs": 15001,
+              "energy": 0.55
+            },
+            {
+              "label": "High Energy",
+              "startMs": 14997,
+              "endMs": 17497,
+              "energy": 0.62
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 17493,
+              "endMs": 27480,
+              "energy": 0.38
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 27475,
+              "endMs": 54932,
+              "energy": 0.24
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 54927,
+              "endMs": 57427,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 57423,
+              "endMs": 97358,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 97353,
+              "endMs": 104845,
+              "energy": 0.53
+            },
+            {
+              "label": "Breakdown",
+              "startMs": 104840,
+              "endMs": 134792,
+              "energy": 0.23
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 134788,
+              "endMs": 137288,
+              "energy": 0.5
+            },
+            {
+              "label": "High Energy",
+              "startMs": 137284,
+              "endMs": 169732,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 169727,
+              "endMs": 172227,
+              "energy": 0.53
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 172223,
+              "endMs": 177218,
+              "energy": 0.1
+            },
+            {
+              "label": "Silence",
+              "startMs": 177214,
+              "endMs": 181952,
+              "energy": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "𝙕𝙈𝘼𝙅𝙊𝙍 & 𝙇𝙐𝙍𝙆 - 𝙈𝙐𝙏𝙄𝙇𝘼𝙏𝙊𝙍 (𝙐𝙇𝙏𝙍𝘼 𝙎𝙇𝙊𝙒𝙀𝘿 + 𝙍𝙀𝙑𝙀𝙍𝘽).mp3",
+      "durationMs": 151858.50340136053,
+      "bpmInfo": {
+        "coreBpm": 66,
+        "coreConfidence": 0.49,
+        "mapBpms": [
+          "66@0s(c0.6)"
+        ],
+        "strongPerMin": 214.1,
+        "hasRhythm": true
+      },
+      "v1": {
+        "easy": {
+          "notes": 203,
+          "nps": 1.3367707138761469,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 34,
+          "totalHoldMs": 31027,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.6847290640394089,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 4.9,
+          "generator": "RF Generator V1"
+        },
+        "normal": {
+          "notes": 390,
+          "nps": 2.5681801892201834,
+          "chords": 38,
+          "jumpChords": 21,
+          "maxChordSize": 2,
+          "holdCount": 97,
+          "totalHoldMs": 85514,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.43333333333333335,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "hard": {
+          "notes": 586,
+          "nps": 3.858855361238532,
+          "chords": 61,
+          "jumpChords": 35,
+          "maxChordSize": 2,
+          "holdCount": 162,
+          "totalHoldMs": 109602,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3293515358361775,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        },
+        "expert": {
+          "notes": 798,
+          "nps": 5.254891771788991,
+          "chords": 141,
+          "jumpChords": 86,
+          "maxChordSize": 3,
+          "holdCount": 301,
+          "totalHoldMs": 215764,
+          "patternCount": 0,
+          "uniquePatterns": 0,
+          "sectionCount": 0,
+          "sectionLabels": {},
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.31704260651629074,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 12,
+          "generator": "RF Generator V1"
+        }
+      },
+      "v2": {
+        "easy": {
+          "notes": 331,
+          "nps": 2.18,
+          "chords": 0,
+          "jumpChords": 0,
+          "maxChordSize": 1,
+          "holdCount": 13,
+          "totalHoldMs": 8417,
+          "patternCount": 67,
+          "uniquePatterns": 4,
+          "sectionCount": 21,
+          "sectionLabels": {
+            "High Energy": 10,
+            "Medium Energy": 10,
+            "Low Energy": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.42900302114803623,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 2.9,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 10010,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 10006,
+              "endMs": 19993,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 24984,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 24980,
+              "endMs": 27480,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 32471,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 34967,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 39958,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 39954,
+              "endMs": 44949,
+              "energy": 0.62
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 44945,
+              "endMs": 49940,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 52436,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 52432,
+              "endMs": 64914,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 64910,
+              "endMs": 69906,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 69901,
+              "endMs": 72401,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 72397,
+              "endMs": 92366,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 119819,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 129801,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 132292,
+              "endMs": 149766,
+              "energy": 0.5
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 149762,
+              "endMs": 151859,
+              "energy": 0.17
+            }
+          ]
+        },
+        "normal": {
+          "notes": 657,
+          "nps": 4.33,
+          "chords": 33,
+          "jumpChords": 33,
+          "maxChordSize": 2,
+          "holdCount": 35,
+          "totalHoldMs": 19559,
+          "patternCount": 95,
+          "uniquePatterns": 7,
+          "sectionCount": 21,
+          "sectionLabels": {
+            "High Energy": 10,
+            "Medium Energy": 10,
+            "Low Energy": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.2709284627092846,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 5.8,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 10010,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 10006,
+              "endMs": 19993,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 24984,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 24980,
+              "endMs": 27480,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 32471,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 34967,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 39958,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 39954,
+              "endMs": 44949,
+              "energy": 0.62
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 44945,
+              "endMs": 49940,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 52436,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 52432,
+              "endMs": 64914,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 64910,
+              "endMs": 69906,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 69901,
+              "endMs": 72401,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 72397,
+              "endMs": 92366,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 119819,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 129801,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 132292,
+              "endMs": 149766,
+              "energy": 0.5
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 149762,
+              "endMs": 151859,
+              "energy": 0.17
+            }
+          ]
+        },
+        "hard": {
+          "notes": 714,
+          "nps": 4.7,
+          "chords": 79,
+          "jumpChords": 79,
+          "maxChordSize": 2,
+          "holdCount": 35,
+          "totalHoldMs": 18649,
+          "patternCount": 131,
+          "uniquePatterns": 6,
+          "sectionCount": 21,
+          "sectionLabels": {
+            "High Energy": 10,
+            "Medium Energy": 10,
+            "Low Energy": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.3137254901960784,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 6.1,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 10010,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 10006,
+              "endMs": 19993,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 24984,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 24980,
+              "endMs": 27480,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 32471,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 34967,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 39958,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 39954,
+              "endMs": 44949,
+              "energy": 0.62
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 44945,
+              "endMs": 49940,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 52436,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 52432,
+              "endMs": 64914,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 64910,
+              "endMs": 69906,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 69901,
+              "endMs": 72401,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 72397,
+              "endMs": 92366,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 119819,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 129801,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 132292,
+              "endMs": 149766,
+              "energy": 0.5
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 149762,
+              "endMs": 151859,
+              "energy": 0.17
+            }
+          ]
+        },
+        "expert": {
+          "notes": 754,
+          "nps": 4.97,
+          "chords": 119,
+          "jumpChords": 119,
+          "maxChordSize": 2,
+          "holdCount": 37,
+          "totalHoldMs": 19559,
+          "patternCount": 167,
+          "uniquePatterns": 4,
+          "sectionCount": 21,
+          "sectionLabels": {
+            "High Energy": 10,
+            "Medium Energy": 10,
+            "Low Energy": 1
+          },
+          "silenceNotes": 0,
+          "onsetAlignRatio": 0.35013262599469497,
+          "valid": true,
+          "errors": [],
+          "bpm": 66,
+          "rating": 6.3,
+          "generator": "RF Generator V2",
+          "sections": [
+            {
+              "label": "High Energy",
+              "startMs": 23,
+              "endMs": 7515,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 7510,
+              "endMs": 10010,
+              "energy": 0.59
+            },
+            {
+              "label": "High Energy",
+              "startMs": 10006,
+              "endMs": 19993,
+              "energy": 0.69
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 19988,
+              "endMs": 24984,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 24980,
+              "endMs": 27480,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 27475,
+              "endMs": 32471,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 32467,
+              "endMs": 34967,
+              "energy": 0.63
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 34962,
+              "endMs": 39958,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 39954,
+              "endMs": 44949,
+              "energy": 0.62
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 44945,
+              "endMs": 49940,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 49936,
+              "endMs": 52436,
+              "energy": 0.64
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 52432,
+              "endMs": 64914,
+              "energy": 0.56
+            },
+            {
+              "label": "High Energy",
+              "startMs": 64910,
+              "endMs": 69906,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 69901,
+              "endMs": 72401,
+              "energy": 0.57
+            },
+            {
+              "label": "High Energy",
+              "startMs": 72397,
+              "endMs": 92366,
+              "energy": 0.67
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 92362,
+              "endMs": 119819,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 119814,
+              "endMs": 122314,
+              "energy": 0.61
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 122310,
+              "endMs": 129801,
+              "energy": 0.54
+            },
+            {
+              "label": "High Energy",
+              "startMs": 129797,
+              "endMs": 132297,
+              "energy": 0.68
+            },
+            {
+              "label": "Medium Energy",
+              "startMs": 132292,
+              "endMs": 149766,
+              "energy": 0.5
+            },
+            {
+              "label": "Low Energy",
+              "startMs": 149762,
+              "endMs": 151859,
+              "energy": 0.17
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

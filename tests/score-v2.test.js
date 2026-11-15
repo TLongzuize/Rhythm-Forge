@@ -27,6 +27,14 @@ test('ScoreV2 accounts for hold heads and tails as independent judged objects', 
   assert.equal(result.score, SCORE_V2_MAX);
 });
 
+test('ScoreV2 separates current accuracy from map completion progress', () => {
+  const sequence = Array.from({ length: 10 }, () => 'marvelous');
+  const result = calculateScoreV2({ judgementSequence: sequence, judgements: { marvelous: 10 }, maxCombo: 10, maxPossibleCombo: 100, expectedObjects: 100 });
+  assert.equal(result.accuracyRatio, 1, 'future notes must not count as misses');
+  assert.equal(result.accuracyProgress, .1);
+  assert.ok(result.score > 85_000 && result.score < 120_000, `unexpected partial-map score ${result.score}`);
+});
+
 test('SS grade begins at 99 percent, including plays containing a miss', () => {
   assert.equal(gradeForScoreV2(99), 'SS');
   assert.equal(gradeForScoreV2(99.01), 'SS');

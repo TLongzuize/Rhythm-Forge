@@ -24,9 +24,9 @@ jobs:
         run: |
           mkdir -p release
           python scripts/build-artifact.py release/index.html
-          cp README.md LICENSE release/
+          cp README.md CHANGELOG.md LICENSE release/
           cd release
-          zip "../Rhythm-Forge-${GITHUB_REF_NAME}.zip" index.html README.md LICENSE
+          zip "../Rhythm-Forge-${GITHUB_REF_NAME}.zip" index.html README.md CHANGELOG.md LICENSE
 
       - name: Publish GitHub pre-release
         uses: softprops/action-gh-release@v2

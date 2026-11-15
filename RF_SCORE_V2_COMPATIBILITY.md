@@ -4,6 +4,8 @@
 
 `score-v2.js` implements a 4K adaptation of the osu!lazer mania ScoreV2 model. The standardised total is capped at 1,000,000 and split into 150,000 combo points and 850,000 accuracy points. Combo progress uses the ordered judgement sequence and a logarithmic combo weighting with base 4 and a capped reference combo of 400. Accuracy contribution uses the normalized weighted accuracy and the `2 + 2 × accuracy` exponent curve.
 
+Live scoring separates two values, matching osu!mania's processor model: `accuracyRatio` is calculated from objects judged so far, while `accuracyProgress` is judged objects divided by total map objects. Future notes are never treated as misses. This prevents the old behaviour where score stayed artificially low and then expanded sharply near the end of the map.
+
 Rhythm Forge maps its judgement tiers to osu!mania-style values:
 
 | Rhythm Forge judgement | Accuracy value |
@@ -24,4 +26,4 @@ The requested Rhythm Forge SS grade begins at **99.00% accuracy**. Lower grades 
 
 ## Compatibility boundary
 
-This is not a claim of byte-for-byte compatibility with osu!mania. Rhythm Forge retains its own judgement windows and seven-tier judgement model, while adapting the lazer mania normalized score structure and combo/accuracy split. The version identifier is `rf-score-v2-lazer-mania-adapted-3`.
+This is not a claim of byte-for-byte compatibility with osu!mania. Rhythm Forge retains its own judgement windows and seven-tier judgement model, while adapting the lazer mania normalized score structure and combo/accuracy split. The version identifier is `rf-score-v2-lazer-mania-adapted-4`.

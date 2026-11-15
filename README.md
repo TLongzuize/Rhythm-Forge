@@ -5,7 +5,7 @@
 
   **A four-lane rhythm game that turns your music into playable charts — right in your browser.**
 
-  ![Version 0.1.0](https://img.shields.io/badge/version-v0.1.0-ff66aa)
+  ![Version 0.2.0](https://img.shields.io/badge/version-v0.2.0-ff66aa)
   ![Status Alpha](https://img.shields.io/badge/status-alpha-orange)
   ![Runtime dependencies: zero](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen)
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
@@ -14,7 +14,7 @@
 
   [Download latest release](https://github.com/TLongzuize/Rhythm-Forge/releases/latest)
 
-  [Report a bug](https://github.com/TLongzuize/Rhythm-Forge/issues/new) ·
+  [Changelog](CHANGELOG.md) · [Report a bug](https://github.com/TLongzuize/Rhythm-Forge/issues/new) ·
   [Source code](https://github.com/TLongzuize/Rhythm-Forge) ·
   [Contributing](#contributing)
 </div>
@@ -24,6 +24,7 @@
 ## Table of contents
 
 - [Overview](#overview)
+- [What's new in v0.2.0](#whats-new-in-v020)
 - [Features](#features)
 - [Play online](#play-online)
 - [Getting started](#getting-started)
@@ -50,7 +51,20 @@ Rhythm Forge is a local-first, four-key browser rhythm game, chart generator, an
 
 The project is built with plain HTML, CSS, and JavaScript. It has **no runtime package dependencies** and needs no application server or account. Your imported songs, charts, settings, and results stay in your browser.
 
-> **Version 0.1.0 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
+> **Version 0.2.0 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
+
+## What's new in v0.2.0
+
+Version 0.2.0 is a quality-first overhaul focused on musical synchronization, restrained long-note generation, stable scoring, and deeper practice tools:
+
+- **RF Generator V2.3** performs fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo mapping, onset-latency compensation, and evidence-ranked hold planning.
+- Long notes require sustained musical evidence, respect same-lane space and grid-safe tails, and are capped to prevent four-lane hold walls.
+- Gameplay now includes stable ScoreV2 cells, fixed-width accuracy, live segment BPM, health and fail/no-fail behavior, raw CPS with peak, and live **Rhythm Points (RP)**.
+- The Gameplay Lab adds rate control, looped Practice Mode, a 12-beat timing calibration wizard, previous-play ghost pulses, and three hit-sound skins.
+- Nine playfield themes, five note skins, four receptor skins, and a live skin preview improve customization without replacing the core interface.
+- Older charts without a serialized tempo map are migrated safely at runtime using their existing BPM metadata.
+
+See [CHANGELOG.md](CHANGELOG.md) for the complete release notes.
 
 ## Features
 
@@ -62,6 +76,7 @@ The project is built with plain HTML, CSS, and JavaScript. It has **no runtime p
 - Pause, resume, retry, quit, and results screens.
 - Searchable song library, difficulty selection, and a built-in demo track.
 - Timing offset controls, hit-error feedback, combo, accuracy, and gameplay HUD settings.
+- Health with fail/no-fail behavior, playback-rate controls, looped Practice Mode, calibration, hit sounds, and previous-play ghost feedback.
 - Responsive layouts for phones, tablets, portrait, and landscape screens; orientation is not locked.
 
 ### Generate and edit charts
@@ -76,9 +91,9 @@ The project is built with plain HTML, CSS, and JavaScript. It has **no runtime p
 ### Make it yours
 
 - Rebind keys and adjust scroll speed, note size, receptor size, lane spacing, hit position, and HUD scale.
-- Choose from seven skins and customize accent colors and visual effects.
+- Choose from nine playfield themes, five note skins, four receptor skins, and customize accent colors and visual effects.
 - Configure audio levels and menu music playback.
-- Review local results and post-play timing, lane, and skill analysis.
+- Review local ScoreV2 results, live/post-play RP, timing, lane, and skill analysis.
 
 ## Play online
 
@@ -140,11 +155,11 @@ The generator analyzes a selected song and composes charts from its rhythm:
 
 1. **Decode audio** in the browser using the Web Audio API.
 2. **Analyze signal features**, including energy and onset-like changes.
-3. **Estimate tempo and beat grid** and expose timing settings for manual correction.
-4. **Compose patterns** and difficulty-specific note density, including taps and holds.
+3. **Estimate fractional and segment-local tempo**, compensate calibrated onset latency, and serialize a continuous tempo map for live playback.
+4. **Compose onset-backed patterns** and difficulty-specific density, including restrained evidence-ranked holds, triplets, and 1/32 accents where the music supports them.
 5. **Validate and review** the generated charts before playing or editing them.
 
-Generation is seeded, so repeating the same analysis with the same settings can reproduce a chart. Results depend on the audio and browser decoder; automatic beat detection is an estimate, not a guarantee.
+Generation is seeded, so repeating the same analysis with the same settings can reproduce a chart. Results depend on the audio and browser decoder. V2.3 spends more CPU time on fractional-BPM refinement and tempo-alias stabilization to prioritize chart quality.
 
 When a chart feels out of sync, adjust its BPM or beat offset and generate it again. Use the editor to make final timing and lane changes.
 
@@ -171,6 +186,7 @@ Rhythm Forge uses a documented adaptation of osu!lazer mania ScoreV2:
 - Hold notes are judged at the head and tail.
 - A post-play analysis of timing distribution, early/late bias, consistency, and per-lane accuracy.
 - Skill indicators and practice suggestions when enough play data is available.
+- A confidence-aware **Rhythm Points (RP)** rating shared by the live HUD and result analysis. Older `showPP` preferences migrate automatically to `showRP`.
 
 The analysis and skill profile are local and provisional. They are intended as practice feedback, not as a ranked score or a universal measure of ability. See [RF_SCORE_V2_COMPATIBILITY.md](RF_SCORE_V2_COMPATIBILITY.md) and [ADVANCED_PERFORMANCE_ANALYSIS_DOCUMENTATION.md](ADVANCED_PERFORMANCE_ANALYSIS_DOCUMENTATION.md) for implementation details.
 
@@ -178,10 +194,10 @@ The analysis and skill profile are local and provisional. They are intended as p
 
 | Area | Examples |
 |---|---|
-| Input and timing | Key bindings, global timing offset, scroll speed, hit position, upscroll |
-| Layout and skin | Note and receptor size, lane spacing, opacity, HUD scale, seven game skins, accent color |
-| HUD | Score, accuracy, combo, judgement, BPM, clicks per second, progress, hit-error display |
-| Audio and effects | Music and hit-sound volume, visual effects, reduced motion |
+| Input and timing | Key bindings, global timing offset, 12-beat calibration wizard, scroll speed, rate, Practice Mode loop range, hit position, upscroll, no-fail |
+| Layout and skin | Note and receptor size, lane spacing, opacity, HUD scale, nine game skins, five note skins, four receptor skins, live preview, lane guides |
+| HUD | Stable ScoreV2 cells, fixed-width accuracy, live RP, combo, judgement, segment-local BPM, raw clicks per second with peak, ghost, health, progress, hit-error display |
+| Audio and effects | Music volume, hit-sound volume and skin, visual effects, reduced motion |
 | Background and menu music | Background appearance, menu music tracks, playback and volume |
 | Data | Reset local results and history, or delete stored songs |
 
@@ -241,7 +257,7 @@ Before the first deployment, open the repository's [Pages settings](https://gith
 
 To host elsewhere, run the standalone build command and publish the resulting HTML file as the host's `index.html`. The regular source build uses root-relative asset paths and may need path changes when hosted below a domain subpath.
 
-Stable releases are created from tags such as `v0.1.0`; tags containing `-pre` create pre-releases. The [release workflow](.github/workflows/release.yml) and [pre-release workflow](.github/workflows/prerelease.yml) attach a standalone HTML game and a ZIP package containing the game, README, and MIT license to each GitHub Release.
+Stable releases are created from tags such as `v0.2.0`; tags containing `-pre` create pre-releases. The [release workflow](.github/workflows/release.yml) and [pre-release workflow](.github/workflows/prerelease.yml) attach a standalone HTML game and a ZIP package containing the game, README, changelog, and MIT license to each GitHub Release.
 
 ## Project structure
 
@@ -257,6 +273,7 @@ Stable releases are created from tags such as `v0.1.0`; tags containing `-pre` c
 ├── autofix.js                 # Chart validation and repair
 ├── score-v2.js                # ScoreV2-compatible scoring
 ├── performance-analysis.js    # Post-play analysis
+├── rfgen-v2.js                # Quality-first V2.3 chart generator
 ├── analysis-worker.js         # Audio-analysis worker
 ├── gen-worker.js, genclient.js # Chart-generation worker and client
 ├── src/                       # Application styles
@@ -285,6 +302,7 @@ Use a current version of a browser that supports JavaScript modules, Canvas 2D, 
 
 - This is Alpha software; expect rough edges and breaking changes.
 - Tempo and onset detection are heuristic. Some tracks need manual BPM/offset adjustments.
+- The gameplay BPM display follows the high-quality tempo map computed during analysis; it is not a second live microphone-style BPM detector.
 - Audio decoding and output latency depend on the browser and device.
 - Browser storage is local to the current browser and site; there is no cloud sync.
 - Automatic chart generation is not transcription and may need editing for unusual rhythms or tempo changes.
@@ -308,7 +326,7 @@ For bug reports, include the browser and version, device/operating system, repro
 ## Credits
 
 - Inspired by the gameplay and interface conventions of **osu!mania** and **osu!lazer**. Rhythm Forge is an independent project and is not affiliated with or endorsed by osu! or ppy Pty Ltd.
-- The bundled **NEON CIRCUIT** demo is an original synthesized sample created for this project; it is not an NCS recording.
+- The bundled **NEON CIRCUIT** demo is an original synthesized sample created for this project.
 - Typography uses Orbitron and Nunito when the Google Fonts service is available. Local fallback fonts are used otherwise.
 
 ## License

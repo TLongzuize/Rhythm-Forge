@@ -11,7 +11,7 @@ assert disabled_workers == 1, 'Could not disable the analysis Worker for the sta
 # tempomap.js imports inferTempo even though app.js does not; omitting that binding
 # produces a runtime ReferenceError only in the single-file build.
 core_imports = []
-for module_path in ['app.js','tempomap.js','compose.js','smartgen.js']:
+for module_path in ['app.js','tempomap.js','compose.js','smartgen.js','rfgen-v2.js']:
     module_source = open(module_path).read()
     for match in re.finditer(r"import \{([^}]*)\} from './core\.js';", module_source):
         for item in match.group(1).split(','):
@@ -19,10 +19,15 @@ for module_path in ['app.js','tempomap.js','compose.js','smartgen.js']:
             if not item: continue
             local_name = item.split(' as ')[-1].strip()
             if local_name not in core_imports: core_imports.append(local_name)
+# Keep inferTempo last for the standalone smoke-test contract and make the
+# generated dependency preamble easy to inspect.
+if 'inferTempo' in core_imports:
+    core_imports.remove('inferTempo')
+    core_imports.append('inferTempo')
 imp = ','.join(core_imports)
 missing_core_exports = [name for name in core_imports if name not in names]
 assert not missing_core_exports, f'Missing core exports in standalone bundle: {missing_core_exports}'
-mods=''.join(re.sub(r"^export (?=(?:async )?(?:function|const|let|class))",'',re.sub(r"^import [^\n]*\n",'',open(f).read(),flags=re.M),flags=re.M)+'\n' for f in ['tempomap.js','beatgrid.js','patterns.js','difficulty.js','compose.js','sections.js','quality-extra.js','autofix.js','genclient.js']); tm=''
+mods=''.join(re.sub(r"^export (?=(?:async )?(?:function|const|let|class))",'',re.sub(r"^import [^\n]*\n",'',open(f).read(),flags=re.M),flags=re.M)+'\n' for f in ['tempomap.js','beatgrid.js','patterns.js','difficulty.js','compose.js','sections.js','quality-extra.js','autofix.js','genclient.js','rfgen-v2.js']); tm=''
 tm0=open('tempomap.js').read(); tm=re.sub(r"^import [^\n]*\n","",tm,flags=re.M); tm=re.sub(r'^export (?=(?:async )?(?:function|const|let|class))','',tm,flags=re.M)
 sg=open('smartgen.js').read(); sg=re.sub(r"^import [^\n]*\n","",sg,flags=re.M); sg=re.sub(r'^export (?=(?:async )?(?:function|const|let|class))','',sg,flags=re.M)
 score_source=open('score-v2.js').read(); score_exports=re.findall(r'^export (?:async )?(?:function|const|let|class) ([A-Za-z0-9_$]+)',score_source,re.M)
@@ -30,7 +35,7 @@ score=re.sub(r'^export (?=(?:async )?(?:function|const|let|class))','',score_sou
 performance_source=open('performance-analysis.js').read(); performance_exports=re.findall(r'^export (?:async )?(?:function|const|let|class) ([A-Za-z0-9_$]+)',performance_source,re.M)
 performance=re.sub(r"^import \{[^}]*\} from './score-v2\.js';\n","",performance_source,count=1,flags=re.M)
 performance=re.sub(r'^export (?=(?:async )?(?:function|const|let|class))','',performance,flags=re.M)
-app=app.replace("import { MODES } from './smartgen.js';","").replace("import { generateAllSmartAsync } from './genclient.js';","")
+app=app.replace("import { V2_MODES as MODES } from './rfgen-v2.js';","").replace("import { generateAllRfV2Async, generateRfV2Async } from './genclient.js';","")
 app=re.sub(r"^import \{[^}]*\} from './core\.js';\n","",app,count=1,flags=re.M|re.S)
 app=re.sub(r"^import \{[^}]*\} from './score-v2\.js';\n","",app,count=1,flags=re.M|re.S)
 app=re.sub(r"^import \{[^}]*\} from './performance-analysis\.js';\n","",app,count=1,flags=re.M|re.S)

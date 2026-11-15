@@ -1,6 +1,6 @@
 // Pattern Library 2.0 — mẫu lane có descriptor, chấm điểm chọn pattern, chuyển tiếp & motif.
 export function rng(seed) { let a = (seed >>> 0) || 1; return () => { a = (a + 0x6D2B79F5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
-const P = { stairUp: [0, 1, 2, 3], stairDown: [3, 2, 1, 0], roll: [0, 1, 2, 3, 2, 1], zigzag: [0, 2, 1, 3], wave: [1, 0, 2, 3], bounce: [0, 3, 1, 2], ladder: [0, 2, 1, 3, 0, 3], spiral: [0, 1, 3, 2], sweep: [0, 1, 2, 3, 1, 2], alt: [0, 2], alt2: [1, 3] };
+const P = { stairUp: [0, 1, 2, 3], stairDown: [3, 2, 1, 0], roll: [0, 1, 2, 3, 2, 1], zigzag: [0, 2, 1, 3], wave: [1, 0, 2, 3], bounce: [0, 3, 1, 2], ladder: [0, 2, 1, 3, 0, 3], spiral: [0, 1, 3, 2], sweep: [0, 1, 2, 3, 1, 2], alt: [0, 2], alt2: [1, 3], flutter: [0, 2, 1, 3], rollFast: [0, 1, 2, 3, 2, 1] };
 // descriptor: diff 0..3 (min/max), minSpacing ms, jack 0..1, chord 0..1, complexity 0..1, energy ưa thích 0..1
 export const PATTERN_LIBRARY = [
   d('single', 'basic', 0, 3, 150, 0, 0, .05, .3, ['balanced', 'beat', 'relax', 'melodic']),

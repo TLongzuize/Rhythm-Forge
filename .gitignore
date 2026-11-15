@@ -3,3 +3,9 @@ dist/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Local quality-validation inputs and generated reports. These may contain
+# copyrighted test audio or large historical artifacts and are not release assets.
+audio_file_to_test/
+baseline/
+hold-validation/

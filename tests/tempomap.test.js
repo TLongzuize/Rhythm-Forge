@@ -5,17 +5,17 @@ import { buildTempoMap, getBeatPosition, getBeatTime, getNearestBeat, getTempoAt
 import { synthClicks } from './helpers.js';
 
 function run(opts) { const a = synthClicks(opts), an = analyzeSamples(a.samples, a.sr), m = buildTempoMap(an); const errs = a.truth.filter(t => t > 1500 && t < a.durationMs - 500).map(t => getNearestBeat(m, t).errorMs), bias = errs.reduce((x, y) => x + y, 0) / errs.length, jit = errs.map(e => Math.abs(e - bias)); return { a, an, m, bias, mean: jit.reduce((x, y) => x + y, 0) / jit.length, max: Math.max(...jit) }; }
-// bias = độ trễ hệ thống của timestamp onset trong core.extractFeatures (đo được ≈17ms, ổn định); mean/max = độ lệch (jitter) quanh bias.
+// bias = residual phase error after calibrated onset latency compensation.
 const report = [];
 for (const bpm of [70, 100, 120, 140, 160, 180]) test(`click ${bpm} BPM: tempo, phase, lỗi beat`, () => {
   const r = run({ segments: [{ bpm, ms: 40000 }], startMs: 230 });
   const seg = r.m.segments; report.push(`${bpm} BPM → ${seg.map(s => s.bpm.toFixed(2)).join('/')} | bias ${r.bias.toFixed(1)}ms jitter mean ${r.mean.toFixed(1)} max ${r.max.toFixed(1)} | conf ${seg[0].confidence.toFixed(2)}`);
   assert.equal(seg.length, 1); assert.ok(Math.abs(seg[0].bpm - bpm) / bpm < .01, `bpm ${seg[0].bpm}`);
-  assert.ok(Math.abs(r.bias) < 25, `bias ${r.bias}`); assert.ok(r.mean < 5, `mean ${r.mean}`); assert.ok(r.max < 15, `max ${r.max}`); assert.ok(seg[0].confidence > .5);
+  assert.ok(Math.abs(r.bias) < 5, `bias ${r.bias}`); assert.ok(r.mean < 5, `mean ${r.mean}`); assert.ok(r.max < 15, `max ${r.max}`); assert.ok(seg[0].confidence > .5);
 });
 test('mở đầu im lặng 5s rồi 140 BPM: phase vẫn đúng', () => {
   const r = run({ segments: [{ bpm: 140, ms: 35000 }], startMs: 5000 });
-  assert.ok(Math.abs(r.m.segments[0].bpm - 140) < 1.5); assert.ok(r.mean < 5 && Math.abs(r.bias) < 25, `mean ${r.mean} bias ${r.bias}`);
+  assert.ok(Math.abs(r.m.segments[0].bpm - 140) < 1.5); assert.ok(r.mean < 5 && Math.abs(r.bias) < 5, `mean ${r.mean} bias ${r.bias}`);
 });
 test('120→140: 2 đoạn, beat position liên tục, ranh giới gần đúng', () => {
   const r = run({ segments: [{ bpm: 120, ms: 40000 }, { bpm: 140, ms: 40000 }], startMs: 100 }), s = r.m.segments;

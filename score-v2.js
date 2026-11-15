@@ -4,7 +4,7 @@
  * weighting. RF's seven judgement tiers are mapped to osu!mania-style hit values.
  * This is not a byte-identical osu! ruleset: RF timing windows and rank policy remain RF-owned.
  */
-export const SCORE_V2_VERSION = 'rf-score-v2-lazer-mania-adapted-3';
+export const SCORE_V2_VERSION = 'rf-score-v2-lazer-mania-adapted-4';
 export const SCORE_V2_MAX = 1_000_000;
 export const SCORE_V2_COMBO_PORTION = 150_000;
 export const SCORE_V2_ACCURACY_PORTION = 850_000;
@@ -57,7 +57,10 @@ export function calculateScoreV2({ judgements = {}, judgementSequence = [], maxC
   const expected = Math.max(sequence.length, finiteNonNegative(expectedObjects), finiteNonNegative(maxPossibleCombo));
   const counts = { ...judgements };
   if (!Object.keys(counts).length) for (const key of Object.keys(HIT_VALUES)) counts[key] = 0;
-  const accuracyRatio = getJudgementAccuracyRatio(counts, expected || sequence.length);
+  // osu!mania's Accuracy.Value is the accuracy of objects judged so far. Future
+  // objects only affect Accuracy.Progress. Treating them as misses made the live
+  // score artificially tiny early on and caused the visible end-of-map balloon.
+  const accuracyRatio = getJudgementAccuracyRatio(counts, sequence.length);
   const completedForCombo = sequence.slice(0, expected || sequence.length);
 
   let combo = 0, comboEarned = 0;
@@ -70,7 +73,7 @@ export function calculateScoreV2({ judgements = {}, judgementSequence = [], maxC
   const comboObjects = Math.max(1, expected || sequence.length);
   for (let i = 1; i <= comboObjects; i++) comboMaximum += comboScoreFor('marvelous', i);
   const comboProgress = comboMaximum > 0 ? Math.max(0, Math.min(1, comboEarned / comboMaximum)) : 1;
-  const accuracyProgress = accuracyRatio;
+  const accuracyProgress = expected ? Math.min(1, sequence.length / expected) : 1;
   const accuracyExponent = 2 + 2 * accuracyRatio;
   const accuracyContribution = Math.pow(accuracyRatio, accuracyExponent) * accuracyProgress;
   const score = Math.max(0, Math.min(SCORE_V2_MAX, Math.round(

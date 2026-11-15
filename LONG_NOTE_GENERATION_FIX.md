@@ -1,33 +1,34 @@
-# Long-note generation fix — Rhythm Forge v13
+# V2.3 music-aware long-note planner
 
-## Lỗi tái hiện
-Trên `HOMAGE FUNK.mp3` (130 BPM, 122.7s), v12 dùng compose-2 ở seed 1337 và mode Balanced tạo 0 hold ở Normal, Hard và Expert.
+## Lỗi gốc
 
-## Nguyên nhân
-Planner cũ chỉ tạo hold khi note kế tiếp của toàn chart cách note hiện tại ít nhất 600 ms. Ở difficulty cao, dù lane của note hiện tại còn trống, các lane khác vẫn có note nên điều kiện toàn-chart chặn gần hết hold.
+V2.1 đánh giá từng tap độc lập và chuyển tap thành hold với xác suất tới 85–100% sau khi vượt một ngưỡng sustain khá thấp. RMS lại được chuẩn hóa bằng một cửa sổ rất ngắn quanh note, nên các bản nhạc đã master/nén lớn thường bị hiểu nhầm nền âm liên tục là một âm kéo dài. Kết quả trên 12 bài thật là 13–46% long note ở nhiều chart, có lúc nhiều lane cùng bị khóa.
 
-## Sửa đổi
-- Tìm note kế tiếp trong cùng lane và dùng nó làm giới hạn tail, không dùng note gần nhất bất kể lane.
-- Ước lượng sustain từ RMS tương đối quanh onset; kết hợp beat accent, khoảng trống, năng lượng section và mật độ cục bộ.
-- Snap end theo tempo map, giữ tail trước note cùng lane kế tiếp và giới hạn số hold đồng thời.
-- Difficulty và mode có hệ số hold riêng; Custom hỗ trợ `hold` multiplier.
-- Giữ nguyên chart schema, lane mapping, UI và gameplay interface.
+## Thiết kế V2.3
 
-## Kết quả trên bài nhạc mẫu
-`HOMAGE FUNK.mp3`, 130 BPM, 122.7s, seed 1337, Balanced:
+- Nhận diện một **musical gesture liên tục** bằng nhiều tín hiệu: độ bền envelope, độ ổn định phổ low/mid/high, mật độ onset và release/new attack kế tiếp. RMS lớn một mình không còn đủ để sinh hold.
+- Dùng onset hoặc thay đổi timbre/envelope kế tiếp làm release boundary, sau đó snap tail vào tempo-map 1/16 gần nhất.
+- Tạo toàn bộ hold candidate trước, chấm điểm evidence rồi chọn toàn cục. Candidate yếu không thể chiếm chỗ của phrase rõ hơn.
+- Áp dụng budget theo difficulty/mode, khoảng cách tối thiểu giữa các hold head và hard safety cap cho cả Custom mode.
+- Easy/Normal tối đa 1 hold đồng thời; Hard/Expert tối đa 2. Vì vậy luôn còn ít nhất 2 lane tự do và không thể có four-lane hold wall.
+- Không tạo hold trên chord, không vượt note kế tiếp cùng lane, không overlap và không tạo tail ngoài bài.
+- Generator ghi `generator.holdPlanning` cùng `diagnostics.holdRatio`/`maxActiveHolds` để có thể audit quyết định.
 
-| Difficulty | Holds | Tỷ lệ | Độ dài TB |
-|---|---:|---:|---:|
-| Easy | 23 / 194 | 11.9% | 0.98 beat |
-| Normal | 50 / 281 | 17.8% | 1.16 beat |
-| Hard | 51 / 612 | 8.3% | 1.11 beat |
-| Expert | 63 / 953 | 6.6% | 0.87 beat |
+## Kết quả trên 12 MP3 thật
 
-Các chart sample có zero error ở quality evaluator. Đây là phép đo trên một bài nhạc, không khẳng định tỷ lệ tối ưu cho mọi thể loại.
+Balanced, seed 42:
+
+| Difficulty | Tỷ lệ V1 trung bình | Tỷ lệ V2.2 trung bình | Khoảng V2.2 | Hold lệch head/tail | Overlap | Max active |
+|---|---:|---:|---:|---:|---:|---:|
+| Normal | 22.13% | 5.02% | 3.76–5.45% | 0 / 0 | 0 | 1 |
+| Hard | 19.83% | 4.80% | 2.81–6.38% | 0 / 0 | 0 | 1 |
+| Expert | 34.53% | 4.39% | 2.46–5.43% | 0 / 0 | 0 | 2 |
+
+Báo cáo chi tiết nằm tại `hold-validation/hold-validation-report.json`.
 
 ## Xác minh
-- `npm test`: 67/67 pass.
-- `npm run typecheck`: 15 module syntax checks pass.
+
+- `npm test`: 137/137 pass.
+- `npm run typecheck`: pass, gồm `rfgen-v2.js`.
 - `npm run build`: pass.
-- Standalone build + bundle smoke test: pass.
-- Browser end-to-end vẫn chưa xác minh trong môi trường này do Chromium bị chặn bởi `ERR_BLOCKED_BY_ADMINISTRATOR`.
+- Dedicated V2 suite: 35/35 pass, gồm transient kick/snare/reverb, sustain thật, ratio cap, Custom safety cap, overlap, active-lane cap và tail grid alignment.

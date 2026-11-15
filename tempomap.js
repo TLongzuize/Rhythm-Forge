@@ -1,6 +1,6 @@
 // Tempo Map Engine — phân đoạn tempo từ audio thật, beat position liên tục (không reset phase).
 // Dữ liệu là tùy chọn (chart cũ không cần), có thể serialize JSON.
-import { inferTempo, clamp } from './core.js';
+import { inferTempo, clamp, ANALYSIS_ONSET_LATENCY_MS } from './core.js';
 export const TEMPO_MAP_VERSION = 1;
 const med = a => { const s = [...a].sort((x, y) => x - y); return s.length ? s[s.length >> 1] : 0; };
 const hopOf = f => (f.length > 1 ? f[1].timeMs - f[0].timeMs : 10) || 10;
@@ -9,7 +9,7 @@ function peaksOf(f, t0, t1) {
   const hop = hopOf(f), a = Math.max(1, Math.floor(t0 / hop)), b = Math.min(f.length - 1, Math.ceil(t1 / hop)); let mx = 0;
   for (let i = a; i < b; i++) mx = Math.max(mx, f[i].onset || 0);
   const out = [];
-  for (let i = a; i < b; i++) { const o = f[i].onset || 0; if (o > mx * .35 && o >= f[i - 1].onset && o > f[i + 1].onset) out.push(f[i].timeMs); }
+  for (let i = a; i < b; i++) { const o = f[i].onset || 0; if (o > mx * .35 && o >= f[i - 1].onset && o > f[i + 1].onset) out.push(f[i].timeMs + ANALYSIS_ONSET_LATENCY_MS); }
   return out;
 }
 // Hồi quy t = a + k·p trên các peak gần lưới (a0,p0). Trả {a,p,n}.
@@ -32,7 +32,7 @@ function localTempo(f, t0, t1, hint, hintOffsetMs, hintConfidence = 0) {
   // Gợi ý tempo chủ đạo của cả bài (chỉ dùng ở lượt 2 cho cửa sổ lệch theo tỉ lệ liên quan như 2:3 của mẫu syncopated).
   // Global BPM + phase are a weak metrical prior. Apply only to octave/triplet-family
   // aliases; do not flatten genuine local tempo changes (e.g. 120→140 BPM).
-  if (hint && hintConfidence >= .4) { const ratio = (60000 / best.ft.p) / hint, alias = [2, .5, 3 / 2, 2 / 3].some(q => Math.abs(ratio / q - 1) < .045); if (alias) { const g = grid(hint, hintOffsetMs); if (g.score >= .55 * best.score) best = g; } }
+  if (hint && hintConfidence >= .4) { const ratio = (60000 / best.ft.p) / hint, alias = [2, .5, 3 / 2, 2 / 3, 4 / 3, 3 / 4].some(q => Math.abs(ratio / q - 1) < .045); if (alias) { const g = grid(hint, hintOffsetMs); if (g.score >= .55 * best.score) best = g; } }
   const ft = best.ft, p0 = ft.p, expected = Math.max(1, (t1 - t0) / ft.p);
   const matched = clamp(ft.n / expected), conf = clamp(matched * .6 + tp.confidence * .4);
   return { t0, t1, bpm: 60000 / ft.p, conf: pk.length < 4 ? 0 : conf, phase: ft.a };
@@ -74,7 +74,25 @@ export function buildTempoMapBase(analysis, { windowMs = 8000, minSegmentMs = 80
     // đồng bộ phase: beat tại ranh giới liên tục; refit chu kỳ (chỉ độ dốc) cho đoạn trước
     segs[i - 1].p = p; anchor = anchor + Math.ceil((segs[i].start - anchor) / p) * p; p = pB;
   }
-  return assemble(segs, dur, peaks, first.a, analysis);
+  return stabiliseTempoMap(assemble(segs, dur, peaks, first.a, analysis), analysis);
+}
+
+// Remove brief tempo aliases surrounded by the same stable tempo. These are
+// common in sparse intros/breaks where a 3:4 or 4:3 accent pattern temporarily
+// wins the local autocorrelation. Long, one-way changes remain untouched.
+function stabiliseTempoMap(map, analysis) {
+  const m = { ...map, segments: map.segments.map(s => ({ ...s })) }, s = m.segments;
+  const close = (a, b, tolerance = .035) => Math.abs(a / b - 1) <= tolerance;
+  for (let i = s.length - 2; i > 0; i--) {
+    const span = s[i].endTime - s[i].startTime;
+    if (span <= 16000 && close(s[i - 1].bpm, s[i + 1].bpm) && !close(s[i].bpm, s[i - 1].bpm, .08)) s.splice(i, 1);
+  }
+  const globalBpm = Number(analysis?.bpm), globalConfidence = Number(analysis?.bpmConfidence) || 0;
+  if (s.length > 1 && s[0].endTime - s[0].startTime <= 12000 && globalConfidence >= .4 && close(s[1].bpm, globalBpm, .04) && !close(s[0].bpm, globalBpm, .08)) {
+    s[1].startTime = 0; s.splice(0, 1);
+  }
+  if (s.length) { s[0].startTime = 0; s[0].startBeat = -m.firstBeatMs / s[0].beatPeriod; s[0].beatPhase = ((s[0].startBeat % 1) + 1) % 1; }
+  return rebuild(m);
 }
 
 function assemble(segs, dur, peaks, firstBeatMs, analysis) {

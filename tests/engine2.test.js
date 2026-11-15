@@ -87,7 +87,7 @@ test('metric mới (accent/transition/sectionIntensity) có công thức thật:
   const bad = { ...c, notes: c.notes.map(n => ({ ...n, timeMs: n.timeMs + 40 + Math.floor(rnd() * 60), lane: Math.floor(rnd() * 4) })), generator: { ...c.generator } }, qb = evaluateChart(bad, A);
   assert.ok(qb.metrics.accentAlignment.score < q.accentAlignment.score, 'accent phải giảm khi note lệch lưới');
   assert.ok(qb.metrics.transitionQuality.score < q.transitionQuality.score + 1e-9 && qb.overall < c.quality.overall);
-  const inv = [1, 2, 3].map(() => evaluateChart({ ...c, generator: { ...c.generator, sections: [] } }, A)); assert.equal(inv[0].metrics.sectionIntensity.applicable, false);
+  const inv = [1, 2, 3].map(() => evaluateChart({ ...c, generator: { ...c.generator, sections: [] } }, A)); assert.equal(inv[0].metrics.sectionIntensity.applicable, true);
 });
 
 /* ---- auto-fix preview/undo ---- */

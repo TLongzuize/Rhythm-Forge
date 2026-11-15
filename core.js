@@ -2,7 +2,7 @@ import { fingerprint, cacheKey, analysisCache, featureChunkCache } from './cache
 /* Rhythm Forge core: audio analysis, deterministic chart generation, validation and scoring. */
 export const DIFFICULTIES = ['easy', 'normal', 'hard', 'expert'];
 export const LANE_COLORS = ['#a78bfa', '#67e8f9', '#fb7185', '#fbbf24'];
-export const DEFAULT_SETTINGS = { keys: ['d','f','j','k'], speed: 1, direction: 'down', upscroll: false, line: .925, layoutV: 3, showHitError: true, hitErrorWidth: 420, noteSize: 11.6, receptorSize: 11.6, laneSpacing: 14, receptorThickness: 5, noteOpacity: 1, hudScale: 1, noFail: true, showPP: true, showHealth: true, showScore: true, showCombo: true, showBPM: true, showCPS: true, showJudgement: true, showProgress: true, volume: .85, sfx: .6, dim: .55, effects: true, theme: 'violet', skin: 'midnight', bgmEnabled: true, bgmVolume: .22, offset: 0, reducedMotion: false, difficulty: 'normal', seed: 1337 };
+export const DEFAULT_SETTINGS = { keys: ['d','f','j','k'], speed: 1, direction: 'down', upscroll: false, line: .925, layoutV: 3, showHitError: true, hitErrorWidth: 420, noteSize: 11.6, receptorSize: 11.6, laneSpacing: 14, receptorThickness: 5, noteOpacity: 1, hudScale: 1, noteSkin: 'orb', receptorSkin: 'ring', showLaneGuides: true, noFail: true, showRP: true, showGhost: false, showHealth: true, showScore: true, showCombo: true, showBPM: true, showCPS: true, showJudgement: true, showProgress: true, volume: .85, sfx: .6, hitSoundSkin: 'digital', rate: 1, practiceMode: false, practiceStartPct: 0, practiceEndPct: 100, dim: .55, effects: true, theme: 'violet', skin: 'midnight', bgmEnabled: true, bgmVolume: .22, offset: 0, reducedMotion: false, difficulty: 'normal', seed: 1337 };
 const PROFILES = {
   easy:   { minScore: .36, minGap: 225, subdivisions: ['beat', 'onset'], chord: .01, density: .68, complexity: .2, maxNps: 3.8, holdChance: .055, patternBias: .36 },
   normal: { minScore: .29, minGap: 145, subdivisions: ['beat', 'eighth', 'onset'], chord: .075, density: .94, complexity: .44, maxNps: 6.2, holdChance: .13, patternBias: .46 },
@@ -15,6 +15,11 @@ export const ANALYSIS_FRAME_SIZE = 1024;
 export const ANALYSIS_HOP_MS = 10;
 export const ANALYSIS_CHUNK_MS = 30000;
 export const ANALYSIS_CONTEXT_MS = 750;
+// The spectral frame is timestamped at its centre. Synthetic impulse calibration
+// measures a stable ~17 ms lead between that timestamp and the audible attack.
+// Keep the correction explicit so tempo phase, candidates and generated charts use
+// the same perceptual time reference.
+export const ANALYSIS_ONSET_LATENCY_MS = 17;
 
 // Extract un-normalized features so chunks can be cached independently and normalized globally.
 export function extractFeatureFrames(samples, sampleRate, frameSize = ANALYSIS_FRAME_SIZE, hopSize = Math.max(1, Math.round(sampleRate * ANALYSIS_HOP_MS / 1000)), timeOffsetMs = 0) {
@@ -79,11 +84,28 @@ export function inferTempo(features, durationMs, hopMs = 10) {
   // Fractional-lag autocorrelation avoids systematic octave errors caused by rounding
   // a 375 ms beat to 37 frames in a ~10 ms feature stream. Four-beat correlation and
   // a phase-aware downbeat score make syncopated accents less likely to masquerade as BPM.
-  for (let bpm = 65; bpm <= 190; bpm++) {
+  const evaluate = (bpm) => {
     const lag = 60000 / bpm / hopMs;
     const beatScore = correlationAtLag(env, lag), halfBarScore = correlationAtLag(env, lag * 2), barScore = correlationAtLag(env, lag * 4);
     const phase = metricalPhaseEvidence(features, bpm, durationMs, hopMs);
-    scores.push({ bpm, autoScore: beatScore * .42 + halfBarScore * .18 + barScore * .40, phaseScore: phase.score, beatScore, halfBarScore, barScore, phase });
+    return { bpm, autoScore: beatScore * .42 + halfBarScore * .18 + barScore * .40, phaseScore: phase.score, beatScore, halfBarScore, barScore, phase };
+  };
+  for (let bpm = 65; bpm <= 190; bpm++) scores.push(evaluate(bpm));
+  // Quality-first fractional refinement. Integer-only BPM creates visible drift on
+  // long tracks (129.5 BPM becomes 130); refine the strongest independent basins
+  // to 0.05 BPM while keeping the coarse scan for alias discovery.
+  const coarse = scores.slice().sort((a, b) => (b.autoScore + b.phaseScore) - (a.autoScore + a.phaseScore));
+  const basins = [];
+  for (const item of coarse) {
+    if (basins.some(x => Math.abs(x - item.bpm) < 4)) continue;
+    basins.push(item.bpm);
+    if (basins.length >= 4) break;
+  }
+  const seenBpms = new Set(scores.map(x => x.bpm.toFixed(2)));
+  for (const centre of basins) for (let step = -18; step <= 18; step++) {
+    const bpm = Math.round((centre + step * .05) * 100) / 100;
+    if (bpm < 65 || bpm > 190 || seenBpms.has(bpm.toFixed(2))) continue;
+    seenBpms.add(bpm.toFixed(2)); scores.push(evaluate(bpm));
   }
   const maxAuto = Math.max(1e-9, ...scores.map(x => x.autoScore)), maxPhase = Math.max(1e-9, ...scores.map(x => x.phaseScore));
   for (const x of scores) x.score = .2 * x.autoScore / maxAuto + .8 * x.phaseScore / maxPhase;
@@ -91,12 +113,13 @@ export function inferTempo(features, durationMs, hopMs = 10) {
   let best = scores[0] || { bpm: 120, score: 0, phase: { phase: 0 } };
   // When both octaves explain the same pulse (straight click tracks), choose the
   // faster reading; expose the slower interpretation as a candidate.
-  const octaveUp = scores.find(x => x.bpm === best.bpm * 2);
-  if (octaveUp && octaveUp.score >= best.score * .93) best = octaveUp;
+  const octaveUp = scores.reduce((near, x) => Math.abs(x.bpm - best.bpm * 2) < Math.abs((near?.bpm ?? Infinity) - best.bpm * 2) ? x : near, null);
+  if (octaveUp && Math.abs(octaveUp.bpm - best.bpm * 2) < .11 && octaveUp.score >= best.score * .93) best = octaveUp;
   const mean = scores.reduce((sum, item) => sum + item.score, 0) / Math.max(1, scores.length);
-  const octavePeer = scores.find(x => x.bpm === best.bpm / 2), ambiguous = octavePeer ? octavePeer.score / Math.max(best.score, 1e-9) : 0;
+  const octavePeer = scores.find(x => Math.abs(x.bpm - best.bpm / 2) < .11), ambiguous = octavePeer ? octavePeer.score / Math.max(best.score, 1e-9) : 0;
   let confidence = clamp((best.score - mean) / Math.max(best.score, 1e-6) * 3.8);
-  const period = 60000 / best.bpm, offset = best.phase?.phase ?? 0;
+  const period = 60000 / best.bpm, rawOffset = best.phase?.phase ?? 0;
+  const offset = ((rawOffset % period) + period) % period;
   const avg = env.reduce((sum, value) => sum + value, 0) / Math.max(1, env.length);
   confidence = clamp(confidence * Math.min(1, avg * 4 + .25) * (ambiguous > .9 ? .78 : 1));
   const distinct = [];
@@ -112,7 +135,7 @@ function peakShift(fs,i){const a=fs[i-1].onset,b=fs[i].onset,c=fs[i+1].onset,den
 export function buildCandidates(features,bpm,offsetMs,durationMs){
   if(!features.length)return [];const hopMs=features[1]?.timeMs-features[0]?.timeMs||10, med=median(features.map(f=>f.onset)), map=new Map();
   const add=(time,onset,subdivision,alignment)=>{if(time<100||time>durationMs-120)return;const key=Math.round(time/10)*10,tExact=Math.round(time),idx=clamp(Math.round(time/hopMs),0,features.length-1)|0,f=features[idx];const energy=clamp(f.rms*3.2+f.low*1.3),strength=clamp(onset),score=clamp(strength*.46+energy*.24+alignment*.2+f.high*.3);const c={timeMs:tExact,confidence:clamp(score*.86+.08),onsetStrength:strength,beatAlignment:alignment,subdivision,localEnergy:energy,score};if(!map.has(key)||map.get(key).score<score)map.set(key,c);};
-  for(let i=2;i<features.length-2;i++){const f=features[i];if(f.onset>features[i-1].onset&&f.onset>=features[i+1].onset&&f.onset>Math.max(.16,med*1.45)){const p=60000/bpm,r=((f.timeMs-offsetMs)%p+p)%p,d=Math.min(r,p-r);add(f.timeMs+peakShift(features,i),f.onset,'onset',clamp(1-d/(p*.26)));}}
+  for(let i=2;i<features.length-2;i++){const f=features[i];if(f.onset>features[i-1].onset&&f.onset>=features[i+1].onset&&f.onset>Math.max(.16,med*1.45)){const p=60000/bpm,time=f.timeMs+peakShift(features,i)+ANALYSIS_ONSET_LATENCY_MS,r=((time-offsetMs)%p+p)%p,d=Math.min(r,p-r);add(time,f.onset,'onset',clamp(1-d/(p*.26)));}}
   const period=60000/bpm;for(let s=0;s<Math.ceil(durationMs/(period/4));s++){const time=offsetMs+s*period/4;if(time<0||time>=durationMs)continue;const idx=clamp(Math.round(time/hopMs),0,features.length-1)|0,f=features[idx],mod=s%4,alignment=mod===0?1:mod===2?.68:.36,tag=mod===0?'beat':mod===2?'eighth':'sixteenth';add(time,f.onset*.72+f.rms*1.2,tag,alignment);}
   return [...map.values()].sort((a,b)=>a.timeMs-b.timeMs);
 }
@@ -381,7 +404,7 @@ export function generateChart(analysis,title,{difficulty='normal',seed=1337,bpmO
   const holdCount=unique.filter(n=>n.type==='hold').length;
   const chordCount=unique.filter((n,i,a)=>i>0&&a[i-1].timeMs===n.timeMs).length;
   const rating=clamp(unique.length/Math.max(1,analysis.durationMs/1000)*1.35+profile.complexity*1.8+chordCount*.04+holdCount*.08,1,12);
-  const chart={schemaVersion:1,chartId:`chart-${(seed>>>0).toString(16)}-${difficulty}-${Math.round(analysis.durationMs)}`,metadata:{title:title||'Untitled track',audioDurationMs:Math.round(analysis.durationMs),bpm,offsetMs:Math.round(offset),difficulty,difficultyRating:Math.round(rating*10)/10},generator:{engineVersion:'0.3.0',seed,profileId:`${difficulty}-mapper-v3`,sourceFingerprint:`${Math.round(analysis.durationMs)}ms-${analysis.sampleRate}hz`},notes:unique};
+  const chart={schemaVersion:1,chartId:`chart-${(seed>>>0).toString(16)}-${difficulty}-${Math.round(analysis.durationMs)}`,metadata:{title:title||'Untitled track',audioDurationMs:Math.round(analysis.durationMs),bpm,offsetMs:Math.round(offset),difficulty,difficultyRating:Math.round(rating*10)/10},generator:{engineVersion:'0.3.0',name:'RF Generator V1',seed,profileId:`${difficulty}-mapper-v3`,sourceFingerprint:`${Math.round(analysis.durationMs)}ms-${analysis.sampleRate}hz`},notes:unique};
   const validation=validateChart(chart);
   const peak=Math.max(0,...unique.map(n=>densityAt(unique,n.timeMs)));
   const eventPatterns=unique.slice(1).map((n,i)=>{

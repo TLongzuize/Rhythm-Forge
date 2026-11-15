@@ -1,5 +1,6 @@
 // Chạy sinh chart trong Web Worker (hủy được), tự động fallback luồng chính khi Worker không có / lỗi.
 import { generateAllSmart, generateSmart } from './smartgen.js';
+import { generateAllRfV2, generateRfV2 } from './rfgen-v2.js';
 let current = null, seq = 0;
 export const cancelGeneration = () => { if (current) { current.worker.terminate(); current.reject(Object.assign(new Error('Generation cancelled.'), { cancelled: true })); current = null; } };
 function viaWorker(job) {
@@ -20,3 +21,5 @@ async function run(job, local) {
 }
 export const generateAllSmartAsync = (analysis, title, seed, opts = {}) => run({ kind: 'all', analysis, title, seed, opts }, () => generateAllSmart(analysis, title, seed, opts));
 export const generateSmartAsync = (analysis, title, opts = {}) => run({ kind: 'one', analysis, title, opts }, () => generateSmart(analysis, title, opts));
+export const generateAllRfV2Async = (analysis, title, seed, opts = {}) => run({ kind: 'all', analysis, title, seed, opts, engine: 'v2' }, () => generateAllRfV2(analysis, title, seed, opts));
+export const generateRfV2Async = (analysis, title, opts = {}) => run({ kind: 'one', analysis, title, opts, engine: 'v2' }, () => generateRfV2(analysis, title, opts));
