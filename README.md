@@ -5,7 +5,7 @@
 
   **A four-lane rhythm game that turns your music into playable charts — right in your browser.**
 
-  ![Version 0.2.0](https://img.shields.io/badge/version-v0.2.0-ff66aa)
+  ![Version 0.2.1](https://img.shields.io/badge/version-v0.2.1-ff66aa)
   ![Status Alpha](https://img.shields.io/badge/status-alpha-orange)
   ![Runtime dependencies: zero](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen)
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
@@ -24,7 +24,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [What's new in v0.2.0](#whats-new-in-v020)
+- [What's new in v0.2.1](#whats-new-in-v021)
 - [Features](#features)
 - [Play online](#play-online)
 - [Getting started](#getting-started)
@@ -51,22 +51,38 @@ Rhythm Forge is a local-first, four-key browser rhythm game, chart generator, an
 
 The project is built with plain HTML, CSS, and JavaScript. It has **no runtime package dependencies** and needs no application server or account. Your imported songs, charts, settings, and results stay in your browser.
 
-> **Version 0.2.0 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
+> **Version 0.2.1 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
 
-## What's new in v0.2.0
+## What's new in v0.2.1
 
-Version 0.2.0 is a quality-first overhaul focused on musical synchronization, restrained long-note generation, stable scoring, and deeper practice tools:
+Version 0.2.1 polishes the quality-first v0.2.0 overhaul with a smoother HUD and deeper playfield customization:
 
-- **RF Generator V2.3** performs fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo mapping, onset-latency compensation, and evidence-ranked hold planning.
-- Long notes require sustained musical evidence, respect same-lane space and grid-safe tails, and are capped to prevent four-lane hold walls.
-- Gameplay now includes stable ScoreV2 cells, fixed-width accuracy, live segment BPM, health and fail/no-fail behavior, raw CPS with peak, and live **Rhythm Points (RP)**.
-- The Gameplay Lab adds rate control, looped Practice Mode, a 12-beat timing calibration wizard, previous-play ghost pulses, and three hit-sound skins.
-- Nine playfield themes, five note skins, four receptor skins, and a live skin preview improve customization without replacing the core interface.
-- Older charts without a serialized tempo map are migrated safely at runtime using their existing BPM metadata.
+- Score, accuracy, combo, live BPM, CPS, peak CPS, RP, health, and progress now animate smoothly toward their live values.
+- Accuracy has a dedicated non-overlapping row, while the desktop health bar is larger and easier to read.
+- Set an independent color for each lane plus a separate accent for the HUD, guides, health, and progress.
+- Choose the new Arrow skin with the lane order Left, Down, Up, Right, and independently scale notes and receptor buttons from `0.50×` to `2.00×`.
+- Long-note bodies, heads, and tails inherit the selected note skin instead of always using a round capsule.
+- **RF Generator V2.3** remains the default quality-first engine, with fractional BPM, local tempo maps, onset compensation, and conservative evidence-ranked holds.
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete release notes.
 
 ## Features
+
+### Introducing RF Generator V2 — Our Most Intelligent Generator
+
+RF Generator V2 is Rhythm Forge's most advanced available chart generator. Its V2.3 engine connects audio evidence, continuous tempo maps, section energy, and playable patterns to turn a local track into four difficulty charts. Watch the introduction from the welcome screen.
+
+- **Detailed timing analysis.** Fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo maps, and onset-latency compensation support musical timing across the track.
+- **Musically supported long notes.** Sustained-audio evidence, lane clearance, grid-safe tails, bounded hold ratios, and active-hold limits govern hold placement.
+- **Composition that responds to the song.** Section energy, accents, transitions, and pattern selection shape density and phrasing.
+- **Four difficulties and five styles.** Easy, Normal, Hard, and Expert combine with Balanced, Beat Focus, Melodic, Technical, and Relax modes.
+- **Repeatable local generation.** Seeds reproduce charts and support variations. Audio processing happens on your device.
+
+The archived 12-track comparison covers 48 charts per engine. Note-weighted hold share was 26.8% for V1 and 4.4% for V2. A local Node.js demo Hard benchmark measured median generation times of 2.0 ms for V1 and 160.5 ms for V2 over 12 runs per engine after warm-up, excluding audio analysis. V2 spends more computation on chart planning. Results depend on the track and device, and these measurements do not establish universal synchronization improvements. See the [real-audio report](benchmarks/real-audio-v1-v2-report.json) and [video rendering script](scripts/render-v2-intro.py) for the data and measurement context.
+
+### RF Generator V3 — Our Flagship Generator
+
+**Coming soon...** Watch the V3 teaser alongside the V2 introduction on the welcome screen. The teaser previews the next RF chapter. Feature specifications, performance figures, and a release date will be announced later.
 
 ### Play
 
@@ -91,7 +107,7 @@ See [CHANGELOG.md](CHANGELOG.md) for the complete release notes.
 ### Make it yours
 
 - Rebind keys and adjust scroll speed, note size, receptor size, lane spacing, hit position, and HUD scale.
-- Choose from nine playfield themes, five note skins, four receptor skins, and customize accent colors and visual effects.
+- Choose from nine playfield themes, six note skins, five receptor skins, per-lane colors, a custom skin accent, and visual effects.
 - Configure audio levels and menu music playback.
 - Review local ScoreV2 results, live/post-play RP, timing, lane, and skill analysis.
 
@@ -195,7 +211,7 @@ The analysis and skill profile are local and provisional. They are intended as p
 | Area | Examples |
 |---|---|
 | Input and timing | Key bindings, global timing offset, 12-beat calibration wizard, scroll speed, rate, Practice Mode loop range, hit position, upscroll, no-fail |
-| Layout and skin | Note and receptor size, lane spacing, opacity, HUD scale, nine game skins, five note skins, four receptor skins, live preview, lane guides |
+| Layout and skin | Note and receptor size, independent note/button scale, lane spacing, opacity, HUD scale, nine game skins, six note skins, five receptor skins, per-lane colors, skin accent, live preview, lane guides |
 | HUD | Stable ScoreV2 cells, fixed-width accuracy, live RP, combo, judgement, segment-local BPM, raw clicks per second with peak, ghost, health, progress, hit-error display |
 | Audio and effects | Music volume, hit-sound volume and skin, visual effects, reduced motion |
 | Background and menu music | Background appearance, menu music tracks, playback and volume |
@@ -257,7 +273,7 @@ Before the first deployment, open the repository's [Pages settings](https://gith
 
 To host elsewhere, run the standalone build command and publish the resulting HTML file as the host's `index.html`. The regular source build uses root-relative asset paths and may need path changes when hosted below a domain subpath.
 
-Stable releases are created from tags such as `v0.2.0`; tags containing `-pre` create pre-releases. The [release workflow](.github/workflows/release.yml) and [pre-release workflow](.github/workflows/prerelease.yml) attach a standalone HTML game and a ZIP package containing the game, README, changelog, and MIT license to each GitHub Release.
+Stable releases are created from tags such as `v0.2.1`; tags containing `-pre` create pre-releases. The [release workflow](.github/workflows/release.yml) and [pre-release workflow](.github/workflows/prerelease.yml) attach a standalone HTML game and a ZIP package containing the game, README, changelog, and MIT license to each GitHub Release.
 
 ## Project structure
 

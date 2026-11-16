@@ -2,6 +2,32 @@
 
 All notable changes to Rhythm Forge are documented in this file. The project follows [Semantic Versioning](https://semver.org/).
 
+## [0.2.1] - 2026-11-16
+
+### Added
+
+- A 66-second RF Generator V2 introduction covering timing, hold planning, patterns, difficulty modes, reproducibility, and documented V1/V2 measurements.
+- A 36-second RF Generator V3 teaser, “Our Flagship Generator — Coming soon...”.
+- Welcome-screen video buttons with playback controls, Escape dismissal, and embedded offline video in the standalone release.
+- Red screen-edge low-health feedback below 25% HP, with static feedback under Reduced Motion.
+- Independent color pickers for all four note lanes and a separate skin accent color.
+- Friday Night Funkin-inspired Arrow note and receptor skins mapped by lane as Left, Down, Up, Right.
+- Skin-specific long notes: hold bodies, heads, and tails now match Orb, Mania, Diamond, Neon, Minimal, and Arrow styles, including the live preview.
+- Independent `0.50×`–`2.00×` scale controls for notes and receptor buttons, with live preview.
+
+### Changed
+
+- Score, accuracy, combo, live BPM, CPS, peak CPS, RP, health, and song progress now transition smoothly instead of jumping between values.
+- The desktop health bar is substantially wider and taller, with clearer percentage feedback and accent-aware glow.
+- Moved health to the upper playfield to clear the combo display.
+- Accuracy now has a dedicated label and vertical row so it no longer collides with ScoreV2 cells.
+- The selected skin accent now drives HUD labels, lane guides, health, and progress colors.
+
+### Fixed
+
+- Prevented the live skin preview from clipping receptors at the maximum scale.
+- Preserved custom lane colors and scale settings safely across reloads and older saved preferences.
+
 ## [0.2.0] - 2026-11-15
 
 ### Added
@@ -52,5 +78,6 @@ All notable changes to Rhythm Forge are documented in this file. The project fol
 
 - Initial alpha release with four-lane keyboard/touch gameplay, local song library, browser-based audio analysis, chart generation and editing, ScoreV2, local results, skins, and a standalone HTML build.
 
+[0.2.1]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/TLongzuize/Rhythm-Forge/releases/tag/v0.1.0

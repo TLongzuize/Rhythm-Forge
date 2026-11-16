@@ -41,6 +41,10 @@ app=re.sub(r"^import \{[^}]*\} from './score-v2\.js';\n","",app,count=1,flags=re
 app=re.sub(r"^import \{[^}]*\} from './performance-analysis\.js';\n","",app,count=1,flags=re.M|re.S)
 app=app.replace("const AUDIO_DEMO = './public/audio/forge-demo.wav';","const DEMO_BLOB=(()=>{const b=atob(DEMO_B64),u=new Uint8Array(b.length);for(let i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return new Blob([u],{type:'audio/wav'});})();const AUDIO_DEMO=URL.createObjectURL(DEMO_BLOB);")
 assert 'DEMO_BLOB' in app
+intro_b64=base64.b64encode(open('public/video/rf-generator-v2.mp4','rb').read()).decode()
+app=app.replace("const V2_INTRO_VIDEO = './public/video/rf-generator-v2.mp4';",f"const V2_INTRO_VIDEO = 'data:video/mp4;base64,{intro_b64}';")
+v3_b64=base64.b64encode(open('public/video/rf-generator-v3.mp4','rb').read()).decode()
+app=app.replace("const V3_INTRO_VIDEO = './public/video/rf-generator-v3.mp4';",f"const V3_INTRO_VIDEO = 'data:video/mp4;base64,{v3_b64}';")
 app=app.replace("await fetch(AUDIO_DEMO)","({ok:true,status:200,blob:async()=>DEMO_BLOB})")
 b64=base64.b64encode(open('public/audio/forge-demo.wav','rb').read()).decode()
 cache=re.sub(r"^export (?=(?:async )?(?:function|const|let|class))",'',open('cache.js').read(),flags=re.M)
