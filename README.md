@@ -70,7 +70,7 @@ See [CHANGELOG.md](CHANGELOG.md) for the complete release notes.
 
 ### Introducing RF Generator V2 — Our Most Intelligent Generator
 
-RF Generator V2 is Rhythm Forge's most advanced available chart generator. Its V2.3 engine connects audio evidence, continuous tempo maps, section energy, and playable patterns to turn a local track into four difficulty charts. Watch the introduction from the welcome screen.
+RF Generator V2 is Rhythm Forge's most advanced available chart generator. Its engine connects audio evidence, continuous tempo maps, section energy, and playable patterns to turn a local track into four difficulty charts. Watch the introduction from the welcome screen.
 
 - **Detailed timing analysis.** Fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo maps, and onset-latency compensation support musical timing across the track.
 - **Musically supported long notes.** Sustained-audio evidence, lane clearance, grid-safe tails, bounded hold ratios, and active-hold limits govern hold placement.
@@ -175,7 +175,7 @@ The generator analyzes a selected song and composes charts from its rhythm:
 4. **Compose onset-backed patterns** and difficulty-specific density, including restrained evidence-ranked holds, triplets, and 1/32 accents where the music supports them.
 5. **Validate and review** the generated charts before playing or editing them.
 
-Generation is seeded, so repeating the same analysis with the same settings can reproduce a chart. Results depend on the audio and browser decoder. V2.3 spends more CPU time on fractional-BPM refinement and tempo-alias stabilization to prioritize chart quality.
+Generation is seeded, so repeating the same analysis with the same settings can reproduce a chart. Results depend on the audio and browser decoder. RF Generator V2 spends more CPU time on fractional-BPM refinement and tempo-alias stabilization to prioritize chart quality.
 
 When a chart feels out of sync, adjust its BPM or beat offset and generate it again. Use the editor to make final timing and lane changes.
 
@@ -289,7 +289,7 @@ Stable releases are created from tags such as `v0.2.1`; tags containing `-pre` c
 ├── autofix.js                 # Chart validation and repair
 ├── score-v2.js                # ScoreV2-compatible scoring
 ├── performance-analysis.js    # Post-play analysis
-├── rfgen-v2.js                # Quality-first V2.3 chart generator
+├── rfgen-v2.js                # Quality-first RF Generator V2
 ├── analysis-worker.js         # Audio-analysis worker
 ├── gen-worker.js, genclient.js # Chart-generation worker and client
 ├── src/                       # Application styles
