@@ -32,7 +32,7 @@ All notable changes to Rhythm Forge are documented in this file. The project fol
 
 ### Added
 
-- RF Generator V2.3 with fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo maps, and explicit onset-latency compensation.
+- RF Generator V2 with fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo maps, and explicit onset-latency compensation.
 - Evidence-ranked long-note planner with sustained-audio checks, same-lane clearance, grid-safe tails, active-hold limits, and bounded hold ratios.
 - Live and post-play Rhythm Points (RP) using the existing confidence-aware performance-rating model.
 - Gameplay Lab with `0.50×`–`1.50×` playback rates and looped Practice Mode section controls.

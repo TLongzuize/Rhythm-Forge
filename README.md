@@ -62,7 +62,7 @@ Version 0.2.1 polishes the quality-first v0.2.0 overhaul with a smoother HUD and
 - Set an independent color for each lane plus a separate accent for the HUD, guides, health, and progress.
 - Choose the new Arrow skin with the lane order Left, Down, Up, Right, and independently scale notes and receptor buttons from `0.50×` to `2.00×`.
 - Long-note bodies, heads, and tails inherit the selected note skin instead of always using a round capsule.
-- **RF Generator V2.3** remains the default quality-first engine, with fractional BPM, local tempo maps, onset compensation, and conservative evidence-ranked holds.
+- **RF Generator V2** remains the default quality-first engine, with fractional BPM, local tempo maps, onset compensation, and conservative evidence-ranked holds.
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete release notes.
 
