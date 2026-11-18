@@ -190,6 +190,18 @@ body.rf-playing{touch-action:none;-webkit-user-select:none;user-select:none;-web
 .rf-skin-preview{display:block;width:calc(100% - 24px);height:auto;max-height:220px;margin:12px;border:1px solid rgba(255,255,255,.09);border-radius:12px;background:#080a12}
 .rf-watch-intro{position:relative;z-index:3;margin-top:18px;padding:12px 20px;border:1px solid #ff66aa66;border-radius:99px;background:#191321;color:#f8eaf2;font:700 13px 'Nunito',system-ui;cursor:pointer;transition:background .2s,transform .2s}
 .rf-watch-intro:hover{background:#382036;transform:translateY(-2px)}
+.rf-watch-intro:active{transform:translateY(0) scale(.97)}
+#rf-splash{transition:opacity .48s ease,transform .55s cubic-bezier(.22,1,.36,1)}
+#rf-splash.out{transform:scale(1.025)}
+.rf-splash-logo-wrap,.rf-welcome-films{animation:rf-settle .65s cubic-bezier(.22,1,.36,1) both}
+.rf-welcome-films{animation-delay:100ms}
+.rf-enter .osu-content{animation:rf-settle .34s cubic-bezier(.22,1,.36,1) both}
+.rf-enter .lz-top{animation:none}
+.rf-enter .lz-card{animation:rf-settle .32s cubic-bezier(.22,1,.36,1) both}
+.rf-enter .lz-card:nth-child(n+4){animation-delay:130ms}
+.rf-intro-dialog[open]{animation:rf-settle .28s cubic-bezier(.22,1,.36,1) both}
+@keyframes rf-settle{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.rf-reduced-motion :is(#rf-splash,.rf-splash-logo,.rf-tri,.rf-splash-hint,.rf-splash-logo-wrap,.rf-welcome-films,.rf-watch-intro,.rf-intro-dialog,.rf-enter *){animation:none!important;transition:none!important}
 .rf-welcome-films{position:relative;z-index:3;display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:94vw}
 .rf-welcome-films .rf-watch-intro{margin-top:14px}
 .rf-watch-intro:focus-visible,.rf-intro-close:focus-visible{outline:2px solid #7fe3ff;outline-offset:4px}

@@ -28,6 +28,12 @@ All notable changes to Rhythm Forge are documented in this file. The project fol
 - Prevented the live skin preview from clipping receptors at the maximum scale.
 - Preserved custom lane colors and scale settings safely across reloads and older saved preferences.
 
+## [0.2.2] - 2026-11-18 — Small Bug Fixes
+
+- Redrew Orb holds as a continuous capsule with matching round ends. Removed the extra tail note from the other five skins.
+- Adjusted the skin preview and softened transitions across the welcome screen, song list, and video player, with support for Reduced Motion.
+- Rebuilt the RF Generator V2 introduction and V3 concept teaser for the welcome screen and standalone release.
+
 ## [0.2.0] - 2026-11-15
 
 ### Added
@@ -79,5 +85,6 @@ All notable changes to Rhythm Forge are documented in this file. The project fol
 - Initial alpha release with four-lane keyboard/touch gameplay, local song library, browser-based audio analysis, chart generation and editing, ScoreV2, local results, skins, and a standalone HTML build.
 
 [0.2.1]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.2.0...v0.2.1
+[0.2.2]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.2.1...v0.2.2
 [0.2.0]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/TLongzuize/Rhythm-Forge/releases/tag/v0.1.0

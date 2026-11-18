@@ -5,7 +5,7 @@
 
   **A four-lane rhythm game that turns your music into playable charts — right in your browser.**
 
-  ![Version 0.2.1](https://img.shields.io/badge/version-v0.2.1-ff66aa)
+  ![Version 0.2.2](https://img.shields.io/badge/version-v0.2.2-ff66aa)
   ![Status Alpha](https://img.shields.io/badge/status-alpha-orange)
   ![Runtime dependencies: zero](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen)
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
@@ -25,6 +25,7 @@
 
 - [Overview](#overview)
 - [What's new in v0.2.1](#whats-new-in-v021)
+- [v0.2.2 Small Bug Fixes](#v022-small-bug-fixes)
 - [Features](#features)
 - [Play online](#play-online)
 - [Getting started](#getting-started)
@@ -51,7 +52,7 @@ Rhythm Forge is a local-first, four-key browser rhythm game, chart generator, an
 
 The project is built with plain HTML, CSS, and JavaScript. It has **no runtime package dependencies** and needs no application server or account. Your imported songs, charts, settings, and results stay in your browser.
 
-> **Version 0.2.1 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
+> **Version 0.2.2 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
 
 ## What's new in v0.2.1
 
@@ -65,6 +66,12 @@ Version 0.2.1 polishes the quality-first v0.2.0 overhaul with a smoother HUD and
 - **RF Generator V2** remains the default quality-first engine, with fractional BPM, local tempo maps, onset compensation, and conservative evidence-ranked holds.
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete release notes.
+
+### v0.2.2 Small Bug Fixes
+
+- Orb holds have a continuous body with matching round ends. Other note skins show one head and a hold body.
+- Welcome, song list, and video transitions are smoother and respect Reduced Motion.
+- The updated V2 introduction uses the demo waveform and a generated chart. The V3 concept teaser has a new four-lane reveal.
 
 ## Features
 

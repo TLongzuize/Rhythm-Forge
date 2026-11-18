@@ -261,6 +261,7 @@ function shell(content){const rfEnter=lastShellScreen!==state.screen;lastShellSc
   root.innerHTML=`<div class="app-shell osu theme-${escapeHtml(state.settings.theme)} osu-screen-${state.screen}${rfEnter?' rf-enter':''}" data-skin="${escapeHtml(state.settings.skin||'midnight')}"><div class="osu-bg"${bgStyle}></div><div class="osu-dim"></div><header class="osu-top lz-top"><button class="lz-ico ${nav==='settings'?'danger':''}" data-action="navigate" data-screen="settings" title="Options">${icon('settings',22)}</button><button class="lz-ico ${nav==='home'?'on':''}" data-action="navigate" data-screen="home" title="Menu">${icon('home',22)}</button><nav class="lz-modes">${tab('library','Song select','library')}${tab('generator','Generator','wand')}${tab('editor','Edit','grid')}</nav><div class="lz-top-right"><span class="lz-user"><b>Local player</b><i>${brandMark(22,'rf-brand-mini')}</i></span><span class="lz-clockbox">${icon('clock',22)}<span><b class="lz-clock">${new Date().toLocaleTimeString('en-GB')}</b><small class="lz-run">running 00:00:00</small></span></span></div></header><main class="content-area osu-content" id="main-content">${content}</main><footer class="osu-bottom lz-bottom"><span>${icon('wave',13)} ${escapeHtml(state.project?.title||'Nothing playing')}</span><span>${state.projects.length} songs · ${state.bestResults.length} scores</span><span>Rhythm Forge</span></footer></div>`;
   if(state.screen==='game')mountGame();if(state.screen==='editor'&&state.chart)mountEditor();if(state.screen==='settings'){mountSettingsEnhancements();mountGameplayEnhancements();}const previewVideo=document.getElementById('background-preview-video');if(previewVideo&&state.backgroundUrl){previewVideo.src=state.backgroundUrl;previewVideo.muted=true;previewVideo.loop=true;previewVideo.playsInline=true;void previewVideo.play().catch(()=>{});}renderToast();saveSettings();}
 function render(){
+  document.body.classList.toggle('rf-reduced-motion',!!state.settings.reducedMotion);
   document.body.classList.toggle('rf-playing',state.screen==='game');
   if(state.screen==='loader'){renderLoader();return;}
   if(state.screen==='game'){renderFullscreenGame();return;}
@@ -274,7 +275,22 @@ function mountSettingsEnhancements(){
   host.append(studio);drawSkinPreview(studio.querySelector('.rf-skin-preview'));
   const gameSkin=[...document.querySelectorAll('select[data-setting="skin"]')][0];if(gameSkin)for(const [v,l] of [['cyber','Cyber Pulse'],['sakura','Sakura Glass']])if(![...gameSkin.options].some(o=>o.value===v)){const option=new Option(l,v,v===state.settings.skin,v===state.settings.skin);gameSkin.add(option);}
 }
-function drawSkinPreview(canvas){if(!canvas)return;const ctx=canvas.getContext('2d'),w=canvas.width,h=canvas.height,palette=gameplayPalette(state.settings.skin),noteSize=42*state.settings.noteScale,receptorSize=40*state.settings.receptorScale;ctx.clearRect(0,0,w,h);ctx.fillStyle='#080a12';ctx.fillRect(0,0,w,h);for(let lane=0;lane<4;lane++){const x=110+lane*140,direction=arrowDirectionForLane(lane),headY=102+(lane%2)*8;ctx.strokeStyle=palette.guide;ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke();if(lane%2===0)drawHoldNote(ctx,x,headY,30,noteSize,state.settings.noteSkin,palette.lanes[lane],direction);else drawNoteShape(ctx,x,headY,noteSize,state.settings.noteSkin,palette.lanes[lane],direction);drawReceptorShape(ctx,x,182,receptorSize,state.settings.receptorSkin,palette.lanes[lane],lane===1,state.settings.receptorThickness,direction);}}
+function drawSkinPreview(canvas){
+  if(!canvas)return;
+  const ctx=canvas.getContext('2d'),{width,height}=canvas;
+  const settings=state.settings,palette=gameplayPalette(settings.skin);
+  const noteSize=42*settings.noteScale,receptorSize=40*settings.receptorScale;
+  ctx.fillStyle='#080a12';
+  ctx.fillRect(0,0,width,height);
+  for(let lane=0;lane<4;lane++){
+    const x=110+lane*140,direction=arrowDirectionForLane(lane),color=palette.lanes[lane];
+    ctx.strokeStyle=palette.guide;
+    ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,height);ctx.stroke();
+    if(lane%2===0)drawHoldNote(ctx,x,94,Math.max(30,noteSize/2+5),noteSize,settings.noteSkin,color,direction);
+    else drawNoteShape(ctx,x,102,noteSize,settings.noteSkin,color,direction);
+    drawReceptorShape(ctx,x,171,receptorSize,settings.receptorSkin,color,lane===1,settings.receptorThickness,direction);
+  }
+}
 function mountGameplayEnhancements(){
   const timing=document.getElementById('set-1'),hud=document.getElementById('set-3'),audioPanel=document.getElementById('set-4');
   if(timing&&!timing.querySelector('.rf-gameplay-studio')){
@@ -763,15 +779,24 @@ function gameplayPalette(skin){const sets={midnight:['#f8fbff','#f8fbff','#f8fbf
 function arrowDirectionForLane(lane){return ['left','down','up','right'][clamp(Math.round(Number(lane)||0),0,3)];}
 function drawArrowPath(ctx,x,y,r,direction='down'){ctx.save();ctx.translate(x,y);const rotation={left:Math.PI/2,down:0,up:Math.PI,right:-Math.PI/2}[direction]??0;ctx.rotate(rotation);ctx.beginPath();ctx.moveTo(0,r);ctx.lineTo(r,-r*.05);ctx.lineTo(r*.42,-r*.05);ctx.lineTo(r*.42,-r);ctx.lineTo(-r*.42,-r);ctx.lineTo(-r*.42,-r*.05);ctx.lineTo(-r,-r*.05);ctx.closePath();ctx.restore();}
 function drawHoldNote(ctx,x,headY,tailY,size,skin='orb',color='#fff',direction='down'){
-  const top=Math.min(headY,tailY),height=Math.max(2,Math.abs(headY-tailY)),bodyWidths={orb:.56,mania:.82,diamond:.5,neon:.42,minimal:.13,arrow:.3},bodyW=Math.max(3,size*(bodyWidths[skin]||.56));
+  const top=Math.min(headY,tailY),height=Math.abs(headY-tailY);
+  if(skin==='orb'){
+    const radius=size/2;
+    ctx.save();
+    ctx.fillStyle=color;
+    roundRect(ctx,x-radius,top-radius,size,height+size,radius);
+    ctx.fill();
+    ctx.restore();
+    return;
+  }
+  const bodyWidths={mania:.82,diamond:.5,neon:.42,minimal:.13,arrow:.3};
+  const bodyW=Math.max(3,size*(bodyWidths[skin]||.56));
   ctx.save();ctx.fillStyle=color;ctx.strokeStyle='rgba(255,255,255,.72)';ctx.lineWidth=Math.max(1,size*.045);
   if(skin==='minimal'){ctx.globalAlpha*=.9;ctx.fillRect(x-bodyW/2,top,bodyW,height);}
-  else if(skin==='diamond'){ctx.beginPath();ctx.moveTo(x,top-size*.12);ctx.lineTo(x+bodyW/2,top+size*.12);ctx.lineTo(x+bodyW/2,top+height-size*.12);ctx.lineTo(x,top+height+size*.12);ctx.lineTo(x-bodyW/2,top+height-size*.12);ctx.lineTo(x-bodyW/2,top+size*.12);ctx.closePath();ctx.fill();ctx.stroke();}
+  else if(skin==='diamond'){roundRect(ctx,x-bodyW/2,top,bodyW,height,Math.min(4,bodyW*.14));ctx.fill();ctx.stroke();}
   else if(skin==='mania'){ctx.fillRect(x-bodyW/2,top,bodyW,height);ctx.strokeRect(x-bodyW/2,top,bodyW,height);}
   else{if(skin==='neon'){ctx.shadowColor=color;ctx.shadowBlur=size*.32;}roundRect(ctx,x-bodyW/2,top,bodyW,height,skin==='arrow'?bodyW*.18:bodyW/2);ctx.fill();ctx.stroke();if(skin==='arrow'){ctx.globalAlpha*=.35;ctx.fillStyle='#fff';roundRect(ctx,x-bodyW*.13,top,bodyW*.26,height,bodyW*.1);ctx.fill();}}
   ctx.restore();
-  const tailScale=skin==='minimal'?.8:skin==='mania'?.82:skin==='arrow'?.72:.76;
-  drawNoteShape(ctx,x,tailY,size*tailScale,skin,color,direction);
   drawNoteShape(ctx,x,headY,size,skin,color,direction);
 }
 function drawNoteShape(ctx,x,y,size,skin='orb',color='#fff',direction='down'){const r=size/2;ctx.save();ctx.fillStyle=color;ctx.strokeStyle='rgba(255,255,255,.88)';ctx.lineWidth=Math.max(1,size*.055);if(skin==='mania'){roundRect(ctx,x-r,y-r*.56,size,r*1.12,r*.18);ctx.fill();ctx.stroke();}else if(skin==='diamond'){ctx.beginPath();ctx.moveTo(x,y-r);ctx.lineTo(x+r,y);ctx.lineTo(x,y+r);ctx.lineTo(x-r,y);ctx.closePath();ctx.fill();ctx.stroke();}else if(skin==='arrow'){drawArrowPath(ctx,x,y,r*.92,direction);ctx.fill();ctx.stroke();}else if(skin==='neon'){ctx.shadowColor=color;ctx.shadowBlur=size*.35;ctx.beginPath();ctx.arc(x,y,r*.86,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;ctx.lineWidth=Math.max(2,size*.09);ctx.strokeStyle='#fff';ctx.stroke();}else if(skin==='minimal'){roundRect(ctx,x-r,y-r*.28,size,r*.56,r*.2);ctx.fill();}else{const grad=ctx.createRadialGradient(x-r*.2,y-r*.28,r*.05,x,y,r);grad.addColorStop(0,'#fff');grad.addColorStop(.28,color);grad.addColorStop(1,color);ctx.fillStyle=grad;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();ctx.stroke();}ctx.restore();}
@@ -857,7 +882,7 @@ const SILENT_WAV='data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhY
 function showSplash(){
   if(document.getElementById('rf-splash'))return;
   const el=document.createElement('div');el.id='rf-splash';el.setAttribute('role','dialog');el.setAttribute('aria-label','Rhythm Forge start screen');
-  el.innerHTML=`<div class="rf-splash-bg"></div>${Array.from({length:16},(_,i)=>`<i class="rf-tri" style="--x:${(i*37)%100}%;--s:${28+(i*23)%60}px;--d:${9+(i*7)%9}s;--dl:-${(i*5)%11}s"></i>`).join('')}<div class="rf-splash-logo-wrap"><button type="button" class="rf-splash-logo" id="rf-splash-logo" aria-label="Start Rhythm Forge">${rfLogoSvg(110)}<span class="rf-wm">rhythm<b>forge</b></span></button></div><p class="rf-splash-hint" id="rf-splash-hint">Loading…</p><p class="rf-splash-ver">v0.2.1 · Our most intelligent generator</p>`;
+  el.innerHTML=`<div class="rf-splash-bg"></div>${Array.from({length:16},(_,i)=>`<i class="rf-tri" style="--x:${(i*37)%100}%;--s:${28+(i*23)%60}px;--d:${9+(i*7)%9}s;--dl:-${(i*5)%11}s"></i>`).join('')}<div class="rf-splash-logo-wrap"><button type="button" class="rf-splash-logo" id="rf-splash-logo" aria-label="Start Rhythm Forge">${rfLogoSvg(110)}<span class="rf-wm">rhythm<b>forge</b></span></button></div><p class="rf-splash-hint" id="rf-splash-hint">Loading…</p><p class="rf-splash-ver">v0.2.2 · Our most intelligent generator</p>`;
   document.body.append(el);
   const films=document.createElement('div');
   films.className='rf-welcome-films';
