@@ -1,0 +1,148 @@
+{
+  "sampleRate": 22050,
+  "mode": "balanced",
+  "densityScale": 1,
+  "warmups": 1,
+  "measurements": [
+    {
+      "revision": "difficulty-1",
+      "track": "galaxy",
+      "analysisMs": 2540,
+      "generation": [
+        {
+          "elapsedMs": 188,
+          "candidates": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "elapsedMs": 188,
+          "candidates": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "elapsedMs": 176,
+          "candidates": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ],
+      "peakRssKiB": 153164
+    },
+    {
+      "revision": "context-1",
+      "track": "galaxy",
+      "analysisMs": 2586,
+      "generation": [
+        {
+          "elapsedMs": 203,
+          "candidates": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "elapsedMs": 223,
+          "candidates": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "elapsedMs": 173,
+          "candidates": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ],
+      "peakRssKiB": 156360
+    },
+    {
+      "revision": "difficulty-1",
+      "track": "nutcracker",
+      "analysisMs": 742,
+      "generation": [
+        {
+          "elapsedMs": 35,
+          "candidates": [
+            3,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "elapsedMs": 39,
+          "candidates": [
+            3,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "elapsedMs": 42,
+          "candidates": [
+            3,
+            4,
+            3,
+            4
+          ]
+        }
+      ],
+      "peakRssKiB": 91220
+    },
+    {
+      "revision": "context-1",
+      "track": "nutcracker",
+      "analysisMs": 759,
+      "generation": [
+        {
+          "elapsedMs": 48,
+          "candidates": [
+            3,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "elapsedMs": 48,
+          "candidates": [
+            3,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "elapsedMs": 42,
+          "candidates": [
+            3,
+            4,
+            3,
+            4
+          ]
+        }
+      ],
+      "peakRssKiB": 88292
+    }
+  ]
+}

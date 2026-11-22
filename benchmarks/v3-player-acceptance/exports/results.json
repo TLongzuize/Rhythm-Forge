@@ -1,0 +1,611 @@
+{
+  "node": "v24.16.0",
+  "sampleRate": 22050,
+  "rows": [
+    {
+      "track": "galaxy",
+      "recordingSha": "3f9ff06b882be0d6e556e4e66ce68122bb81e85a0ab020c0ad2024c12a6cd30a",
+      "filename": "OnlyMP3_to_-__-_Galaxy_Collapse.mp3",
+      "analysisMs": 3834.39,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 102,
+          "heads": 102,
+          "chords": 0,
+          "holds": 22,
+          "ms": 34.17,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 3,
+          "minFingerGap": 887,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 259,
+          "heads": 259,
+          "chords": 0,
+          "holds": 36,
+          "ms": 27.07,
+          "fastFinger": 0,
+          "fastHand": 1,
+          "peak": 5,
+          "minFingerGap": 506,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 1797,
+          "heads": 1711,
+          "chords": 86,
+          "holds": 78,
+          "ms": 211.34,
+          "fastFinger": 0,
+          "fastHand": 1,
+          "peak": 10,
+          "minFingerGap": 234,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 2674,
+          "heads": 2549,
+          "chords": 125,
+          "holds": 79,
+          "ms": 230.78,
+          "fastFinger": 0,
+          "fastHand": 7,
+          "peak": 14,
+          "minFingerGap": 158,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ],
+      "excerpt": {
+        "start": 200,
+        "end": 220,
+        "fromMs": 198800,
+        "durationMs": 22200,
+        "audioSha": "32be1c227af12db3607089787ebf9b881f0cddc10f429a50e228a8524b99db26",
+        "takes": [
+          {
+            "take": 1,
+            "engine": "v2",
+            "notes": 260,
+            "heads": 166,
+            "extraChordKeys": 94,
+            "holds": 1,
+            "nearMeasured": 141
+          },
+          {
+            "take": 2,
+            "engine": "v3",
+            "notes": 113,
+            "heads": 109,
+            "extraChordKeys": 4,
+            "holds": 0,
+            "nearMeasured": 109
+          }
+        ],
+        "detected": 278,
+        "omitted": 169,
+        "omittedBelowDefaultConfidence": 137,
+        "omittedStrong": 0
+      }
+    },
+    {
+      "track": "unity",
+      "recordingSha": "3ec2f9c04a3b1bb4002b0ef9d3cb0cada15e5cebcec8fa2beba39fd2371c4f15",
+      "filename": "OnlyMP3_to_-_TheFatRat_-_Unity.mp3",
+      "analysisMs": 2090.57,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 495,
+          "heads": 495,
+          "chords": 0,
+          "holds": 55,
+          "ms": 39.57,
+          "fastFinger": 0,
+          "fastHand": 8,
+          "peak": 4,
+          "minFingerGap": 558,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 736,
+          "heads": 692,
+          "chords": 44,
+          "holds": 68,
+          "ms": 66.18,
+          "fastFinger": 23,
+          "fastHand": 16,
+          "peak": 6,
+          "minFingerGap": 263,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 1180,
+          "heads": 1028,
+          "chords": 152,
+          "holds": 88,
+          "ms": 104.59,
+          "fastFinger": 0,
+          "fastHand": 23,
+          "peak": 9,
+          "minFingerGap": 239,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 1488,
+          "heads": 1265,
+          "chords": 223,
+          "holds": 80,
+          "ms": 53.66,
+          "fastFinger": 0,
+          "fastHand": 64,
+          "peak": 14,
+          "minFingerGap": 159,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ],
+      "excerpt": {
+        "start": 20,
+        "end": 40,
+        "fromMs": 18800,
+        "durationMs": 22200,
+        "audioSha": "618676773cad9920e2304737fc5f77effd0f73d4891154ee6f7d1d52fa761561",
+        "takes": [
+          {
+            "take": 1,
+            "engine": "v3",
+            "notes": 132,
+            "heads": 108,
+            "extraChordKeys": 24,
+            "holds": 14,
+            "nearMeasured": 108
+          },
+          {
+            "take": 2,
+            "engine": "v2",
+            "notes": 102,
+            "heads": 98,
+            "extraChordKeys": 4,
+            "holds": 11,
+            "nearMeasured": 76
+          }
+        ],
+        "detected": 155,
+        "omitted": 47,
+        "omittedBelowDefaultConfidence": 29,
+        "omittedStrong": 4
+      }
+    },
+    {
+      "track": "mutilator",
+      "recordingSha": "e43ec35fd606b937d99d8e2a99ef94c760f3e65d4f3ebee5dc1844ddcbd9b6f3",
+      "filename": "𝙕𝙈𝘼𝙅𝙊𝙍 & 𝙇𝙐𝙍𝙆 - 𝙈𝙐𝙏𝙄𝙇𝘼𝙏𝙊𝙍 (𝙐𝙇𝙏𝙍𝘼 𝙎𝙇𝙊𝙒𝙀𝘿 + 𝙍𝙀𝙑𝙀𝙍𝘽).mp3",
+      "analysisMs": 1575.29,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 187,
+          "heads": 187,
+          "chords": 0,
+          "holds": 25,
+          "ms": 18.08,
+          "fastFinger": 0,
+          "fastHand": 1,
+          "peak": 3,
+          "minFingerGap": 1346,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 312,
+          "heads": 312,
+          "chords": 0,
+          "holds": 31,
+          "ms": 16.6,
+          "fastFinger": 0,
+          "fastHand": 3,
+          "peak": 5,
+          "minFingerGap": 434,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 796,
+          "heads": 718,
+          "chords": 78,
+          "holds": 36,
+          "ms": 58.99,
+          "fastFinger": 0,
+          "fastHand": 18,
+          "peak": 10,
+          "minFingerGap": 234,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 1169,
+          "heads": 1055,
+          "chords": 114,
+          "holds": 36,
+          "ms": 44.99,
+          "fastFinger": 0,
+          "fastHand": 26,
+          "peak": 14,
+          "minFingerGap": 158,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ]
+    },
+    {
+      "track": "pistachio",
+      "recordingSha": "9617c9be55c128177b13c20fbc52178ed482e3545094517efb30a7db2798991e",
+      "filename": "pistachio.ogg",
+      "analysisMs": 628.04,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 140,
+          "heads": 140,
+          "chords": 0,
+          "holds": 21,
+          "ms": 6.18,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 3,
+          "minFingerGap": 821,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 214,
+          "heads": 210,
+          "chords": 4,
+          "holds": 24,
+          "ms": 7.18,
+          "fastFinger": 0,
+          "fastHand": 8,
+          "peak": 6,
+          "minFingerGap": 390,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 280,
+          "heads": 242,
+          "chords": 38,
+          "holds": 28,
+          "ms": 15.89,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 7,
+          "minFingerGap": 389,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 325,
+          "heads": 258,
+          "chords": 67,
+          "holds": 23,
+          "ms": 9.81,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 8,
+          "minFingerGap": 190,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ]
+    },
+    {
+      "track": "fishin",
+      "recordingSha": "27b3667c396c1831511aa3c415fcf582b6e8be560cafb844c5b67b76b72c1cb3",
+      "filename": "fishin.ogg",
+      "analysisMs": 1098.48,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 212,
+          "heads": 212,
+          "chords": 0,
+          "holds": 26,
+          "ms": 5.53,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 4,
+          "minFingerGap": 644,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 286,
+          "heads": 286,
+          "chords": 0,
+          "holds": 33,
+          "ms": 15.05,
+          "fastFinger": 0,
+          "fastHand": 4,
+          "peak": 5,
+          "minFingerGap": 635,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 536,
+          "heads": 453,
+          "chords": 83,
+          "holds": 45,
+          "ms": 40.15,
+          "fastFinger": 0,
+          "fastHand": 1,
+          "peak": 8,
+          "minFingerGap": 243,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 747,
+          "heads": 617,
+          "chords": 130,
+          "holds": 35,
+          "ms": 27.02,
+          "fastFinger": 0,
+          "fastHand": 5,
+          "peak": 11,
+          "minFingerGap": 160,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ]
+    },
+    {
+      "track": "vibeace",
+      "recordingSha": "6c23aed3dd5aa57f2b1652ecab68d15d9b82ad257f54e639eb2880ca09bc118a",
+      "filename": "vibeace.ogg",
+      "analysisMs": 596.84,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 96,
+          "heads": 96,
+          "chords": 0,
+          "holds": 9,
+          "ms": 1.02,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 3,
+          "minFingerGap": 927,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 152,
+          "heads": 152,
+          "chords": 0,
+          "holds": 13,
+          "ms": 1.82,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 4,
+          "minFingerGap": 663,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 215,
+          "heads": 179,
+          "chords": 36,
+          "holds": 13,
+          "ms": 15.28,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 6,
+          "minFingerGap": 342,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 280,
+          "heads": 220,
+          "chords": 60,
+          "holds": 11,
+          "ms": 24.35,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 8,
+          "minFingerGap": 169,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ]
+    },
+    {
+      "track": "nutcracker",
+      "recordingSha": "b5c1a3e26310e6618d3c124f458654cd235650fcb9db7d711302644566600484",
+      "filename": "nutcracker.ogg",
+      "analysisMs": 1015.58,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 66,
+          "heads": 66,
+          "chords": 0,
+          "holds": 15,
+          "ms": 2.49,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 3,
+          "minFingerGap": 1151,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 106,
+          "heads": 101,
+          "chords": 5,
+          "holds": 21,
+          "ms": 2.99,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 4,
+          "minFingerGap": 544,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 229,
+          "heads": 200,
+          "chords": 29,
+          "holds": 39,
+          "ms": 8.23,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 7,
+          "minFingerGap": 234,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 338,
+          "heads": 310,
+          "chords": 28,
+          "holds": 56,
+          "ms": 18.32,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 9,
+          "minFingerGap": 164,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ],
+      "excerpt": {
+        "start": 12,
+        "end": 32,
+        "fromMs": 10800,
+        "durationMs": 22710,
+        "audioSha": "d493218e5098955776d5a73d78d7b045489e4a540ed50650b2611087d57870c5",
+        "takes": [
+          {
+            "take": 1,
+            "engine": "v2",
+            "notes": 124,
+            "heads": 103,
+            "extraChordKeys": 21,
+            "holds": 8,
+            "nearMeasured": 55
+          },
+          {
+            "take": 2,
+            "engine": "v3",
+            "notes": 49,
+            "heads": 42,
+            "extraChordKeys": 7,
+            "holds": 10,
+            "nearMeasured": 42
+          }
+        ],
+        "detected": 106,
+        "omitted": 64,
+        "omittedBelowDefaultConfidence": 39,
+        "omittedStrong": 1
+      }
+    },
+    {
+      "track": "brahms",
+      "recordingSha": "919b48aa4cc66a0357d2cd5728664c5ab8f15c4b3469460df4b59470d35d3e49",
+      "filename": "brahms.ogg",
+      "analysisMs": 284.68,
+      "charts": [
+        {
+          "difficulty": "easy",
+          "notes": 9,
+          "heads": 9,
+          "chords": 0,
+          "holds": 2,
+          "ms": 1.34,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 2,
+          "minFingerGap": 8855,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "normal",
+          "notes": 26,
+          "heads": 26,
+          "chords": 0,
+          "holds": 6,
+          "ms": 1.02,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 3,
+          "minFingerGap": 751,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "hard",
+          "notes": 98,
+          "heads": 84,
+          "chords": 14,
+          "holds": 10,
+          "ms": 7.47,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 6,
+          "minFingerGap": 246,
+          "collisions": 0,
+          "releaseConflicts": 0
+        },
+        {
+          "difficulty": "expert",
+          "notes": 163,
+          "heads": 150,
+          "chords": 13,
+          "holds": 15,
+          "ms": 6.67,
+          "fastFinger": 0,
+          "fastHand": 0,
+          "peak": 9,
+          "minFingerGap": 159,
+          "collisions": 0,
+          "releaseConflicts": 0
+        }
+      ]
+    }
+  ]
+}

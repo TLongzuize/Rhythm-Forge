@@ -1,0 +1,16 @@
+[
+  {
+    "isolated": "baseline",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 1308,
+    "peakRssKiB": 143800
+  },
+  {
+    "isolated": "current",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 3196,
+    "peakRssKiB": 155916
+  }
+]

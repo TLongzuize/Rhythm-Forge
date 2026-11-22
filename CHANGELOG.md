@@ -2,6 +2,31 @@
 
 All notable changes to Rhythm Forge are documented in this file. The project follows [Semantic Versioning](https://semver.org/).
 
+## [0.3.0] - 2026-11-22
+
+### Added
+
+- RF Generator V3 is available as Experimental. It uses spectral attack evidence, phrase-based selection, and automatic layout optimization. V3 runs in a cancellable Worker in the web and standalone builds. [Development report](RF_GENERATOR_V3.md)
+- Added Autoplay and Autoplay like human to Song select. Human autoplay has an adjustable 0–100% accuracy target. Both modes are unranked and support seeking and a five-second rewind.
+- Added replay from the results screen. Click a score in Local rank to reopen the result and watch the recording when one is available.
+
+### Changed
+
+- RF Generator V2 is labeled Our Advanced Generator and Default. RF Generator V3 is labeled Next-Generation Chart Generator and Experimental. Engine preferences are retained.
+- Removed the V2 introduction and V3 teaser from the welcome screen and standalone package.
+
+### Fixed
+
+- Loaded audio earlier and removed redundant seeks at song start.
+- Bundled Orbitron so the gameplay HUD renders consistently in the offline build.
+- Positioned autoplay and replay controls below the Hit Error display.
+
+## [0.2.2] - 2026-11-18 — Small Bug Fixes
+
+- Redrew Orb holds as a continuous capsule with matching round ends. Removed the extra tail note from the other five skins.
+- Adjusted the skin preview and softened transitions across the welcome screen, song list, and video player, with support for Reduced Motion.
+- Rebuilt the RF Generator V2 introduction and V3 concept teaser for the welcome screen and standalone release.
+
 ## [0.2.1] - 2026-11-16
 
 ### Added
@@ -27,12 +52,6 @@ All notable changes to Rhythm Forge are documented in this file. The project fol
 
 - Prevented the live skin preview from clipping receptors at the maximum scale.
 - Preserved custom lane colors and scale settings safely across reloads and older saved preferences.
-
-## [0.2.2] - 2026-11-18 — Small Bug Fixes
-
-- Redrew Orb holds as a continuous capsule with matching round ends. Removed the extra tail note from the other five skins.
-- Adjusted the skin preview and softened transitions across the welcome screen, song list, and video player, with support for Reduced Motion.
-- Rebuilt the RF Generator V2 introduction and V3 concept teaser for the welcome screen and standalone release.
 
 ## [0.2.0] - 2026-11-15
 
@@ -88,3 +107,5 @@ All notable changes to Rhythm Forge are documented in this file. The project fol
 [0.2.2]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.2.1...v0.2.2
 [0.2.0]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/TLongzuize/Rhythm-Forge/releases/tag/v0.1.0
+
+[0.3.0]: https://github.com/TLongzuize/Rhythm-Forge/compare/v0.2.2...v0.3.0

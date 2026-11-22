@@ -1,0 +1,2562 @@
+{
+  "split": "holdout",
+  "sampleRate": 22050,
+  "tolerancesMs": [
+    25,
+    50
+  ],
+  "report": [
+    {
+      "track": "classic2",
+      "audioSha256": "5a9dda65707d5f78605eba136b74aee3749f7921ee6028ffc55414d4194d39cb",
+      "consensusSha256": "57c4e5e65adfbc2685e0fa82d073c5f66359b3463c409026cf4da646bac73828",
+      "individualSha256": "06a08f73b791a9ecf8538e6456ba7f6af3ada7115e3c32e76410acb6166abf5a",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 68,
+              "annotated": 38,
+              "matched": 25,
+              "unmatchedHeads": 43,
+              "missedReferences": 13,
+              "precision": 0.3676,
+              "recall": 0.6579,
+              "f1": 0.4717,
+              "signedMedianMs": 7.536,
+              "medianErrorMs": 7.6337,
+              "p90ErrorMs": 19.6118,
+              "p95ErrorMs": 21.7646,
+              "maxErrorMs": 23.2911,
+              "meanErrorMs": 9.3147
+            },
+            {
+              "detected": 68,
+              "annotated": 38,
+              "matched": 30,
+              "unmatchedHeads": 38,
+              "missedReferences": 8,
+              "precision": 0.4412,
+              "recall": 0.7895,
+              "f1": 0.566,
+              "signedMedianMs": 7.6337,
+              "medianErrorMs": 8.3451,
+              "p90ErrorMs": 37.4811,
+              "p95ErrorMs": 45.7383,
+              "maxErrorMs": 46.0987,
+              "meanErrorMs": 14.6037
+            }
+          ],
+          "individual": [
+            {
+              "detected": 68,
+              "annotated": 49,
+              "matched": 23,
+              "unmatchedHeads": 45,
+              "missedReferences": 26,
+              "precision": 0.3382,
+              "recall": 0.4694,
+              "f1": 0.3932,
+              "signedMedianMs": 3.462,
+              "medianErrorMs": 9.2346,
+              "p90ErrorMs": 16.6542,
+              "p95ErrorMs": 19.2849,
+              "maxErrorMs": 22.8188,
+              "meanErrorMs": 10.0644
+            },
+            {
+              "detected": 68,
+              "annotated": 49,
+              "matched": 36,
+              "unmatchedHeads": 32,
+              "missedReferences": 13,
+              "precision": 0.5294,
+              "recall": 0.7347,
+              "f1": 0.6154,
+              "signedMedianMs": 8.4387,
+              "medianErrorMs": 14.2433,
+              "p90ErrorMs": 39.4027,
+              "p95ErrorMs": 41.1215,
+              "maxErrorMs": 45.1808,
+              "meanErrorMs": 19.0275
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 20,
+              "annotated": 38,
+              "matched": 2,
+              "unmatchedHeads": 18,
+              "missedReferences": 36,
+              "precision": 0.1,
+              "recall": 0.0526,
+              "f1": 0.069,
+              "signedMedianMs": 1.427,
+              "medianErrorMs": 1.427,
+              "p90ErrorMs": 7.6077,
+              "p95ErrorMs": 7.6077,
+              "maxErrorMs": 7.6077,
+              "meanErrorMs": 4.5173
+            },
+            {
+              "detected": 20,
+              "annotated": 38,
+              "matched": 4,
+              "unmatchedHeads": 16,
+              "missedReferences": 34,
+              "precision": 0.2,
+              "recall": 0.1053,
+              "f1": 0.1379,
+              "signedMedianMs": 7.6077,
+              "medianErrorMs": 7.6077,
+              "p90ErrorMs": 47.2613,
+              "p95ErrorMs": 47.2613,
+              "maxErrorMs": 47.2613,
+              "meanErrorMs": 21.456
+            }
+          ],
+          "individual": [
+            {
+              "detected": 20,
+              "annotated": 49,
+              "matched": 3,
+              "unmatchedHeads": 17,
+              "missedReferences": 46,
+              "precision": 0.15,
+              "recall": 0.0612,
+              "f1": 0.087,
+              "signedMedianMs": -19.3627,
+              "medianErrorMs": 19.3627,
+              "p90ErrorMs": 23.401,
+              "p95ErrorMs": 23.401,
+              "maxErrorMs": 23.401,
+              "meanErrorMs": 15.9753
+            },
+            {
+              "detected": 20,
+              "annotated": 49,
+              "matched": 4,
+              "unmatchedHeads": 16,
+              "missedReferences": 45,
+              "precision": 0.2,
+              "recall": 0.0816,
+              "f1": 0.1159,
+              "signedMedianMs": -19.3627,
+              "medianErrorMs": 19.3627,
+              "p90ErrorMs": 35.2126,
+              "p95ErrorMs": 35.2126,
+              "maxErrorMs": 35.2126,
+              "meanErrorMs": 20.7846
+            }
+          ]
+        },
+        "v1": {
+          "consensus": [
+            {
+              "detected": 48,
+              "annotated": 38,
+              "matched": 16,
+              "unmatchedHeads": 32,
+              "missedReferences": 22,
+              "precision": 0.3333,
+              "recall": 0.4211,
+              "f1": 0.3721,
+              "signedMedianMs": -1.4463,
+              "medianErrorMs": 10.8577,
+              "p90ErrorMs": 22.3523,
+              "p95ErrorMs": 23.5278,
+              "maxErrorMs": 23.5278,
+              "meanErrorMs": 12.7336
+            },
+            {
+              "detected": 48,
+              "annotated": 38,
+              "matched": 22,
+              "unmatchedHeads": 26,
+              "missedReferences": 16,
+              "precision": 0.4583,
+              "recall": 0.5789,
+              "f1": 0.5116,
+              "signedMedianMs": 11.5846,
+              "medianErrorMs": 18.0625,
+              "p90ErrorMs": 31.7406,
+              "p95ErrorMs": 37.913,
+              "maxErrorMs": 47.4789,
+              "meanErrorMs": 18.5484
+            }
+          ],
+          "individual": [
+            {
+              "detected": 48,
+              "annotated": 49,
+              "matched": 13,
+              "unmatchedHeads": 35,
+              "missedReferences": 36,
+              "precision": 0.2708,
+              "recall": 0.2653,
+              "f1": 0.268,
+              "signedMedianMs": 0.4115,
+              "medianErrorMs": 8.1177,
+              "p90ErrorMs": 22.0458,
+              "p95ErrorMs": 22.4638,
+              "maxErrorMs": 22.4638,
+              "meanErrorMs": 9.6238
+            },
+            {
+              "detected": 48,
+              "annotated": 49,
+              "matched": 26,
+              "unmatchedHeads": 22,
+              "missedReferences": 23,
+              "precision": 0.5417,
+              "recall": 0.5306,
+              "f1": 0.5361,
+              "signedMedianMs": 3.1667,
+              "medianErrorMs": 22.4638,
+              "p90ErrorMs": 37.9389,
+              "p95ErrorMs": 39.5771,
+              "maxErrorMs": 45.2236,
+              "meanErrorMs": 21.11
+            }
+          ]
+        },
+        "v2": {
+          "consensus": [
+            {
+              "detected": 144,
+              "annotated": 38,
+              "matched": 21,
+              "unmatchedHeads": 123,
+              "missedReferences": 17,
+              "precision": 0.1458,
+              "recall": 0.5526,
+              "f1": 0.2308,
+              "signedMedianMs": -0.7619,
+              "medianErrorMs": 8.6077,
+              "p90ErrorMs": 18.9375,
+              "p95ErrorMs": 23.7406,
+              "maxErrorMs": 24.3231,
+              "meanErrorMs": 10.3747
+            },
+            {
+              "detected": 144,
+              "annotated": 38,
+              "matched": 33,
+              "unmatchedHeads": 111,
+              "missedReferences": 5,
+              "precision": 0.2292,
+              "recall": 0.8684,
+              "f1": 0.3626,
+              "signedMedianMs": -0.7619,
+              "medianErrorMs": 17.4297,
+              "p90ErrorMs": 42.2613,
+              "p95ErrorMs": 44.2056,
+              "maxErrorMs": 48.0422,
+              "meanErrorMs": 19.4067
+            }
+          ],
+          "individual": [
+            {
+              "detected": 144,
+              "annotated": 49,
+              "matched": 26,
+              "unmatchedHeads": 118,
+              "missedReferences": 23,
+              "precision": 0.1806,
+              "recall": 0.5306,
+              "f1": 0.2694,
+              "signedMedianMs": 0.5707,
+              "medianErrorMs": 16.422,
+              "p90ErrorMs": 24.2816,
+              "p95ErrorMs": 24.5291,
+              "maxErrorMs": 24.9542,
+              "meanErrorMs": 14.9946
+            },
+            {
+              "detected": 144,
+              "annotated": 49,
+              "matched": 43,
+              "unmatchedHeads": 101,
+              "missedReferences": 6,
+              "precision": 0.2986,
+              "recall": 0.8776,
+              "f1": 0.4456,
+              "signedMedianMs": -0.0353,
+              "medianErrorMs": 22.6683,
+              "p90ErrorMs": 40.6781,
+              "p95ErrorMs": 43.6762,
+              "maxErrorMs": 49.0442,
+              "meanErrorMs": 23.288
+            }
+          ]
+        },
+        "spectralChart": {
+          "consensus": [
+            {
+              "detected": 65,
+              "annotated": 38,
+              "matched": 26,
+              "unmatchedHeads": 39,
+              "missedReferences": 12,
+              "precision": 0.4,
+              "recall": 0.6842,
+              "f1": 0.5049,
+              "signedMedianMs": 7.3231,
+              "medianErrorMs": 8.1341,
+              "p90ErrorMs": 19.5846,
+              "p95ErrorMs": 21.5855,
+              "maxErrorMs": 22.9214,
+              "meanErrorMs": 9.9286
+            },
+            {
+              "detected": 65,
+              "annotated": 38,
+              "matched": 31,
+              "unmatchedHeads": 34,
+              "missedReferences": 7,
+              "precision": 0.4769,
+              "recall": 0.8158,
+              "f1": 0.6019,
+              "signedMedianMs": 8.5537,
+              "medianErrorMs": 11.7726,
+              "p90ErrorMs": 34.066,
+              "p95ErrorMs": 42.3923,
+              "maxErrorMs": 45.7406,
+              "meanErrorMs": 14.5133
+            }
+          ],
+          "individual": [
+            {
+              "detected": 65,
+              "annotated": 49,
+              "matched": 26,
+              "unmatchedHeads": 39,
+              "missedReferences": 23,
+              "precision": 0.4,
+              "recall": 0.5306,
+              "f1": 0.4561,
+              "signedMedianMs": 3.6683,
+              "medianErrorMs": 8.4115,
+              "p90ErrorMs": 19.4437,
+              "p95ErrorMs": 22.6329,
+              "maxErrorMs": 24.574,
+              "meanErrorMs": 10.1105
+            },
+            {
+              "detected": 65,
+              "annotated": 49,
+              "matched": 37,
+              "unmatchedHeads": 28,
+              "missedReferences": 12,
+              "precision": 0.5692,
+              "recall": 0.7551,
+              "f1": 0.6491,
+              "signedMedianMs": 7.5707,
+              "medianErrorMs": 13.9647,
+              "p90ErrorMs": 35.63,
+              "p95ErrorMs": 39.422,
+              "maxErrorMs": 45.1831,
+              "meanErrorMs": 17.3166
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 49,
+              "annotated": 38,
+              "matched": 21,
+              "unmatchedHeads": 28,
+              "missedReferences": 17,
+              "precision": 0.4286,
+              "recall": 0.5526,
+              "f1": 0.4828,
+              "signedMedianMs": 7.3523,
+              "medianErrorMs": 8.1341,
+              "p90ErrorMs": 16.9468,
+              "p95ErrorMs": 19.5846,
+              "maxErrorMs": 23.3251,
+              "meanErrorMs": 9.4574
+            },
+            {
+              "detected": 49,
+              "annotated": 38,
+              "matched": 25,
+              "unmatchedHeads": 24,
+              "missedReferences": 13,
+              "precision": 0.5102,
+              "recall": 0.6579,
+              "f1": 0.5747,
+              "signedMedianMs": 8.5537,
+              "medianErrorMs": 9.377,
+              "p90ErrorMs": 37.4789,
+              "p95ErrorMs": 42.3923,
+              "maxErrorMs": 45.7406,
+              "meanErrorMs": 14.3313
+            }
+          ],
+          "individual": [
+            {
+              "detected": 49,
+              "annotated": 49,
+              "matched": 20,
+              "unmatchedHeads": 29,
+              "missedReferences": 29,
+              "precision": 0.4082,
+              "recall": 0.4082,
+              "f1": 0.4082,
+              "signedMedianMs": 4.9728,
+              "medianErrorMs": 8.4115,
+              "p90ErrorMs": 15.1667,
+              "p95ErrorMs": 16.4638,
+              "maxErrorMs": 22.6329,
+              "meanErrorMs": 9.4715
+            },
+            {
+              "detected": 49,
+              "annotated": 49,
+              "matched": 30,
+              "unmatchedHeads": 19,
+              "missedReferences": 19,
+              "precision": 0.6122,
+              "recall": 0.6122,
+              "f1": 0.6122,
+              "signedMedianMs": 9.5045,
+              "medianErrorMs": 13.7708,
+              "p90ErrorMs": 35.63,
+              "p95ErrorMs": 39.9389,
+              "maxErrorMs": 45.1831,
+              "meanErrorMs": 17.6181
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 60,
+              "annotated": 38,
+              "matched": 26,
+              "unmatchedHeads": 34,
+              "missedReferences": 12,
+              "precision": 0.4333,
+              "recall": 0.6842,
+              "f1": 0.5306,
+              "signedMedianMs": 7.3231,
+              "medianErrorMs": 7.3523,
+              "p90ErrorMs": 21.5855,
+              "p95ErrorMs": 22.9214,
+              "maxErrorMs": 23.3251,
+              "meanErrorMs": 9.7412
+            },
+            {
+              "detected": 60,
+              "annotated": 38,
+              "matched": 31,
+              "unmatchedHeads": 29,
+              "missedReferences": 7,
+              "precision": 0.5167,
+              "recall": 0.8158,
+              "f1": 0.6327,
+              "signedMedianMs": 7.3523,
+              "medianErrorMs": 9.377,
+              "p90ErrorMs": 34.066,
+              "p95ErrorMs": 42.3923,
+              "maxErrorMs": 45.7406,
+              "meanErrorMs": 14.238
+            }
+          ],
+          "individual": [
+            {
+              "detected": 60,
+              "annotated": 49,
+              "matched": 23,
+              "unmatchedHeads": 37,
+              "missedReferences": 26,
+              "precision": 0.3833,
+              "recall": 0.4694,
+              "f1": 0.422,
+              "signedMedianMs": 4.8303,
+              "medianErrorMs": 8.4115,
+              "p90ErrorMs": 16.4638,
+              "p95ErrorMs": 19.4437,
+              "maxErrorMs": 22.6329,
+              "meanErrorMs": 9.604
+            },
+            {
+              "detected": 60,
+              "annotated": 49,
+              "matched": 35,
+              "unmatchedHeads": 25,
+              "missedReferences": 14,
+              "precision": 0.5833,
+              "recall": 0.7143,
+              "f1": 0.6422,
+              "signedMedianMs": 9.5045,
+              "medianErrorMs": 13.9647,
+              "p90ErrorMs": 39.422,
+              "p95ErrorMs": 39.9389,
+              "maxErrorMs": 45.1831,
+              "meanErrorMs": 18.2472
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 11,
+              "annotated": 38,
+              "matched": 5,
+              "unmatchedHeads": 6,
+              "missedReferences": 33,
+              "precision": 0.4545,
+              "recall": 0.1316,
+              "f1": 0.2041,
+              "signedMedianMs": 5.4396,
+              "medianErrorMs": 5.4396,
+              "p90ErrorMs": 22.9214,
+              "p95ErrorMs": 22.9214,
+              "maxErrorMs": 22.9214,
+              "meanErrorMs": 10.9332
+            },
+            {
+              "detected": 11,
+              "annotated": 38,
+              "matched": 6,
+              "unmatchedHeads": 5,
+              "missedReferences": 32,
+              "precision": 0.5455,
+              "recall": 0.1579,
+              "f1": 0.2449,
+              "signedMedianMs": -0.9578,
+              "medianErrorMs": 5.4396,
+              "p90ErrorMs": 28.4297,
+              "p95ErrorMs": 28.4297,
+              "maxErrorMs": 28.4297,
+              "meanErrorMs": 13.8493
+            }
+          ],
+          "individual": [
+            {
+              "detected": 11,
+              "annotated": 49,
+              "matched": 3,
+              "unmatchedHeads": 8,
+              "missedReferences": 46,
+              "precision": 0.2727,
+              "recall": 0.0612,
+              "f1": 0.1,
+              "signedMedianMs": -7.1884,
+              "medianErrorMs": 7.1884,
+              "p90ErrorMs": 19.4437,
+              "p95ErrorMs": 19.4437,
+              "maxErrorMs": 19.4437,
+              "meanErrorMs": 10.4874
+            },
+            {
+              "detected": 11,
+              "annotated": 49,
+              "matched": 5,
+              "unmatchedHeads": 6,
+              "missedReferences": 44,
+              "precision": 0.4545,
+              "recall": 0.102,
+              "f1": 0.1667,
+              "signedMedianMs": 4.8303,
+              "medianErrorMs": 19.4437,
+              "p90ErrorMs": 39.422,
+              "p95ErrorMs": 39.422,
+              "maxErrorMs": 39.422,
+              "meanErrorMs": 22.0216
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 38,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 38,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 38,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 38,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 49,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 49,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 49,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 49,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "guitar2",
+      "audioSha256": "f8d8133ab4bf9deff0687444a4c4f702211c2d4e07aa1bfc86d5044af3c8bc77",
+      "consensusSha256": "8458d9e288fca92adfe138c0f201858e7764ce4c88c9dd0a8acd5295ce4d7688",
+      "individualSha256": "5f2b30c43d1a608ce42b6a5ef3c078e6408a2fa73ca90e5fce54030113e7378b",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 54,
+              "annotated": 36,
+              "matched": 28,
+              "unmatchedHeads": 26,
+              "missedReferences": 8,
+              "precision": 0.5185,
+              "recall": 0.7778,
+              "f1": 0.6222,
+              "signedMedianMs": 5.7904,
+              "medianErrorMs": 5.8519,
+              "p90ErrorMs": 17.9779,
+              "p95ErrorMs": 21.4357,
+              "maxErrorMs": 22.7942,
+              "meanErrorMs": 7.863
+            },
+            {
+              "detected": 54,
+              "annotated": 36,
+              "matched": 29,
+              "unmatchedHeads": 25,
+              "missedReferences": 7,
+              "precision": 0.537,
+              "recall": 0.8056,
+              "f1": 0.6444,
+              "signedMedianMs": 5.8519,
+              "medianErrorMs": 6.6039,
+              "p90ErrorMs": 21.4357,
+              "p95ErrorMs": 22.7942,
+              "maxErrorMs": 34.9179,
+              "meanErrorMs": 8.7959
+            }
+          ],
+          "individual": [
+            {
+              "detected": 54,
+              "annotated": 41,
+              "matched": 27,
+              "unmatchedHeads": 27,
+              "missedReferences": 14,
+              "precision": 0.5,
+              "recall": 0.6585,
+              "f1": 0.5684,
+              "signedMedianMs": 3.4799,
+              "medianErrorMs": 3.9248,
+              "p90ErrorMs": 15.7444,
+              "p95ErrorMs": 19.8841,
+              "maxErrorMs": 20.7146,
+              "meanErrorMs": 6.3795
+            },
+            {
+              "detected": 54,
+              "annotated": 41,
+              "matched": 30,
+              "unmatchedHeads": 24,
+              "missedReferences": 11,
+              "precision": 0.5556,
+              "recall": 0.7317,
+              "f1": 0.6316,
+              "signedMedianMs": 3.9248,
+              "medianErrorMs": 5.3183,
+              "p90ErrorMs": 20.7146,
+              "p95ErrorMs": 46.9453,
+              "maxErrorMs": 49.3761,
+              "meanErrorMs": 9.9815
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 10,
+              "annotated": 36,
+              "matched": 0,
+              "unmatchedHeads": 10,
+              "missedReferences": 36,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 10,
+              "annotated": 36,
+              "matched": 2,
+              "unmatchedHeads": 8,
+              "missedReferences": 34,
+              "precision": 0.2,
+              "recall": 0.0556,
+              "f1": 0.087,
+              "signedMedianMs": -31.5286,
+              "medianErrorMs": 31.5286,
+              "p90ErrorMs": 40.3567,
+              "p95ErrorMs": 40.3567,
+              "maxErrorMs": 40.3567,
+              "meanErrorMs": 35.9426
+            }
+          ],
+          "individual": [
+            {
+              "detected": 10,
+              "annotated": 41,
+              "matched": 0,
+              "unmatchedHeads": 10,
+              "missedReferences": 41,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 10,
+              "annotated": 41,
+              "matched": 2,
+              "unmatchedHeads": 8,
+              "missedReferences": 39,
+              "precision": 0.2,
+              "recall": 0.0488,
+              "f1": 0.0784,
+              "signedMedianMs": -25.1868,
+              "medianErrorMs": 25.1868,
+              "p90ErrorMs": 43.1493,
+              "p95ErrorMs": 43.1493,
+              "maxErrorMs": 43.1493,
+              "meanErrorMs": 34.168
+            }
+          ]
+        },
+        "v1": {
+          "consensus": [
+            {
+              "detected": 43,
+              "annotated": 36,
+              "matched": 16,
+              "unmatchedHeads": 27,
+              "missedReferences": 20,
+              "precision": 0.3721,
+              "recall": 0.4444,
+              "f1": 0.4051,
+              "signedMedianMs": -1.8207,
+              "medianErrorMs": 7.4326,
+              "p90ErrorMs": 20.5066,
+              "p95ErrorMs": 21.8466,
+              "maxErrorMs": 21.8466,
+              "meanErrorMs": 8.9579
+            },
+            {
+              "detected": 43,
+              "annotated": 36,
+              "matched": 22,
+              "unmatchedHeads": 21,
+              "missedReferences": 14,
+              "precision": 0.5116,
+              "recall": 0.6111,
+              "f1": 0.557,
+              "signedMedianMs": 0.2742,
+              "medianErrorMs": 11.6433,
+              "p90ErrorMs": 43.3418,
+              "p95ErrorMs": 46.2003,
+              "maxErrorMs": 46.5787,
+              "meanErrorMs": 16.9961
+            }
+          ],
+          "individual": [
+            {
+              "detected": 43,
+              "annotated": 41,
+              "matched": 16,
+              "unmatchedHeads": 27,
+              "missedReferences": 25,
+              "precision": 0.3721,
+              "recall": 0.3902,
+              "f1": 0.381,
+              "signedMedianMs": -7.6521,
+              "medianErrorMs": 10.0278,
+              "p90ErrorMs": 20.9264,
+              "p95ErrorMs": 24.7591,
+              "maxErrorMs": 24.7591,
+              "meanErrorMs": 11.2591
+            },
+            {
+              "detected": 43,
+              "annotated": 41,
+              "matched": 21,
+              "unmatchedHeads": 22,
+              "missedReferences": 20,
+              "precision": 0.4884,
+              "recall": 0.5122,
+              "f1": 0.5,
+              "signedMedianMs": -7.176,
+              "medianErrorMs": 12.6097,
+              "p90ErrorMs": 39.1642,
+              "p95ErrorMs": 39.5234,
+              "maxErrorMs": 43.7945,
+              "meanErrorMs": 17.53
+            }
+          ]
+        },
+        "v2": {
+          "consensus": [
+            {
+              "detected": 69,
+              "annotated": 36,
+              "matched": 13,
+              "unmatchedHeads": 56,
+              "missedReferences": 23,
+              "precision": 0.1884,
+              "recall": 0.3611,
+              "f1": 0.2476,
+              "signedMedianMs": 6.5477,
+              "medianErrorMs": 10.611,
+              "p90ErrorMs": 23.789,
+              "p95ErrorMs": 24.5842,
+              "maxErrorMs": 24.5842,
+              "meanErrorMs": 12.9916
+            },
+            {
+              "detected": 69,
+              "annotated": 36,
+              "matched": 22,
+              "unmatchedHeads": 47,
+              "missedReferences": 14,
+              "precision": 0.3188,
+              "recall": 0.6111,
+              "f1": 0.419,
+              "signedMedianMs": 6.5477,
+              "medianErrorMs": 18.8466,
+              "p90ErrorMs": 42.1793,
+              "p95ErrorMs": 43.8915,
+              "maxErrorMs": 47.3147,
+              "meanErrorMs": 23.1207
+            }
+          ],
+          "individual": [
+            {
+              "detected": 69,
+              "annotated": 41,
+              "matched": 13,
+              "unmatchedHeads": 56,
+              "missedReferences": 28,
+              "precision": 0.1884,
+              "recall": 0.3171,
+              "f1": 0.2364,
+              "signedMedianMs": 6.9264,
+              "medianErrorMs": 10.3903,
+              "p90ErrorMs": 21.2055,
+              "p95ErrorMs": 23.1972,
+              "maxErrorMs": 23.1972,
+              "meanErrorMs": 11.8305
+            },
+            {
+              "detected": 69,
+              "annotated": 41,
+              "matched": 23,
+              "unmatchedHeads": 46,
+              "missedReferences": 18,
+              "precision": 0.3333,
+              "recall": 0.561,
+              "f1": 0.4182,
+              "signedMedianMs": 7.0791,
+              "medianErrorMs": 21.2055,
+              "p90ErrorMs": 41.6282,
+              "p95ErrorMs": 45.4084,
+              "maxErrorMs": 49.1728,
+              "meanErrorMs": 22.7965
+            }
+          ]
+        },
+        "spectralChart": {
+          "consensus": [
+            {
+              "detected": 38,
+              "annotated": 36,
+              "matched": 28,
+              "unmatchedHeads": 10,
+              "missedReferences": 8,
+              "precision": 0.7368,
+              "recall": 0.7778,
+              "f1": 0.7568,
+              "signedMedianMs": 5.321,
+              "medianErrorMs": 6.1534,
+              "p90ErrorMs": 17.6853,
+              "p95ErrorMs": 21.8937,
+              "maxErrorMs": 22.928,
+              "meanErrorMs": 8.1022
+            },
+            {
+              "detected": 38,
+              "annotated": 36,
+              "matched": 31,
+              "unmatchedHeads": 7,
+              "missedReferences": 5,
+              "precision": 0.8158,
+              "recall": 0.8611,
+              "f1": 0.8378,
+              "signedMedianMs": 5.321,
+              "medianErrorMs": 7.0937,
+              "p90ErrorMs": 22.928,
+              "p95ErrorMs": 35.1854,
+              "maxErrorMs": 35.9844,
+              "meanErrorMs": 10.631
+            }
+          ],
+          "individual": [
+            {
+              "detected": 38,
+              "annotated": 41,
+              "matched": 28,
+              "unmatchedHeads": 10,
+              "missedReferences": 13,
+              "precision": 0.7368,
+              "recall": 0.6829,
+              "f1": 0.7089,
+              "signedMedianMs": 3.1642,
+              "medianErrorMs": 5.2049,
+              "p90ErrorMs": 19.5916,
+              "p95ErrorMs": 21.1727,
+              "maxErrorMs": 22.7459,
+              "meanErrorMs": 7.3598
+            },
+            {
+              "detected": 38,
+              "annotated": 41,
+              "matched": 32,
+              "unmatchedHeads": 6,
+              "missedReferences": 9,
+              "precision": 0.8421,
+              "recall": 0.7805,
+              "f1": 0.8101,
+              "signedMedianMs": 3.4753,
+              "medianErrorMs": 8.1972,
+              "p90ErrorMs": 25.1868,
+              "p95ErrorMs": 47.0791,
+              "maxErrorMs": 48.9929,
+              "meanErrorMs": 11.2024
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 44,
+              "annotated": 36,
+              "matched": 27,
+              "unmatchedHeads": 17,
+              "missedReferences": 9,
+              "precision": 0.6136,
+              "recall": 0.75,
+              "f1": 0.675,
+              "signedMedianMs": 5.321,
+              "medianErrorMs": 5.7386,
+              "p90ErrorMs": 17.6853,
+              "p95ErrorMs": 21.8937,
+              "maxErrorMs": 22.928,
+              "meanErrorMs": 7.9266
+            },
+            {
+              "detected": 44,
+              "annotated": 36,
+              "matched": 29,
+              "unmatchedHeads": 15,
+              "missedReferences": 7,
+              "precision": 0.6591,
+              "recall": 0.8056,
+              "f1": 0.725,
+              "signedMedianMs": 5.321,
+              "medianErrorMs": 7.0937,
+              "p90ErrorMs": 22.928,
+              "p95ErrorMs": 28.2003,
+              "maxErrorMs": 35.1854,
+              "meanErrorMs": 9.5657
+            }
+          ],
+          "individual": [
+            {
+              "detected": 44,
+              "annotated": 41,
+              "matched": 26,
+              "unmatchedHeads": 18,
+              "missedReferences": 15,
+              "precision": 0.5909,
+              "recall": 0.6341,
+              "f1": 0.6118,
+              "signedMedianMs": 3.1642,
+              "medianErrorMs": 3.4753,
+              "p90ErrorMs": 15.5766,
+              "p95ErrorMs": 19.5916,
+              "maxErrorMs": 21.1727,
+              "meanErrorMs": 6.3921
+            },
+            {
+              "detected": 44,
+              "annotated": 41,
+              "matched": 30,
+              "unmatchedHeads": 14,
+              "missedReferences": 11,
+              "precision": 0.6818,
+              "recall": 0.7317,
+              "f1": 0.7059,
+              "signedMedianMs": 3.4753,
+              "medianErrorMs": 5.2049,
+              "p90ErrorMs": 25.7945,
+              "p95ErrorMs": 47.0791,
+              "maxErrorMs": 48.9929,
+              "meanErrorMs": 10.6401
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 44,
+              "annotated": 36,
+              "matched": 27,
+              "unmatchedHeads": 17,
+              "missedReferences": 9,
+              "precision": 0.6136,
+              "recall": 0.75,
+              "f1": 0.675,
+              "signedMedianMs": 5.321,
+              "medianErrorMs": 5.7386,
+              "p90ErrorMs": 17.6853,
+              "p95ErrorMs": 21.8937,
+              "maxErrorMs": 22.928,
+              "meanErrorMs": 7.9266
+            },
+            {
+              "detected": 44,
+              "annotated": 36,
+              "matched": 29,
+              "unmatchedHeads": 15,
+              "missedReferences": 7,
+              "precision": 0.6591,
+              "recall": 0.8056,
+              "f1": 0.725,
+              "signedMedianMs": 5.321,
+              "medianErrorMs": 7.0937,
+              "p90ErrorMs": 22.928,
+              "p95ErrorMs": 28.2003,
+              "maxErrorMs": 35.1854,
+              "meanErrorMs": 9.5657
+            }
+          ],
+          "individual": [
+            {
+              "detected": 44,
+              "annotated": 41,
+              "matched": 26,
+              "unmatchedHeads": 18,
+              "missedReferences": 15,
+              "precision": 0.5909,
+              "recall": 0.6341,
+              "f1": 0.6118,
+              "signedMedianMs": 3.1642,
+              "medianErrorMs": 3.4753,
+              "p90ErrorMs": 15.5766,
+              "p95ErrorMs": 19.5916,
+              "maxErrorMs": 21.1727,
+              "meanErrorMs": 6.3921
+            },
+            {
+              "detected": 44,
+              "annotated": 41,
+              "matched": 30,
+              "unmatchedHeads": 14,
+              "missedReferences": 11,
+              "precision": 0.6818,
+              "recall": 0.7317,
+              "f1": 0.7059,
+              "signedMedianMs": 3.4753,
+              "medianErrorMs": 5.2049,
+              "p90ErrorMs": 25.7945,
+              "p95ErrorMs": 47.0791,
+              "maxErrorMs": 48.9929,
+              "meanErrorMs": 10.6401
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 1,
+              "annotated": 36,
+              "matched": 0,
+              "unmatchedHeads": 1,
+              "missedReferences": 36,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 1,
+              "annotated": 36,
+              "matched": 0,
+              "unmatchedHeads": 1,
+              "missedReferences": 36,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 1,
+              "annotated": 41,
+              "matched": 0,
+              "unmatchedHeads": 1,
+              "missedReferences": 41,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 1,
+              "annotated": 41,
+              "matched": 0,
+              "unmatchedHeads": 1,
+              "missedReferences": 41,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 36,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 36,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 36,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 36,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 41,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 41,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 41,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 41,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "piano1",
+      "audioSha256": "50236d1ad7527afe9b1afec75e298f0075fae4ee4139cd88dc7274b9c471f592",
+      "consensusSha256": "e5ce7858793845b26ac71e0083259d67718233d0d1bcedcd5346e71b4ddc8164",
+      "individualSha256": "89cde0fa0cacc3a29e8d34f99b6e0f901b3b607ae96def24533baeb031e223e5",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 33,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 14,
+              "missedReferences": 0,
+              "precision": 0.5758,
+              "recall": 1,
+              "f1": 0.7308,
+              "signedMedianMs": 4.0191,
+              "medianErrorMs": 4.0191,
+              "p90ErrorMs": 18.4169,
+              "p95ErrorMs": 19.7836,
+              "maxErrorMs": 19.7836,
+              "meanErrorMs": 5.6811
+            },
+            {
+              "detected": 33,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 14,
+              "missedReferences": 0,
+              "precision": 0.5758,
+              "recall": 1,
+              "f1": 0.7308,
+              "signedMedianMs": 4.0191,
+              "medianErrorMs": 4.0191,
+              "p90ErrorMs": 18.4169,
+              "p95ErrorMs": 19.7836,
+              "maxErrorMs": 19.7836,
+              "meanErrorMs": 5.6811
+            }
+          ],
+          "individual": [
+            {
+              "detected": 33,
+              "annotated": 20,
+              "matched": 18,
+              "unmatchedHeads": 15,
+              "missedReferences": 2,
+              "precision": 0.5455,
+              "recall": 0.9,
+              "f1": 0.6792,
+              "signedMedianMs": 5.0725,
+              "medianErrorMs": 5.0725,
+              "p90ErrorMs": 10.0179,
+              "p95ErrorMs": 11.5015,
+              "maxErrorMs": 11.5015,
+              "meanErrorMs": 5.3984
+            },
+            {
+              "detected": 33,
+              "annotated": 20,
+              "matched": 19,
+              "unmatchedHeads": 14,
+              "missedReferences": 1,
+              "precision": 0.5758,
+              "recall": 0.95,
+              "f1": 0.717,
+              "signedMedianMs": 5.3916,
+              "medianErrorMs": 5.3916,
+              "p90ErrorMs": 11.5015,
+              "p95ErrorMs": 38.501,
+              "maxErrorMs": 38.501,
+              "meanErrorMs": 7.1406
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 19,
+              "annotated": 19,
+              "matched": 0,
+              "unmatchedHeads": 19,
+              "missedReferences": 19,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 19,
+              "annotated": 19,
+              "matched": 1,
+              "unmatchedHeads": 18,
+              "missedReferences": 18,
+              "precision": 0.0526,
+              "recall": 0.0526,
+              "f1": 0.0526,
+              "signedMedianMs": 44.7579,
+              "medianErrorMs": 44.7579,
+              "p90ErrorMs": 44.7579,
+              "p95ErrorMs": 44.7579,
+              "maxErrorMs": 44.7579,
+              "meanErrorMs": 44.7579
+            }
+          ],
+          "individual": [
+            {
+              "detected": 19,
+              "annotated": 20,
+              "matched": 0,
+              "unmatchedHeads": 19,
+              "missedReferences": 20,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 19,
+              "annotated": 20,
+              "matched": 1,
+              "unmatchedHeads": 18,
+              "missedReferences": 19,
+              "precision": 0.0526,
+              "recall": 0.05,
+              "f1": 0.0513,
+              "signedMedianMs": 47.5821,
+              "medianErrorMs": 47.5821,
+              "p90ErrorMs": 47.5821,
+              "p95ErrorMs": 47.5821,
+              "maxErrorMs": 47.5821,
+              "meanErrorMs": 47.5821
+            }
+          ]
+        },
+        "v1": {
+          "consensus": [
+            {
+              "detected": 29,
+              "annotated": 19,
+              "matched": 12,
+              "unmatchedHeads": 17,
+              "missedReferences": 7,
+              "precision": 0.4138,
+              "recall": 0.6316,
+              "f1": 0.5,
+              "signedMedianMs": 0.2664,
+              "medianErrorMs": 9.0225,
+              "p90ErrorMs": 19.4092,
+              "p95ErrorMs": 23.5891,
+              "maxErrorMs": 23.5891,
+              "meanErrorMs": 10.4767
+            },
+            {
+              "detected": 29,
+              "annotated": 19,
+              "matched": 12,
+              "unmatchedHeads": 17,
+              "missedReferences": 7,
+              "precision": 0.4138,
+              "recall": 0.6316,
+              "f1": 0.5,
+              "signedMedianMs": 0.2664,
+              "medianErrorMs": 9.0225,
+              "p90ErrorMs": 19.4092,
+              "p95ErrorMs": 23.5891,
+              "maxErrorMs": 23.5891,
+              "meanErrorMs": 10.4767
+            }
+          ],
+          "individual": [
+            {
+              "detected": 29,
+              "annotated": 20,
+              "matched": 10,
+              "unmatchedHeads": 19,
+              "missedReferences": 10,
+              "precision": 0.3448,
+              "recall": 0.5,
+              "f1": 0.4082,
+              "signedMedianMs": -5.6271,
+              "medianErrorMs": 7.0364,
+              "p90ErrorMs": 15.5987,
+              "p95ErrorMs": 24.6814,
+              "maxErrorMs": 24.6814,
+              "meanErrorMs": 9.8291
+            },
+            {
+              "detected": 29,
+              "annotated": 20,
+              "matched": 13,
+              "unmatchedHeads": 16,
+              "missedReferences": 7,
+              "precision": 0.4483,
+              "recall": 0.65,
+              "f1": 0.5306,
+              "signedMedianMs": 5.2133,
+              "medianErrorMs": 8.975,
+              "p90ErrorMs": 28.2945,
+              "p95ErrorMs": 31.4624,
+              "maxErrorMs": 31.4624,
+              "meanErrorMs": 14.112
+            }
+          ]
+        },
+        "v2": {
+          "consensus": [
+            {
+              "detected": 49,
+              "annotated": 19,
+              "matched": 8,
+              "unmatchedHeads": 41,
+              "missedReferences": 11,
+              "precision": 0.1633,
+              "recall": 0.4211,
+              "f1": 0.2353,
+              "signedMedianMs": 3.5891,
+              "medianErrorMs": 8.2869,
+              "p90ErrorMs": 23.2421,
+              "p95ErrorMs": 23.2421,
+              "maxErrorMs": 23.2421,
+              "meanErrorMs": 10.4863
+            },
+            {
+              "detected": 49,
+              "annotated": 19,
+              "matched": 13,
+              "unmatchedHeads": 36,
+              "missedReferences": 6,
+              "precision": 0.2653,
+              "recall": 0.6842,
+              "f1": 0.3824,
+              "signedMedianMs": 8.2869,
+              "medianErrorMs": 22.1521,
+              "p90ErrorMs": 41.0347,
+              "p95ErrorMs": 46.5269,
+              "maxErrorMs": 46.5269,
+              "meanErrorMs": 22.2305
+            }
+          ],
+          "individual": [
+            {
+              "detected": 49,
+              "annotated": 20,
+              "matched": 8,
+              "unmatchedHeads": 41,
+              "missedReferences": 12,
+              "precision": 0.1633,
+              "recall": 0.4,
+              "f1": 0.2319,
+              "signedMedianMs": 4.6814,
+              "medianErrorMs": 8.2945,
+              "p90ErrorMs": 20.4179,
+              "p95ErrorMs": 20.4179,
+              "maxErrorMs": 20.4179,
+              "meanErrorMs": 9.4786
+            },
+            {
+              "detected": 49,
+              "annotated": 20,
+              "matched": 13,
+              "unmatchedHeads": 36,
+              "missedReferences": 7,
+              "precision": 0.2653,
+              "recall": 0.65,
+              "f1": 0.3768,
+              "signedMedianMs": 10.2302,
+              "medianErrorMs": 11.0817,
+              "p90ErrorMs": 43.5702,
+              "p95ErrorMs": 47.5987,
+              "maxErrorMs": 47.5987,
+              "meanErrorMs": 21.1149
+            }
+          ]
+        },
+        "spectralChart": {
+          "consensus": [
+            {
+              "detected": 31,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 12,
+              "missedReferences": 0,
+              "precision": 0.6129,
+              "recall": 1,
+              "f1": 0.76,
+              "signedMedianMs": 4.3911,
+              "medianErrorMs": 4.3911,
+              "p90ErrorMs": 18.2808,
+              "p95ErrorMs": 19.745,
+              "maxErrorMs": 19.745,
+              "meanErrorMs": 5.737
+            },
+            {
+              "detected": 31,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 12,
+              "missedReferences": 0,
+              "precision": 0.6129,
+              "recall": 1,
+              "f1": 0.76,
+              "signedMedianMs": 4.3911,
+              "medianErrorMs": 4.3911,
+              "p90ErrorMs": 18.2808,
+              "p95ErrorMs": 19.745,
+              "maxErrorMs": 19.745,
+              "meanErrorMs": 5.737
+            }
+          ],
+          "individual": [
+            {
+              "detected": 31,
+              "annotated": 20,
+              "matched": 18,
+              "unmatchedHeads": 13,
+              "missedReferences": 2,
+              "precision": 0.5806,
+              "recall": 0.9,
+              "f1": 0.7059,
+              "signedMedianMs": 5.1768,
+              "medianErrorMs": 5.1768,
+              "p90ErrorMs": 10.4079,
+              "p95ErrorMs": 11.3654,
+              "maxErrorMs": 11.3654,
+              "meanErrorMs": 5.5101
+            },
+            {
+              "detected": 31,
+              "annotated": 20,
+              "matched": 19,
+              "unmatchedHeads": 12,
+              "missedReferences": 1,
+              "precision": 0.6129,
+              "recall": 0.95,
+              "f1": 0.7451,
+              "signedMedianMs": 5.6433,
+              "medianErrorMs": 5.6433,
+              "p90ErrorMs": 11.3654,
+              "p95ErrorMs": 38.4624,
+              "maxErrorMs": 38.4624,
+              "meanErrorMs": 7.2445
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 28,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 9,
+              "missedReferences": 0,
+              "precision": 0.6786,
+              "recall": 1,
+              "f1": 0.8085,
+              "signedMedianMs": 4.3911,
+              "medianErrorMs": 4.3911,
+              "p90ErrorMs": 18.2808,
+              "p95ErrorMs": 19.745,
+              "maxErrorMs": 19.745,
+              "meanErrorMs": 5.737
+            },
+            {
+              "detected": 28,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 9,
+              "missedReferences": 0,
+              "precision": 0.6786,
+              "recall": 1,
+              "f1": 0.8085,
+              "signedMedianMs": 4.3911,
+              "medianErrorMs": 4.3911,
+              "p90ErrorMs": 18.2808,
+              "p95ErrorMs": 19.745,
+              "maxErrorMs": 19.745,
+              "meanErrorMs": 5.737
+            }
+          ],
+          "individual": [
+            {
+              "detected": 28,
+              "annotated": 20,
+              "matched": 18,
+              "unmatchedHeads": 10,
+              "missedReferences": 2,
+              "precision": 0.6429,
+              "recall": 0.9,
+              "f1": 0.75,
+              "signedMedianMs": 5.1768,
+              "medianErrorMs": 5.1768,
+              "p90ErrorMs": 10.4079,
+              "p95ErrorMs": 11.3654,
+              "maxErrorMs": 11.3654,
+              "meanErrorMs": 5.5101
+            },
+            {
+              "detected": 28,
+              "annotated": 20,
+              "matched": 19,
+              "unmatchedHeads": 9,
+              "missedReferences": 1,
+              "precision": 0.6786,
+              "recall": 0.95,
+              "f1": 0.7917,
+              "signedMedianMs": 5.6433,
+              "medianErrorMs": 5.6433,
+              "p90ErrorMs": 11.3654,
+              "p95ErrorMs": 38.4624,
+              "maxErrorMs": 38.4624,
+              "meanErrorMs": 7.2445
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 28,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 9,
+              "missedReferences": 0,
+              "precision": 0.6786,
+              "recall": 1,
+              "f1": 0.8085,
+              "signedMedianMs": 4.3911,
+              "medianErrorMs": 4.3911,
+              "p90ErrorMs": 18.2808,
+              "p95ErrorMs": 19.745,
+              "maxErrorMs": 19.745,
+              "meanErrorMs": 5.737
+            },
+            {
+              "detected": 28,
+              "annotated": 19,
+              "matched": 19,
+              "unmatchedHeads": 9,
+              "missedReferences": 0,
+              "precision": 0.6786,
+              "recall": 1,
+              "f1": 0.8085,
+              "signedMedianMs": 4.3911,
+              "medianErrorMs": 4.3911,
+              "p90ErrorMs": 18.2808,
+              "p95ErrorMs": 19.745,
+              "maxErrorMs": 19.745,
+              "meanErrorMs": 5.737
+            }
+          ],
+          "individual": [
+            {
+              "detected": 28,
+              "annotated": 20,
+              "matched": 18,
+              "unmatchedHeads": 10,
+              "missedReferences": 2,
+              "precision": 0.6429,
+              "recall": 0.9,
+              "f1": 0.75,
+              "signedMedianMs": 5.1768,
+              "medianErrorMs": 5.1768,
+              "p90ErrorMs": 10.4079,
+              "p95ErrorMs": 11.3654,
+              "maxErrorMs": 11.3654,
+              "meanErrorMs": 5.5101
+            },
+            {
+              "detected": 28,
+              "annotated": 20,
+              "matched": 19,
+              "unmatchedHeads": 9,
+              "missedReferences": 1,
+              "precision": 0.6786,
+              "recall": 0.95,
+              "f1": 0.7917,
+              "signedMedianMs": 5.6433,
+              "medianErrorMs": 5.6433,
+              "p90ErrorMs": 11.3654,
+              "p95ErrorMs": 38.4624,
+              "maxErrorMs": 38.4624,
+              "meanErrorMs": 7.2445
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 19,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 19,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 19,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 19,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 20,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 20,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 20,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 20,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 19,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 19,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 19,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 19,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 20,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 20,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 20,
+              "matched": 0,
+              "unmatchedHeads": 0,
+              "missedReferences": 20,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "violin2",
+      "audioSha256": "2f918e89ea3ba52b674c6598c4e0ef2076bd232168e0fee2199a7ea5506d2e81",
+      "consensusSha256": "5da938f27d33d05b55266db32d6abbeb868b8aa8096d781ee8346daf2f6fd272",
+      "individualSha256": "2d71759ab1e10d90546e6b799644d3c34ac450ef867f8af52faa01b9a1e7c225",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 44,
+              "annotated": 73,
+              "matched": 23,
+              "unmatchedHeads": 21,
+              "missedReferences": 50,
+              "precision": 0.5227,
+              "recall": 0.3151,
+              "f1": 0.3932,
+              "signedMedianMs": 8.4225,
+              "medianErrorMs": 8.7265,
+              "p90ErrorMs": 21.4844,
+              "p95ErrorMs": 21.7862,
+              "maxErrorMs": 23.626,
+              "meanErrorMs": 10.2471
+            },
+            {
+              "detected": 44,
+              "annotated": 73,
+              "matched": 31,
+              "unmatchedHeads": 13,
+              "missedReferences": 42,
+              "precision": 0.7045,
+              "recall": 0.4247,
+              "f1": 0.5299,
+              "signedMedianMs": 14.9996,
+              "medianErrorMs": 14.9996,
+              "p90ErrorMs": 43.6641,
+              "p95ErrorMs": 46.5142,
+              "maxErrorMs": 48.5899,
+              "meanErrorMs": 17.2197
+            }
+          ],
+          "individual": [
+            {
+              "detected": 44,
+              "annotated": 79,
+              "matched": 23,
+              "unmatchedHeads": 21,
+              "missedReferences": 56,
+              "precision": 0.5227,
+              "recall": 0.2911,
+              "f1": 0.374,
+              "signedMedianMs": 5.8949,
+              "medianErrorMs": 7.009,
+              "p90ErrorMs": 23.2129,
+              "p95ErrorMs": 24.0237,
+              "maxErrorMs": 24.2276,
+              "meanErrorMs": 9.729
+            },
+            {
+              "detected": 44,
+              "annotated": 79,
+              "matched": 33,
+              "unmatchedHeads": 11,
+              "missedReferences": 46,
+              "precision": 0.75,
+              "recall": 0.4177,
+              "f1": 0.5366,
+              "signedMedianMs": 9.271,
+              "medianErrorMs": 13.8381,
+              "p90ErrorMs": 32.9676,
+              "p95ErrorMs": 45.2994,
+              "maxErrorMs": 46.0973,
+              "meanErrorMs": 16.8923
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 2,
+              "annotated": 73,
+              "matched": 0,
+              "unmatchedHeads": 2,
+              "missedReferences": 73,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 2,
+              "annotated": 73,
+              "matched": 1,
+              "unmatchedHeads": 1,
+              "missedReferences": 72,
+              "precision": 0.5,
+              "recall": 0.0137,
+              "f1": 0.0267,
+              "signedMedianMs": 41.4931,
+              "medianErrorMs": 41.4931,
+              "p90ErrorMs": 41.4931,
+              "p95ErrorMs": 41.4931,
+              "maxErrorMs": 41.4931,
+              "meanErrorMs": 41.4931
+            }
+          ],
+          "individual": [
+            {
+              "detected": 2,
+              "annotated": 79,
+              "matched": 0,
+              "unmatchedHeads": 2,
+              "missedReferences": 79,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 2,
+              "annotated": 79,
+              "matched": 1,
+              "unmatchedHeads": 1,
+              "missedReferences": 78,
+              "precision": 0.5,
+              "recall": 0.0127,
+              "f1": 0.0247,
+              "signedMedianMs": 36.1801,
+              "medianErrorMs": 36.1801,
+              "p90ErrorMs": 36.1801,
+              "p95ErrorMs": 36.1801,
+              "maxErrorMs": 36.1801,
+              "meanErrorMs": 36.1801
+            }
+          ]
+        },
+        "v1": {
+          "consensus": [
+            {
+              "detected": 56,
+              "annotated": 73,
+              "matched": 18,
+              "unmatchedHeads": 38,
+              "missedReferences": 55,
+              "precision": 0.3214,
+              "recall": 0.2466,
+              "f1": 0.2791,
+              "signedMedianMs": 5.1809,
+              "medianErrorMs": 12.317,
+              "p90ErrorMs": 21.4931,
+              "p95ErrorMs": 21.7537,
+              "maxErrorMs": 21.7537,
+              "meanErrorMs": 12.16
+            },
+            {
+              "detected": 56,
+              "annotated": 73,
+              "matched": 39,
+              "unmatchedHeads": 17,
+              "missedReferences": 34,
+              "precision": 0.6964,
+              "recall": 0.5342,
+              "f1": 0.6047,
+              "signedMedianMs": 27.7392,
+              "medianErrorMs": 27.7392,
+              "p90ErrorMs": 40.7222,
+              "p95ErrorMs": 47.7361,
+              "maxErrorMs": 47.9293,
+              "meanErrorMs": 24.8101
+            }
+          ],
+          "individual": [
+            {
+              "detected": 56,
+              "annotated": 79,
+              "matched": 21,
+              "unmatchedHeads": 35,
+              "missedReferences": 58,
+              "precision": 0.375,
+              "recall": 0.2658,
+              "f1": 0.3111,
+              "signedMedianMs": 6.9029,
+              "medianErrorMs": 11.8446,
+              "p90ErrorMs": 20.1465,
+              "p95ErrorMs": 20.1529,
+              "maxErrorMs": 22.8715,
+              "meanErrorMs": 11.3642
+            },
+            {
+              "detected": 56,
+              "annotated": 79,
+              "matched": 41,
+              "unmatchedHeads": 15,
+              "missedReferences": 38,
+              "precision": 0.7321,
+              "recall": 0.519,
+              "f1": 0.6074,
+              "signedMedianMs": 22.8715,
+              "medianErrorMs": 22.8715,
+              "p90ErrorMs": 40.8996,
+              "p95ErrorMs": 42.9637,
+              "maxErrorMs": 48.9302,
+              "meanErrorMs": 23.9804
+            }
+          ]
+        },
+        "v2": {
+          "consensus": [
+            {
+              "detected": 84,
+              "annotated": 73,
+              "matched": 28,
+              "unmatchedHeads": 56,
+              "missedReferences": 45,
+              "precision": 0.3333,
+              "recall": 0.3836,
+              "f1": 0.3567,
+              "signedMedianMs": 1.1837,
+              "medianErrorMs": 16.8941,
+              "p90ErrorMs": 23.524,
+              "p95ErrorMs": 24.7269,
+              "maxErrorMs": 24.8153,
+              "meanErrorMs": 14.1943
+            },
+            {
+              "detected": 84,
+              "annotated": 73,
+              "matched": 49,
+              "unmatchedHeads": 35,
+              "missedReferences": 24,
+              "precision": 0.5833,
+              "recall": 0.6712,
+              "f1": 0.6242,
+              "signedMedianMs": 9.1062,
+              "medianErrorMs": 22.9178,
+              "p90ErrorMs": 44.8387,
+              "p95ErrorMs": 45.6774,
+              "maxErrorMs": 49.7361,
+              "meanErrorMs": 23.7049
+            }
+          ],
+          "individual": [
+            {
+              "detected": 84,
+              "annotated": 79,
+              "matched": 29,
+              "unmatchedHeads": 55,
+              "missedReferences": 50,
+              "precision": 0.3452,
+              "recall": 0.3671,
+              "f1": 0.3558,
+              "signedMedianMs": 1.6706,
+              "medianErrorMs": 15.9143,
+              "p90ErrorMs": 24.1072,
+              "p95ErrorMs": 24.2607,
+              "maxErrorMs": 24.4139,
+              "meanErrorMs": 13.6095
+            },
+            {
+              "detected": 84,
+              "annotated": 79,
+              "matched": 50,
+              "unmatchedHeads": 34,
+              "missedReferences": 29,
+              "precision": 0.5952,
+              "recall": 0.6329,
+              "f1": 0.6135,
+              "signedMedianMs": 8.0578,
+              "medianErrorMs": 23.6182,
+              "p90ErrorMs": 43.5939,
+              "p95ErrorMs": 49.0698,
+              "maxErrorMs": 49.6866,
+              "meanErrorMs": 23.5582
+            }
+          ]
+        },
+        "spectralChart": {
+          "consensus": [
+            {
+              "detected": 49,
+              "annotated": 73,
+              "matched": 38,
+              "unmatchedHeads": 11,
+              "missedReferences": 35,
+              "precision": 0.7755,
+              "recall": 0.5205,
+              "f1": 0.623,
+              "signedMedianMs": 7.6774,
+              "medianErrorMs": 7.6774,
+              "p90ErrorMs": 20.3651,
+              "p95ErrorMs": 21.303,
+              "maxErrorMs": 23.524,
+              "meanErrorMs": 9.207
+            },
+            {
+              "detected": 49,
+              "annotated": 73,
+              "matched": 44,
+              "unmatchedHeads": 5,
+              "missedReferences": 29,
+              "precision": 0.898,
+              "recall": 0.6027,
+              "f1": 0.7213,
+              "signedMedianMs": 8.5914,
+              "medianErrorMs": 8.5914,
+              "p90ErrorMs": 27.0081,
+              "p95ErrorMs": 41.1062,
+              "maxErrorMs": 46.072,
+              "meanErrorMs": 13.0726
+            }
+          ],
+          "individual": [
+            {
+              "detected": 49,
+              "annotated": 79,
+              "matched": 38,
+              "unmatchedHeads": 11,
+              "missedReferences": 41,
+              "precision": 0.7755,
+              "recall": 0.481,
+              "f1": 0.5938,
+              "signedMedianMs": 6.5511,
+              "medianErrorMs": 6.9891,
+              "p90ErrorMs": 21.1465,
+              "p95ErrorMs": 24.0462,
+              "maxErrorMs": 24.5887,
+              "meanErrorMs": 9.0558
+            },
+            {
+              "detected": 49,
+              "annotated": 79,
+              "matched": 46,
+              "unmatchedHeads": 3,
+              "missedReferences": 33,
+              "precision": 0.9388,
+              "recall": 0.5823,
+              "f1": 0.7188,
+              "signedMedianMs": 7.3097,
+              "medianErrorMs": 8.7834,
+              "p90ErrorMs": 32.8996,
+              "p95ErrorMs": 45.6551,
+              "maxErrorMs": 49.0422,
+              "meanErrorMs": 14.0121
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 31,
+              "annotated": 73,
+              "matched": 20,
+              "unmatchedHeads": 11,
+              "missedReferences": 53,
+              "precision": 0.6452,
+              "recall": 0.274,
+              "f1": 0.3846,
+              "signedMedianMs": 8.5914,
+              "medianErrorMs": 8.5914,
+              "p90ErrorMs": 21.2941,
+              "p95ErrorMs": 21.303,
+              "maxErrorMs": 23.524,
+              "meanErrorMs": 10.8977
+            },
+            {
+              "detected": 31,
+              "annotated": 73,
+              "matched": 23,
+              "unmatchedHeads": 8,
+              "missedReferences": 50,
+              "precision": 0.7419,
+              "recall": 0.3151,
+              "f1": 0.4423,
+              "signedMedianMs": 12.5941,
+              "medianErrorMs": 12.5941,
+              "p90ErrorMs": 26.6514,
+              "p95ErrorMs": 28.8889,
+              "maxErrorMs": 45.9293,
+              "meanErrorMs": 13.888
+            }
+          ],
+          "individual": [
+            {
+              "detected": 31,
+              "annotated": 79,
+              "matched": 21,
+              "unmatchedHeads": 10,
+              "missedReferences": 58,
+              "precision": 0.6774,
+              "recall": 0.2658,
+              "f1": 0.3818,
+              "signedMedianMs": 6.8799,
+              "medianErrorMs": 8.8715,
+              "p90ErrorMs": 24.0462,
+              "p95ErrorMs": 24.4614,
+              "maxErrorMs": 24.5887,
+              "meanErrorMs": 11.5673
+            },
+            {
+              "detected": 31,
+              "annotated": 79,
+              "matched": 25,
+              "unmatchedHeads": 6,
+              "missedReferences": 54,
+              "precision": 0.8065,
+              "recall": 0.3165,
+              "f1": 0.4545,
+              "signedMedianMs": 8.8715,
+              "medianErrorMs": 9.9695,
+              "p90ErrorMs": 30.3606,
+              "p95ErrorMs": 32.8996,
+              "maxErrorMs": 45.669,
+              "meanErrorMs": 15.1303
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 36,
+              "annotated": 73,
+              "matched": 22,
+              "unmatchedHeads": 14,
+              "missedReferences": 51,
+              "precision": 0.6111,
+              "recall": 0.3014,
+              "f1": 0.4037,
+              "signedMedianMs": 8.5914,
+              "medianErrorMs": 8.5914,
+              "p90ErrorMs": 21.2941,
+              "p95ErrorMs": 21.303,
+              "maxErrorMs": 23.524,
+              "meanErrorMs": 10.6496
+            },
+            {
+              "detected": 36,
+              "annotated": 73,
+              "matched": 29,
+              "unmatchedHeads": 7,
+              "missedReferences": 44,
+              "precision": 0.8056,
+              "recall": 0.3973,
+              "f1": 0.5321,
+              "signedMedianMs": 15.0631,
+              "medianErrorMs": 15.0631,
+              "p90ErrorMs": 43.8773,
+              "p95ErrorMs": 45.9293,
+              "maxErrorMs": 46.072,
+              "meanErrorMs": 17.0417
+            }
+          ],
+          "individual": [
+            {
+              "detected": 36,
+              "annotated": 79,
+              "matched": 23,
+              "unmatchedHeads": 13,
+              "missedReferences": 56,
+              "precision": 0.6389,
+              "recall": 0.2911,
+              "f1": 0.4,
+              "signedMedianMs": 6.5895,
+              "medianErrorMs": 7.3097,
+              "p90ErrorMs": 24.0462,
+              "p95ErrorMs": 24.4614,
+              "maxErrorMs": 24.5887,
+              "meanErrorMs": 11.0377
+            },
+            {
+              "detected": 36,
+              "annotated": 79,
+              "matched": 31,
+              "unmatchedHeads": 5,
+              "missedReferences": 48,
+              "precision": 0.8611,
+              "recall": 0.3924,
+              "f1": 0.5391,
+              "signedMedianMs": 9.4841,
+              "medianErrorMs": 13.7202,
+              "p90ErrorMs": 36.1801,
+              "p95ErrorMs": 45.6551,
+              "maxErrorMs": 45.669,
+              "meanErrorMs": 17.4361
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 6,
+              "annotated": 73,
+              "matched": 2,
+              "unmatchedHeads": 4,
+              "missedReferences": 71,
+              "precision": 0.3333,
+              "recall": 0.0274,
+              "f1": 0.0506,
+              "signedMedianMs": 6.7189,
+              "medianErrorMs": 6.7189,
+              "p90ErrorMs": 9.6168,
+              "p95ErrorMs": 9.6168,
+              "maxErrorMs": 9.6168,
+              "meanErrorMs": 8.1678
+            },
+            {
+              "detected": 6,
+              "annotated": 73,
+              "matched": 6,
+              "unmatchedHeads": 0,
+              "missedReferences": 67,
+              "precision": 1,
+              "recall": 0.0822,
+              "f1": 0.1519,
+              "signedMedianMs": 27.0081,
+              "medianErrorMs": 27.0081,
+              "p90ErrorMs": 46.072,
+              "p95ErrorMs": 46.072,
+              "maxErrorMs": 46.072,
+              "meanErrorMs": 29.131
+            }
+          ],
+          "individual": [
+            {
+              "detected": 6,
+              "annotated": 79,
+              "matched": 2,
+              "unmatchedHeads": 4,
+              "missedReferences": 77,
+              "precision": 0.3333,
+              "recall": 0.0253,
+              "f1": 0.0471,
+              "signedMedianMs": 4.6612,
+              "medianErrorMs": 4.6612,
+              "p90ErrorMs": 6.2917,
+              "p95ErrorMs": 6.2917,
+              "maxErrorMs": 6.2917,
+              "meanErrorMs": 5.4765
+            },
+            {
+              "detected": 6,
+              "annotated": 79,
+              "matched": 6,
+              "unmatchedHeads": 0,
+              "missedReferences": 73,
+              "precision": 1,
+              "recall": 0.0759,
+              "f1": 0.1412,
+              "signedMedianMs": 26.4142,
+              "medianErrorMs": 26.4142,
+              "p90ErrorMs": 45.6551,
+              "p95ErrorMs": 45.6551,
+              "maxErrorMs": 45.6551,
+              "meanErrorMs": 27.0436
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 1,
+              "annotated": 73,
+              "matched": 0,
+              "unmatchedHeads": 1,
+              "missedReferences": 73,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 1,
+              "annotated": 73,
+              "matched": 1,
+              "unmatchedHeads": 0,
+              "missedReferences": 72,
+              "precision": 1,
+              "recall": 0.0137,
+              "f1": 0.027,
+              "signedMedianMs": 41.4931,
+              "medianErrorMs": 41.4931,
+              "p90ErrorMs": 41.4931,
+              "p95ErrorMs": 41.4931,
+              "maxErrorMs": 41.4931,
+              "meanErrorMs": 41.4931
+            }
+          ],
+          "individual": [
+            {
+              "detected": 1,
+              "annotated": 79,
+              "matched": 0,
+              "unmatchedHeads": 1,
+              "missedReferences": 79,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "signedMedianMs": null,
+              "medianErrorMs": null,
+              "p90ErrorMs": null,
+              "p95ErrorMs": null,
+              "maxErrorMs": null,
+              "meanErrorMs": null
+            },
+            {
+              "detected": 1,
+              "annotated": 79,
+              "matched": 1,
+              "unmatchedHeads": 0,
+              "missedReferences": 78,
+              "precision": 1,
+              "recall": 0.0127,
+              "f1": 0.025,
+              "signedMedianMs": 36.1801,
+              "medianErrorMs": 36.1801,
+              "p90ErrorMs": 36.1801,
+              "p95ErrorMs": 36.1801,
+              "maxErrorMs": 36.1801,
+              "meanErrorMs": 36.1801
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

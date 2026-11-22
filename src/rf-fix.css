@@ -188,30 +188,34 @@ body.rf-playing{touch-action:none;-webkit-user-select:none;user-select:none;-web
 .rf-gameplay-studio{margin-top:22px;border-color:rgba(127,227,255,.2);background:linear-gradient(145deg,rgba(58,209,255,.07),rgba(128,82,255,.045))}
 .rf-gameplay-studio .settings-control-row{padding-inline:2px}
 .rf-skin-preview{display:block;width:calc(100% - 24px);height:auto;max-height:220px;margin:12px;border:1px solid rgba(255,255,255,.09);border-radius:12px;background:#080a12}
-.rf-watch-intro{position:relative;z-index:3;margin-top:18px;padding:12px 20px;border:1px solid #ff66aa66;border-radius:99px;background:#191321;color:#f8eaf2;font:700 13px 'Nunito',system-ui;cursor:pointer;transition:background .2s,transform .2s}
-.rf-watch-intro:hover{background:#382036;transform:translateY(-2px)}
-.rf-watch-intro:active{transform:translateY(0) scale(.97)}
 #rf-splash{transition:opacity .48s ease,transform .55s cubic-bezier(.22,1,.36,1)}
 #rf-splash.out{transform:scale(1.025)}
-.rf-splash-logo-wrap,.rf-welcome-films{animation:rf-settle .65s cubic-bezier(.22,1,.36,1) both}
-.rf-welcome-films{animation-delay:100ms}
+.rf-splash-logo-wrap{animation:rf-settle .65s cubic-bezier(.22,1,.36,1) both}
 .rf-enter .osu-content{animation:rf-settle .34s cubic-bezier(.22,1,.36,1) both}
 .rf-enter .lz-top{animation:none}
 .rf-enter .lz-card{animation:rf-settle .32s cubic-bezier(.22,1,.36,1) both}
 .rf-enter .lz-card:nth-child(n+4){animation-delay:130ms}
-.rf-intro-dialog[open]{animation:rf-settle .28s cubic-bezier(.22,1,.36,1) both}
 @keyframes rf-settle{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-.rf-reduced-motion :is(#rf-splash,.rf-splash-logo,.rf-tri,.rf-splash-hint,.rf-splash-logo-wrap,.rf-welcome-films,.rf-watch-intro,.rf-intro-dialog,.rf-enter *){animation:none!important;transition:none!important}
-.rf-welcome-films{position:relative;z-index:3;display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:94vw}
-.rf-welcome-films .rf-watch-intro{margin-top:14px}
-.rf-watch-intro:focus-visible,.rf-intro-close:focus-visible{outline:2px solid #7fe3ff;outline-offset:4px}
-.rf-intro-dialog{width:min(960px,94vw);max-height:94dvh;padding:0;border:1px solid #ff66aa55;border-radius:16px;background:#0c0b14;color:white;box-shadow:0 24px 100px #000b;overflow:auto}
-.rf-intro-dialog::backdrop{background:#05040bd9;backdrop-filter:blur(12px)}
-.rf-intro-dialog video{display:block;width:100%;max-height:80dvh;background:#0c0b14}
-.rf-intro-close{display:block;margin:10px 12px 10px auto;padding:8px 14px;border:1px solid #ffffff33;border-radius:8px;background:#211827;color:white;font:700 13px 'Nunito',system-ui;cursor:pointer}
+.rf-reduced-motion :is(#rf-splash,.rf-splash-logo,.rf-tri,.rf-splash-hint,.rf-splash-logo-wrap,.rf-enter *){animation:none!important;transition:none!important}
 .rf-calibration-modal{max-width:480px;text-align:center;overflow:hidden}
 .rf-calibration-modal>small{display:block;margin:10px 0 2px;color:var(--muted,#9aa4b7)}
 .rf-cal-pulse{width:76px;height:76px;margin:4px auto 20px;border-radius:50%;border:2px solid rgba(127,227,255,.45);box-shadow:0 0 0 0 rgba(127,227,255,.32),inset 0 0 20px rgba(127,227,255,.12)}
 .rf-cal-pulse.hit{animation:rf-cal-hit .26s ease-out}
 @keyframes rf-cal-hit{0%{transform:scale(.78);background:#7fe3ff;box-shadow:0 0 0 0 rgba(127,227,255,.6)}100%{transform:scale(1.12);background:transparent;box-shadow:0 0 0 28px rgba(127,227,255,0)}}
 @media(prefers-reduced-motion:reduce){.rf-cal-pulse.hit{animation:none;background:rgba(127,227,255,.45)}}
+
+.lz-autoplay{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:0 0 8px}
+.lz-autoplay label{display:inline-flex;align-items:center;gap:5px}
+.lz-autoplay input{width:64px;margin:0;padding:4px 5px;color:#fff;background:#191927;border:1px solid #595773;border-radius:5px;font:inherit}
+.autoplay-status{position:absolute;top:74px;left:50%;transform:translateX(-50%);z-index:31;padding:4px 8px;color:#d9d2eb;background:#171325;border-radius:5px;font:600 12px system-ui;pointer-events:none;white-space:nowrap}
+.autoplay-result{color:#cbbbe8;font-size:14px}
+@media(max-aspect-ratio:4/5){.autoplay-status{top:104px}}
+.autoplay-status{width:min(310px,calc(100% - 24px));text-align:center}
+.autoplay-seek{display:flex;align-items:center;gap:7px;margin-top:4px;pointer-events:auto}
+.autoplay-seek input{flex:1;min-width:0;margin:0;accent-color:#c6b1ff}
+.autoplay-seek button{padding:3px 7px;font:inherit;color:inherit;background:#33294a;border:1px solid #68577c;border-radius:4px;cursor:pointer}
+.autoplay-seek output{min-width:75px;font-variant-numeric:tabular-nums;text-align:right}
+
+button.lz-rank{width:calc(100% - var(--o));text-align:left;color:#fff;cursor:pointer}
+button.lz-rank:hover{border-color:var(--pink)}
+button.lz-rank:focus-visible{outline:2px solid var(--pink);outline-offset:-2px}

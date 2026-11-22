@@ -265,17 +265,22 @@
 @media(max-width:650px){.gen-mode-picker{gap:10px;padding-top:14px}.gen-mode-heading h3{font-size:17px}.gen-mode-heading p{font-size:10px}.gen-mode-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.gen-mode-option{min-height:136px;padding:10px}.gen-mode-option>strong{font-size:12px}.gen-mode-option>small{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.gen-mode-option,.gen-mode-option::before,.gen-mode-option::after{transition:none}}
 
-/* Generator engine picker — V1 / V2 selector, follows the gen-mode tile conventions */
-.gen-engine-picker{display:flex;align-items:center;gap:9px;padding:10px 0 4px;border-bottom:1px solid rgba(255,255,255,.06)}
-.gen-engine-label{flex:0 0 auto;color:#7c7792;font:800 9px 'DM Mono',monospace;letter-spacing:.16em}
-.gen-engine-option{--accent:#a78bfa;position:relative;display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border:1px solid rgba(230,225,255,.105);border-radius:8px;background:rgba(35,31,54,.65);color:#eeeaf8;cursor:pointer;transition:border-color .18s,background .18s,box-shadow .18s;font:600 12px 'Nunito',sans-serif}
+/* Generator engine picker */
+.gen-engine-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;padding:10px 0 4px;border-bottom:1px solid rgba(255,255,255,.06)}
+.gen-engine-label{grid-column:1/-1;text-transform:uppercase;color:#b0a9c2;font:800 9px 'DM Mono',monospace;letter-spacing:.16em}
+.gen-engine-option{--accent:#a78bfa;display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding:10px 11px;text-align:left;border:1px solid rgba(230,225,255,.105);border-radius:8px;background:rgba(35,31,54,.65);color:#eeeaf8;cursor:pointer;transition:border-color .18s,background .18s,box-shadow .18s;font:600 12px 'Nunito',sans-serif}
 .gen-engine-option svg{width:16px;height:16px;color:var(--accent);flex:0 0 auto}
-.gen-engine-option small{color:#85899d;font:500 9px 'Nunito',sans-serif}
+.gen-engine-title{display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;font-size:13px}
+.gen-engine-option small,.gen-engine-description{color:#bcb7cd;font:500 12px/1.4 'Nunito',system-ui,sans-serif}
+.gen-engine-description{margin-top:3px}
+.gen-engine-badge{padding:2px 6px;border-radius:5px;background:#13313a;color:#b6eef7;font:700 10px/1.4 system-ui,sans-serif}
+[data-engine="v3"] .gen-engine-badge{background:#463217;color:#ffd88a}
 .gen-engine-option:hover{border-color:color-mix(in srgb,var(--accent) 50%,transparent);background:#202032}
 .gen-engine-option.selected{--accent:#67e8f9;border-color:color-mix(in srgb,var(--accent) 72%,transparent);background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 12%,#1c1a2b),#111521);box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 16%,transparent)}
 .gen-engine-option.selected>span{color:#fff}
 .gen-engine-option.selected small{color:color-mix(in srgb,var(--accent) 70%,transparent)}
 .gen-engine-option:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:650px){.gen-engine-picker{grid-template-columns:minmax(0,1fr)}}
 
 
 /* Rhythm Forge visual system — responsive skins, audio-reactive identity and score analysis. */

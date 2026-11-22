@@ -1,0 +1,1232 @@
+{
+  "before": {
+    "phase": "before",
+    "node": "v24.16.0",
+    "rows": [
+      {
+        "fixture": "bundled demo",
+        "resourceClass": "standard",
+        "regime": "medium",
+        "attacks": 96,
+        "medianMs": 3.608,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "fae0e442ee7eaaa879b01d73582ddfaff6cf6604c82889a86b130fadeb860f5d",
+            "notes": "f99077509fa87b68ffb013888033e13f0c9bffff5ab8634d8d897133c6aa3e21",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "01246b949248c08f7885ef4ed62cd04ea9102aea9cb5d49b7bbde43af07add8a",
+            "noteCount": 48,
+            "candidates": 3,
+            "utility": 0.8503913248876201
+          },
+          {
+            "difficulty": "normal",
+            "chart": "43ea593c4cbec32c81073e774733be17ae58c257b6169b745dcfcc6f846889f9",
+            "notes": "fc794906c9af513f30f1dfd00c172ba185d5e547de2925cd60dcc1da0e887abe",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 96,
+            "candidates": 3,
+            "utility": 0.94
+          },
+          {
+            "difficulty": "hard",
+            "chart": "d9b3833735fcc330ad354229c27ddbbc0f5a5f5c257c07482792852f5d59cd1b",
+            "notes": "ae636ff52d07d840eac1dcc239f07cd36846a9aaec1dc7b42b48664a34036c3d",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 111,
+            "candidates": 4,
+            "utility": 0.9656981981981981
+          },
+          {
+            "difficulty": "expert",
+            "chart": "b6d7cd316dc9da8e710ea9c543054881443e366a1ad9b45c590c580553822738",
+            "notes": "b0ca92ac113c9282c89dd468a6a727d2cdb0801cd3d1af695b7d28f20f29352c",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 131,
+            "candidates": 4,
+            "utility": 0.9673664122137405
+          }
+        ]
+      },
+      {
+        "fixture": "bundled demo",
+        "resourceClass": "standard",
+        "regime": "max",
+        "attacks": 96,
+        "medianMs": 16.543,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "9324d8b58b875811f7d0055586921487d32dffc793801e13f7a8af484f383e6a",
+            "notes": "f99077509fa87b68ffb013888033e13f0c9bffff5ab8634d8d897133c6aa3e21",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "01246b949248c08f7885ef4ed62cd04ea9102aea9cb5d49b7bbde43af07add8a",
+            "noteCount": 48,
+            "candidates": 13,
+            "utility": 0.8503913248876201
+          },
+          {
+            "difficulty": "normal",
+            "chart": "fdb83ce73ea172e5299bfc86dae217b4fa1613e814e4dd1054fcb387195a8203",
+            "notes": "fc794906c9af513f30f1dfd00c172ba185d5e547de2925cd60dcc1da0e887abe",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 96,
+            "candidates": 13,
+            "utility": 0.94
+          },
+          {
+            "difficulty": "hard",
+            "chart": "f341a7aa8415c2c124a46ce6d00192cad86d8cbc83ecc65d983c98e1090140b2",
+            "notes": "170cec26fa9dcb2a20c644f285f731ff267eaaf9eec0ae41645231e7e2a7b518",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 111,
+            "candidates": 24,
+            "utility": 0.9795945945945946
+          },
+          {
+            "difficulty": "expert",
+            "chart": "5666c9fbae7db4c3e14b8f4b5336a942c18f2454deb8e23429ca93e3c4730ab9",
+            "notes": "8ffc006cb8e08a777627eca9a92f30f18f7502080e66800ba7c29ebe757e110b",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 131,
+            "candidates": 19,
+            "utility": 0.9804198473282443
+          }
+        ]
+      },
+      {
+        "fixture": "bundled demo",
+        "resourceClass": "compact",
+        "regime": "medium",
+        "attacks": 96,
+        "medianMs": 2.785,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "3bc1651f7dba8f192a0738374880ecfd681e2dd046ffbf5a7de34e3148ef6b6e",
+            "notes": "f99077509fa87b68ffb013888033e13f0c9bffff5ab8634d8d897133c6aa3e21",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "01246b949248c08f7885ef4ed62cd04ea9102aea9cb5d49b7bbde43af07add8a",
+            "noteCount": 48,
+            "candidates": 3,
+            "utility": 0.8503913248876201
+          },
+          {
+            "difficulty": "normal",
+            "chart": "2c5ab55a0c3c57eca27a4c080430cfb750d4373296beeb4bdcd4453631cb5638",
+            "notes": "fc794906c9af513f30f1dfd00c172ba185d5e547de2925cd60dcc1da0e887abe",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 96,
+            "candidates": 3,
+            "utility": 0.94
+          },
+          {
+            "difficulty": "hard",
+            "chart": "3d6243089504177f22a3abf10e3ccc174d419163a70f735b5ed5000e45ecda14",
+            "notes": "ae636ff52d07d840eac1dcc239f07cd36846a9aaec1dc7b42b48664a34036c3d",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 111,
+            "candidates": 4,
+            "utility": 0.9656981981981981
+          },
+          {
+            "difficulty": "expert",
+            "chart": "61db4e5a5cd319c704da659dbe274f0d1a5da2c9a5589f1e6851528fc569a915",
+            "notes": "b0ca92ac113c9282c89dd468a6a727d2cdb0801cd3d1af695b7d28f20f29352c",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 131,
+            "candidates": 4,
+            "utility": 0.9673664122137405
+          }
+        ]
+      },
+      {
+        "fixture": "bundled demo",
+        "resourceClass": "compact",
+        "regime": "max",
+        "attacks": 96,
+        "medianMs": 8.868,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "ca1ca8d4cb23aa56b3b11bd1cf5ae0b92a004e1a47d687c080ccc55b12524961",
+            "notes": "f99077509fa87b68ffb013888033e13f0c9bffff5ab8634d8d897133c6aa3e21",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "01246b949248c08f7885ef4ed62cd04ea9102aea9cb5d49b7bbde43af07add8a",
+            "noteCount": 48,
+            "candidates": 13,
+            "utility": 0.8503913248876201
+          },
+          {
+            "difficulty": "normal",
+            "chart": "2d6429e14299879a38dc94beea6075d1f025e0cedc73d64890a5aafa21129ce0",
+            "notes": "fc794906c9af513f30f1dfd00c172ba185d5e547de2925cd60dcc1da0e887abe",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 96,
+            "candidates": 13,
+            "utility": 0.94
+          },
+          {
+            "difficulty": "hard",
+            "chart": "46b2f1c7e6efc2289e4b893bde3912384da23b9cb2cb4484e84b5f9358d1b4bb",
+            "notes": "170cec26fa9dcb2a20c644f285f731ff267eaaf9eec0ae41645231e7e2a7b518",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 111,
+            "candidates": 24,
+            "utility": 0.9795945945945946
+          },
+          {
+            "difficulty": "expert",
+            "chart": "b0d697184fb298a74f3eef3fe641bd2b51f48fa39e1c40af8f7e63ab46f4a23c",
+            "notes": "8ffc006cb8e08a777627eca9a92f30f18f7502080e66800ba7c29ebe757e110b",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 131,
+            "candidates": 19,
+            "utility": 0.9804198473282443
+          }
+        ]
+      },
+      {
+        "fixture": "fractional pulse",
+        "resourceClass": "standard",
+        "regime": "medium",
+        "attacks": 51,
+        "medianMs": 2.499,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "a1a750a4f95a98c8258a6340a7ab623e081ed9d8827702fe86e37c2f508ea608",
+            "notes": "dbae176d870255592c9f0f3a391ab418eefbedf719cb6284a9310d677a0f9379",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 51,
+            "candidates": 4,
+            "utility": 0.951078431372549
+          },
+          {
+            "difficulty": "normal",
+            "chart": "60e8cb8f07355eca0481fc8d135f7f5c6c781b759892fbe6aa8648c80911980a",
+            "notes": "c3a08fb354a91fb83a40a37ec8d517174d8193522d85899b417b8e2b69538821",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 58,
+            "candidates": 4,
+            "utility": 0.9538461538461539
+          },
+          {
+            "difficulty": "hard",
+            "chart": "cbd353d374363005d9e38657b5b2104c7ac7a134aafe1528b1aaf5ad0577f23c",
+            "notes": "73fdbd55491de7d472f2bebbce2755735bcd156a34bf17547fb47a5329c80f60",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 63,
+            "candidates": 4,
+            "utility": 0.9391941391941392
+          },
+          {
+            "difficulty": "expert",
+            "chart": "05e24ea1f2f80bb16ef4ba01441cc74caf2d86963c87da91ce93a0d5bb11afa0",
+            "notes": "f2c25a233d74729ed4674f6e1f7fbc4eeecdcb318291143c97daf1137a66b5fd",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 70,
+            "candidates": 3,
+            "utility": 0.9282051282051282
+          }
+        ]
+      },
+      {
+        "fixture": "fractional pulse",
+        "resourceClass": "standard",
+        "regime": "max",
+        "attacks": 51,
+        "medianMs": 7.838,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "71068c5506a14ca6da0b495d0d1a5970f78b1d524d9567863947170b9eaba958",
+            "notes": "dbae176d870255592c9f0f3a391ab418eefbedf719cb6284a9310d677a0f9379",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 51,
+            "candidates": 14,
+            "utility": 0.951078431372549
+          },
+          {
+            "difficulty": "normal",
+            "chart": "722e77c6299b914f05c1afe07f85f23026e2057f565d23ceef5459fe919a1628",
+            "notes": "c3a08fb354a91fb83a40a37ec8d517174d8193522d85899b417b8e2b69538821",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 58,
+            "candidates": 14,
+            "utility": 0.9538461538461539
+          },
+          {
+            "difficulty": "hard",
+            "chart": "7c1faeb458685ff97363eee29e228fbbc31ae8b1d6d14db0d283754db0531067",
+            "notes": "73fdbd55491de7d472f2bebbce2755735bcd156a34bf17547fb47a5329c80f60",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 63,
+            "candidates": 14,
+            "utility": 0.9391941391941392
+          },
+          {
+            "difficulty": "expert",
+            "chart": "726573fbf7c921022a14cc04a8ebe64d923db87c32de5491ad071bb305789c66",
+            "notes": "4ad66a61762f063df4b46aa9a38a5fd50a60c121038da42c10387b9413d5c3ad",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 70,
+            "candidates": 20,
+            "utility": 0.9327472527472528
+          }
+        ]
+      },
+      {
+        "fixture": "fractional pulse",
+        "resourceClass": "compact",
+        "regime": "medium",
+        "attacks": 51,
+        "medianMs": 1.278,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "a37dff28ba18522c31b6aa701e6aca457e509bd8a7418857fe0bb6057ebb5041",
+            "notes": "dbae176d870255592c9f0f3a391ab418eefbedf719cb6284a9310d677a0f9379",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 51,
+            "candidates": 4,
+            "utility": 0.951078431372549
+          },
+          {
+            "difficulty": "normal",
+            "chart": "b110576d0168f14ba0f7965b06e2fdab8e42f6cd87e21af6f9ca7456f96c36b8",
+            "notes": "c3a08fb354a91fb83a40a37ec8d517174d8193522d85899b417b8e2b69538821",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 58,
+            "candidates": 4,
+            "utility": 0.9538461538461539
+          },
+          {
+            "difficulty": "hard",
+            "chart": "7d3f8687e4407bc664ed37bcf5791add8dee28b949a827ad6a0e90f52ea04e3d",
+            "notes": "73fdbd55491de7d472f2bebbce2755735bcd156a34bf17547fb47a5329c80f60",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 63,
+            "candidates": 4,
+            "utility": 0.9391941391941392
+          },
+          {
+            "difficulty": "expert",
+            "chart": "56c89be7b439b97eb3c699fe930cd5e05224ca4dcdddfa902c8fc86ebe331dc8",
+            "notes": "f2c25a233d74729ed4674f6e1f7fbc4eeecdcb318291143c97daf1137a66b5fd",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 70,
+            "candidates": 3,
+            "utility": 0.9282051282051282
+          }
+        ]
+      },
+      {
+        "fixture": "fractional pulse",
+        "resourceClass": "compact",
+        "regime": "max",
+        "attacks": 51,
+        "medianMs": 4.611,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "ad0b9bcfaee6b66f8a5580e5a504712ac60d7606dfe1fad9be04c8203bd527d4",
+            "notes": "dbae176d870255592c9f0f3a391ab418eefbedf719cb6284a9310d677a0f9379",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 51,
+            "candidates": 14,
+            "utility": 0.951078431372549
+          },
+          {
+            "difficulty": "normal",
+            "chart": "81f1cfd6c6cbff1ed8d7747f2d79240c74bbeb20d65c20612b3f5d140e7cb793",
+            "notes": "c3a08fb354a91fb83a40a37ec8d517174d8193522d85899b417b8e2b69538821",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 58,
+            "candidates": 14,
+            "utility": 0.9538461538461539
+          },
+          {
+            "difficulty": "hard",
+            "chart": "a64f943e13a43535b493b37894d3637dab98a2a9e4129da6bf5c20b7868d3446",
+            "notes": "73fdbd55491de7d472f2bebbce2755735bcd156a34bf17547fb47a5329c80f60",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 63,
+            "candidates": 14,
+            "utility": 0.9391941391941392
+          },
+          {
+            "difficulty": "expert",
+            "chart": "98dbfc44c58afd487f90b05c0c6e867ef30b90c8791cdcc40db720ad9efd41cb",
+            "notes": "4ad66a61762f063df4b46aa9a38a5fd50a60c121038da42c10387b9413d5c3ad",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 70,
+            "candidates": 20,
+            "utility": 0.9327472527472528
+          }
+        ]
+      },
+      {
+        "fixture": "tempo ramp",
+        "resourceClass": "standard",
+        "regime": "medium",
+        "attacks": 60,
+        "medianMs": 1.553,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "1c117ca2f95216ddb5f8e4213913eac9a927beaa25da7908f9e4b261386d96f2",
+            "notes": "c30afe0cf00d53e7251fc1db189cd2c2babb0dcb956c05f7b05d7c6f7f24e5a9",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 60,
+            "candidates": 3,
+            "utility": 0.94
+          },
+          {
+            "difficulty": "normal",
+            "chart": "ed80245e0e6cf8b19bded2bf048cf6ad541144f336ca1f5433c5fda9f549384d",
+            "notes": "fd2d851b9252792a2a3b4b24f0f7d1787fc66538abe83795eba3326ac4cfca52",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 67,
+            "candidates": 3,
+            "utility": 0.9970149253731343
+          },
+          {
+            "difficulty": "hard",
+            "chart": "b146a28042e1082112a7ac7140ff7dde4934a7ea3876c8bf8431001ed0d285d1",
+            "notes": "c03face8e1c7b99e23c1fb794d8295a7848cc76322c68e241a8d129d2926f4d8",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 69,
+            "candidates": 4,
+            "utility": 0.9971014492753624
+          },
+          {
+            "difficulty": "expert",
+            "chart": "10702590c54ea5787466946d6b66b235064e0a8f6c59fb4f78324aa68ffb01c8",
+            "notes": "8a1556ab79ec0589b2e6a28b5ed935aa09c41288c2aa16f209ccb4afc4098f60",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 78,
+            "candidates": 4,
+            "utility": 1
+          }
+        ]
+      },
+      {
+        "fixture": "tempo ramp",
+        "resourceClass": "standard",
+        "regime": "max",
+        "attacks": 60,
+        "medianMs": 5.573,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "6dc1bb812fd932de2504768b0b3bc3ecc343a3042ab6567494a2328ed6091b38",
+            "notes": "d60181f63fd69e12de36bc8ac76c9769197ba7533a9fcc80185fe7414dac21ed",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 60,
+            "candidates": 17,
+            "utility": 0.955
+          },
+          {
+            "difficulty": "normal",
+            "chart": "83fb1006b9306b75d52cd8fda9f43a0ab3388f5be73f15a852448af77809ce54",
+            "notes": "fd2d851b9252792a2a3b4b24f0f7d1787fc66538abe83795eba3326ac4cfca52",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 67,
+            "candidates": 13,
+            "utility": 0.9970149253731343
+          },
+          {
+            "difficulty": "hard",
+            "chart": "16a82be01c161f4e7a44d770495d5e3d39db176cc95d61f4006819564b3b142b",
+            "notes": "c03face8e1c7b99e23c1fb794d8295a7848cc76322c68e241a8d129d2926f4d8",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 69,
+            "candidates": 15,
+            "utility": 0.9971014492753624
+          },
+          {
+            "difficulty": "expert",
+            "chart": "9155ea8a1bd83a85d279ffa7c5f9365880daaa52dd821755bd2ca4d37f573d18",
+            "notes": "8a1556ab79ec0589b2e6a28b5ed935aa09c41288c2aa16f209ccb4afc4098f60",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 78,
+            "candidates": 15,
+            "utility": 1
+          }
+        ]
+      },
+      {
+        "fixture": "tempo ramp",
+        "resourceClass": "compact",
+        "regime": "medium",
+        "attacks": 60,
+        "medianMs": 1.53,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "1f27ccadf5830cca6c995b8716949d4591b248fd4a91c40eec1e3d47cecb5ad4",
+            "notes": "c30afe0cf00d53e7251fc1db189cd2c2babb0dcb956c05f7b05d7c6f7f24e5a9",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 60,
+            "candidates": 3,
+            "utility": 0.94
+          },
+          {
+            "difficulty": "normal",
+            "chart": "63e1872841c7ef785ea798d9138f6bc66bc61c671f0d14ab0f7a4bf46e657769",
+            "notes": "fd2d851b9252792a2a3b4b24f0f7d1787fc66538abe83795eba3326ac4cfca52",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 67,
+            "candidates": 3,
+            "utility": 0.9970149253731343
+          },
+          {
+            "difficulty": "hard",
+            "chart": "c29ce0b7fd53a7498d1e50bdfd168ecba278bb77f01468c86732a567744155d8",
+            "notes": "c03face8e1c7b99e23c1fb794d8295a7848cc76322c68e241a8d129d2926f4d8",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 69,
+            "candidates": 4,
+            "utility": 0.9971014492753624
+          },
+          {
+            "difficulty": "expert",
+            "chart": "b12d346ae9f5dcbb361f34a2d780112d5b267b4ce7b19ae54ffad8a3f07bcc8f",
+            "notes": "8a1556ab79ec0589b2e6a28b5ed935aa09c41288c2aa16f209ccb4afc4098f60",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 78,
+            "candidates": 4,
+            "utility": 1
+          }
+        ]
+      },
+      {
+        "fixture": "tempo ramp",
+        "resourceClass": "compact",
+        "regime": "max",
+        "attacks": 60,
+        "medianMs": 5.281,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "91fb025baa31a20f4896cf0589524907ed7e4738b0d1d0cf74b0fc226aca1c52",
+            "notes": "d60181f63fd69e12de36bc8ac76c9769197ba7533a9fcc80185fe7414dac21ed",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 60,
+            "candidates": 17,
+            "utility": 0.955
+          },
+          {
+            "difficulty": "normal",
+            "chart": "017335622c9dc0fc9693e9cbd598dd55090933370e9b74b30d6e20d1635674af",
+            "notes": "fd2d851b9252792a2a3b4b24f0f7d1787fc66538abe83795eba3326ac4cfca52",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 67,
+            "candidates": 13,
+            "utility": 0.9970149253731343
+          },
+          {
+            "difficulty": "hard",
+            "chart": "70aeeb720cd7b28a841d931df6bebee1a799b160a80b281abb81229c70ea4da4",
+            "notes": "c03face8e1c7b99e23c1fb794d8295a7848cc76322c68e241a8d129d2926f4d8",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 69,
+            "candidates": 15,
+            "utility": 0.9971014492753624
+          },
+          {
+            "difficulty": "expert",
+            "chart": "2de9ae3994db0b2e06160e75d27d3d0105559f1c51e4dd4d4e203b04d3557ce8",
+            "notes": "8a1556ab79ec0589b2e6a28b5ed935aa09c41288c2aa16f209ccb4afc4098f60",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 78,
+            "candidates": 15,
+            "utility": 1
+          }
+        ]
+      },
+      {
+        "fixture": "long accented eighths",
+        "resourceClass": "standard",
+        "regime": "medium",
+        "attacks": 1044,
+        "medianMs": 31.642,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "8aec1dc09e07a29a449f825a74fa34b402ebe71526dc332d6cc1fb9e1db3f72d",
+            "notes": "d8825648bb6e0e18f3da95c4588467088d221b1ea717caed53a8f0071177f146",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "7db78c6f795e14c65ff47da018bf2dbe535193d88f2ba921daeeaef2764645cb",
+            "noteCount": 501,
+            "candidates": 4,
+            "utility": 0.8134225089971272
+          },
+          {
+            "difficulty": "normal",
+            "chart": "1257be970368384f753339c0d70136aea36f858b4b5c51e58cd04df678c22752",
+            "notes": "da8715f3fb924b0dbf4e3f6c88c021cb38b604cf45fa8465b8a56639a5283674",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "091830c769987f3b6da90da5a49ae680e49533f958f247aa2396b228cce91d83",
+            "noteCount": 1042,
+            "candidates": 4,
+            "utility": 0.9691692052040534
+          },
+          {
+            "difficulty": "hard",
+            "chart": "5123830f55e617bfb18fdead3de8f9dae50b654f2b4c17229f21a36c9d68c460",
+            "notes": "47e464a4d191d7dca4f4c4686d01fa2b81fe9bd33cdcc1d1f25371b0e54061ba",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1185,
+            "candidates": 3,
+            "utility": 0.9553481012658228
+          },
+          {
+            "difficulty": "expert",
+            "chart": "d8781ad02cf1b975473bf167b6a063aedee867e329ee16f06537d6bf61a5b34f",
+            "notes": "6760c8b812e09964188e44ecc11c0a0604038687c4ccb977cda4818a515dc214",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1363,
+            "candidates": 4,
+            "utility": 0.9942773294203963
+          }
+        ]
+      },
+      {
+        "fixture": "long accented eighths",
+        "resourceClass": "standard",
+        "regime": "max",
+        "attacks": 1044,
+        "medianMs": 100.407,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "a00264f7815c0dc07292f00e504ec9efa46f533fbda6a8146a4478121df8ceb1",
+            "notes": "d8825648bb6e0e18f3da95c4588467088d221b1ea717caed53a8f0071177f146",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "7db78c6f795e14c65ff47da018bf2dbe535193d88f2ba921daeeaef2764645cb",
+            "noteCount": 501,
+            "candidates": 14,
+            "utility": 0.8134225089971272
+          },
+          {
+            "difficulty": "normal",
+            "chart": "2e9e9cd20b506c25905e5dfa4b064146dc930a1f2cb801521408ac2be7299017",
+            "notes": "da8715f3fb924b0dbf4e3f6c88c021cb38b604cf45fa8465b8a56639a5283674",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "091830c769987f3b6da90da5a49ae680e49533f958f247aa2396b228cce91d83",
+            "noteCount": 1042,
+            "candidates": 14,
+            "utility": 0.9691692052040534
+          },
+          {
+            "difficulty": "hard",
+            "chart": "de6e1aae929a52bbf5ab96623d75ba066dbbfaff5c9382b410e9da6af8ff6e97",
+            "notes": "de05f42867f7d9270db8bb4c7f6ec06f688d0a798fb6215bb574eb1ca0c15d43",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1185,
+            "candidates": 24,
+            "utility": 0.9893670886075949
+          },
+          {
+            "difficulty": "expert",
+            "chart": "4e81e693f0959e484071f754f905b89c2501aec562d23a3bf910106ee9066c3f",
+            "notes": "2700a54943b84f51e9db0ce1e7fb44ad6affefb46c3f73d3d30cb4a471d64153",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1363,
+            "candidates": 19,
+            "utility": 0.9960381511371973
+          }
+        ]
+      },
+      {
+        "fixture": "long accented eighths",
+        "resourceClass": "compact",
+        "regime": "medium",
+        "attacks": 1044,
+        "medianMs": 23.354,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "50fef6699112356070ba5091e203c69c1316d623b512e1c902d001366998933c",
+            "notes": "d8825648bb6e0e18f3da95c4588467088d221b1ea717caed53a8f0071177f146",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "7db78c6f795e14c65ff47da018bf2dbe535193d88f2ba921daeeaef2764645cb",
+            "noteCount": 501,
+            "candidates": 4,
+            "utility": 0.8134225089971272
+          },
+          {
+            "difficulty": "normal",
+            "chart": "0c1a75c9af36f216dc33a34e6652b03556b0794afc7cadc92cc874608d39d09b",
+            "notes": "da8715f3fb924b0dbf4e3f6c88c021cb38b604cf45fa8465b8a56639a5283674",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "091830c769987f3b6da90da5a49ae680e49533f958f247aa2396b228cce91d83",
+            "noteCount": 1042,
+            "candidates": 4,
+            "utility": 0.9691692052040534
+          },
+          {
+            "difficulty": "hard",
+            "chart": "2a9754703647df1f23c6c6b6cdbf713e39cc6afa1797b91943199acec254f4e1",
+            "notes": "47e464a4d191d7dca4f4c4686d01fa2b81fe9bd33cdcc1d1f25371b0e54061ba",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1185,
+            "candidates": 3,
+            "utility": 0.9553481012658228
+          },
+          {
+            "difficulty": "expert",
+            "chart": "db09db3b0cf4892100789c379b9b6e856dffe6636abcd82c1d0ddeaa36c1a61e",
+            "notes": "6760c8b812e09964188e44ecc11c0a0604038687c4ccb977cda4818a515dc214",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1363,
+            "candidates": 4,
+            "utility": 0.9942773294203963
+          }
+        ]
+      },
+      {
+        "fixture": "long accented eighths",
+        "resourceClass": "compact",
+        "regime": "max",
+        "attacks": 1044,
+        "medianMs": 103.912,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "2c67cd314925468a7ff0a8a6a5c95f8d90cf2822bd84b630af108fac4a88e824",
+            "notes": "d8825648bb6e0e18f3da95c4588467088d221b1ea717caed53a8f0071177f146",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "7db78c6f795e14c65ff47da018bf2dbe535193d88f2ba921daeeaef2764645cb",
+            "noteCount": 501,
+            "candidates": 14,
+            "utility": 0.8134225089971272
+          },
+          {
+            "difficulty": "normal",
+            "chart": "c47e41097a08f48a980d1096f7c4a7c1b57461bd8e637a3f3134332e9ede23fb",
+            "notes": "da8715f3fb924b0dbf4e3f6c88c021cb38b604cf45fa8465b8a56639a5283674",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "091830c769987f3b6da90da5a49ae680e49533f958f247aa2396b228cce91d83",
+            "noteCount": 1042,
+            "candidates": 14,
+            "utility": 0.9691692052040534
+          },
+          {
+            "difficulty": "hard",
+            "chart": "9ace57adf7438024008b244daefc2f4f158ff9f974c5ba4c9a9371a904beee7d",
+            "notes": "de05f42867f7d9270db8bb4c7f6ec06f688d0a798fb6215bb574eb1ca0c15d43",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1185,
+            "candidates": 24,
+            "utility": 0.9893670886075949
+          },
+          {
+            "difficulty": "expert",
+            "chart": "4ab5f5d0079f83a045f73cd75bd9dd2864c738266bdebb58661f6864f680f73d",
+            "notes": "2700a54943b84f51e9db0ce1e7fb44ad6affefb46c3f73d3d30cb4a471d64153",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1363,
+            "candidates": 19,
+            "utility": 0.9960381511371973
+          }
+        ]
+      }
+    ],
+    "peakProcessRssKiB": 223132
+  },
+  "after": {
+    "phase": "after",
+    "node": "v24.16.0",
+    "rows": [
+      {
+        "fixture": "bundled demo",
+        "resourceClass": "standard",
+        "regime": "automatic",
+        "attacks": 96,
+        "medianMs": 3.535,
+        "mediumControlMedianMs": 3.778,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "fae0e442ee7eaaa879b01d73582ddfaff6cf6604c82889a86b130fadeb860f5d",
+            "notes": "f99077509fa87b68ffb013888033e13f0c9bffff5ab8634d8d897133c6aa3e21",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "01246b949248c08f7885ef4ed62cd04ea9102aea9cb5d49b7bbde43af07add8a",
+            "noteCount": 48,
+            "candidates": 3,
+            "utility": 0.8503913248876201,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "43ea593c4cbec32c81073e774733be17ae58c257b6169b745dcfcc6f846889f9",
+            "notes": "fc794906c9af513f30f1dfd00c172ba185d5e547de2925cd60dcc1da0e887abe",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 96,
+            "candidates": 3,
+            "utility": 0.94,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "d9b3833735fcc330ad354229c27ddbbc0f5a5f5c257c07482792852f5d59cd1b",
+            "notes": "ae636ff52d07d840eac1dcc239f07cd36846a9aaec1dc7b42b48664a34036c3d",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 111,
+            "candidates": 4,
+            "utility": 0.9656981981981981,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "b6d7cd316dc9da8e710ea9c543054881443e366a1ad9b45c590c580553822738",
+            "notes": "b0ca92ac113c9282c89dd468a6a727d2cdb0801cd3d1af695b7d28f20f29352c",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 131,
+            "candidates": 4,
+            "utility": 0.9673664122137405,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      },
+      {
+        "fixture": "bundled demo",
+        "resourceClass": "compact",
+        "regime": "automatic",
+        "attacks": 96,
+        "medianMs": 3.288,
+        "mediumControlMedianMs": 3.123,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "3bc1651f7dba8f192a0738374880ecfd681e2dd046ffbf5a7de34e3148ef6b6e",
+            "notes": "f99077509fa87b68ffb013888033e13f0c9bffff5ab8634d8d897133c6aa3e21",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "01246b949248c08f7885ef4ed62cd04ea9102aea9cb5d49b7bbde43af07add8a",
+            "noteCount": 48,
+            "candidates": 3,
+            "utility": 0.8503913248876201,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "2c5ab55a0c3c57eca27a4c080430cfb750d4373296beeb4bdcd4453631cb5638",
+            "notes": "fc794906c9af513f30f1dfd00c172ba185d5e547de2925cd60dcc1da0e887abe",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 96,
+            "candidates": 3,
+            "utility": 0.94,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "3d6243089504177f22a3abf10e3ccc174d419163a70f735b5ed5000e45ecda14",
+            "notes": "ae636ff52d07d840eac1dcc239f07cd36846a9aaec1dc7b42b48664a34036c3d",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 111,
+            "candidates": 4,
+            "utility": 0.9656981981981981,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "61db4e5a5cd319c704da659dbe274f0d1a5da2c9a5589f1e6851528fc569a915",
+            "notes": "b0ca92ac113c9282c89dd468a6a727d2cdb0801cd3d1af695b7d28f20f29352c",
+            "timing": "f6268cb3d122e0ed5772dee7f0d1100f91947a095e4fcf07258bd3de20d4425a",
+            "heads": "382ec366f061a800192de5de8b06fd4ba7121ab72d0c66838f88e72e1fbcd6a6",
+            "noteCount": 131,
+            "candidates": 4,
+            "utility": 0.9673664122137405,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      },
+      {
+        "fixture": "fractional pulse",
+        "resourceClass": "standard",
+        "regime": "automatic",
+        "attacks": 51,
+        "medianMs": 2.016,
+        "mediumControlMedianMs": 2.027,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "a1a750a4f95a98c8258a6340a7ab623e081ed9d8827702fe86e37c2f508ea608",
+            "notes": "dbae176d870255592c9f0f3a391ab418eefbedf719cb6284a9310d677a0f9379",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 51,
+            "candidates": 4,
+            "utility": 0.951078431372549,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "60e8cb8f07355eca0481fc8d135f7f5c6c781b759892fbe6aa8648c80911980a",
+            "notes": "c3a08fb354a91fb83a40a37ec8d517174d8193522d85899b417b8e2b69538821",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 58,
+            "candidates": 4,
+            "utility": 0.9538461538461539,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "cbd353d374363005d9e38657b5b2104c7ac7a134aafe1528b1aaf5ad0577f23c",
+            "notes": "73fdbd55491de7d472f2bebbce2755735bcd156a34bf17547fb47a5329c80f60",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 63,
+            "candidates": 4,
+            "utility": 0.9391941391941392,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "05e24ea1f2f80bb16ef4ba01441cc74caf2d86963c87da91ce93a0d5bb11afa0",
+            "notes": "f2c25a233d74729ed4674f6e1f7fbc4eeecdcb318291143c97daf1137a66b5fd",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 70,
+            "candidates": 3,
+            "utility": 0.9282051282051282,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      },
+      {
+        "fixture": "fractional pulse",
+        "resourceClass": "compact",
+        "regime": "automatic",
+        "attacks": 51,
+        "medianMs": 2.114,
+        "mediumControlMedianMs": 2.105,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "a37dff28ba18522c31b6aa701e6aca457e509bd8a7418857fe0bb6057ebb5041",
+            "notes": "dbae176d870255592c9f0f3a391ab418eefbedf719cb6284a9310d677a0f9379",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 51,
+            "candidates": 4,
+            "utility": 0.951078431372549,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "b110576d0168f14ba0f7965b06e2fdab8e42f6cd87e21af6f9ca7456f96c36b8",
+            "notes": "c3a08fb354a91fb83a40a37ec8d517174d8193522d85899b417b8e2b69538821",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 58,
+            "candidates": 4,
+            "utility": 0.9538461538461539,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "7d3f8687e4407bc664ed37bcf5791add8dee28b949a827ad6a0e90f52ea04e3d",
+            "notes": "73fdbd55491de7d472f2bebbce2755735bcd156a34bf17547fb47a5329c80f60",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 63,
+            "candidates": 4,
+            "utility": 0.9391941391941392,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "56c89be7b439b97eb3c699fe930cd5e05224ca4dcdddfa902c8fc86ebe331dc8",
+            "notes": "f2c25a233d74729ed4674f6e1f7fbc4eeecdcb318291143c97daf1137a66b5fd",
+            "timing": "b21cbdbde71d75c7aa29613edf866baddf15290613220a72dda947c89704949c",
+            "heads": "17b8ebc441348e08eefaa822f5b90644f4a854a87a166b429e2e40a4ef9d4d31",
+            "noteCount": 70,
+            "candidates": 3,
+            "utility": 0.9282051282051282,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      },
+      {
+        "fixture": "tempo ramp",
+        "resourceClass": "standard",
+        "regime": "automatic",
+        "attacks": 60,
+        "medianMs": 1.506,
+        "mediumControlMedianMs": 1.543,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "1c117ca2f95216ddb5f8e4213913eac9a927beaa25da7908f9e4b261386d96f2",
+            "notes": "c30afe0cf00d53e7251fc1db189cd2c2babb0dcb956c05f7b05d7c6f7f24e5a9",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 60,
+            "candidates": 3,
+            "utility": 0.94,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "ed80245e0e6cf8b19bded2bf048cf6ad541144f336ca1f5433c5fda9f549384d",
+            "notes": "fd2d851b9252792a2a3b4b24f0f7d1787fc66538abe83795eba3326ac4cfca52",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 67,
+            "candidates": 3,
+            "utility": 0.9970149253731343,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "b146a28042e1082112a7ac7140ff7dde4934a7ea3876c8bf8431001ed0d285d1",
+            "notes": "c03face8e1c7b99e23c1fb794d8295a7848cc76322c68e241a8d129d2926f4d8",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 69,
+            "candidates": 4,
+            "utility": 0.9971014492753624,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "10702590c54ea5787466946d6b66b235064e0a8f6c59fb4f78324aa68ffb01c8",
+            "notes": "8a1556ab79ec0589b2e6a28b5ed935aa09c41288c2aa16f209ccb4afc4098f60",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 78,
+            "candidates": 4,
+            "utility": 1,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      },
+      {
+        "fixture": "tempo ramp",
+        "resourceClass": "compact",
+        "regime": "automatic",
+        "attacks": 60,
+        "medianMs": 1.618,
+        "mediumControlMedianMs": 1.566,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "1f27ccadf5830cca6c995b8716949d4591b248fd4a91c40eec1e3d47cecb5ad4",
+            "notes": "c30afe0cf00d53e7251fc1db189cd2c2babb0dcb956c05f7b05d7c6f7f24e5a9",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 60,
+            "candidates": 3,
+            "utility": 0.94,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "63e1872841c7ef785ea798d9138f6bc66bc61c671f0d14ab0f7a4bf46e657769",
+            "notes": "fd2d851b9252792a2a3b4b24f0f7d1787fc66538abe83795eba3326ac4cfca52",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 67,
+            "candidates": 3,
+            "utility": 0.9970149253731343,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "c29ce0b7fd53a7498d1e50bdfd168ecba278bb77f01468c86732a567744155d8",
+            "notes": "c03face8e1c7b99e23c1fb794d8295a7848cc76322c68e241a8d129d2926f4d8",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 69,
+            "candidates": 4,
+            "utility": 0.9971014492753624,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "b12d346ae9f5dcbb361f34a2d780112d5b267b4ce7b19ae54ffad8a3f07bcc8f",
+            "notes": "8a1556ab79ec0589b2e6a28b5ed935aa09c41288c2aa16f209ccb4afc4098f60",
+            "timing": "6f66189d4705577d97ed9eaed427b3b158aa2305f23c890d40978f88d84e350b",
+            "heads": "d25211fa13a0eb321ef0f60358bf54f56e9810226e1244cec332f96236f8201f",
+            "noteCount": 78,
+            "candidates": 4,
+            "utility": 1,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      },
+      {
+        "fixture": "long accented eighths",
+        "resourceClass": "standard",
+        "regime": "automatic",
+        "attacks": 1044,
+        "medianMs": 26.281,
+        "mediumControlMedianMs": 28.094,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "8aec1dc09e07a29a449f825a74fa34b402ebe71526dc332d6cc1fb9e1db3f72d",
+            "notes": "d8825648bb6e0e18f3da95c4588467088d221b1ea717caed53a8f0071177f146",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "7db78c6f795e14c65ff47da018bf2dbe535193d88f2ba921daeeaef2764645cb",
+            "noteCount": 501,
+            "candidates": 4,
+            "utility": 0.8134225089971272,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "1257be970368384f753339c0d70136aea36f858b4b5c51e58cd04df678c22752",
+            "notes": "da8715f3fb924b0dbf4e3f6c88c021cb38b604cf45fa8465b8a56639a5283674",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "091830c769987f3b6da90da5a49ae680e49533f958f247aa2396b228cce91d83",
+            "noteCount": 1042,
+            "candidates": 4,
+            "utility": 0.9691692052040534,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "5123830f55e617bfb18fdead3de8f9dae50b654f2b4c17229f21a36c9d68c460",
+            "notes": "47e464a4d191d7dca4f4c4686d01fa2b81fe9bd33cdcc1d1f25371b0e54061ba",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1185,
+            "candidates": 3,
+            "utility": 0.9553481012658228,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "d8781ad02cf1b975473bf167b6a063aedee867e329ee16f06537d6bf61a5b34f",
+            "notes": "6760c8b812e09964188e44ecc11c0a0604038687c4ccb977cda4818a515dc214",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1363,
+            "candidates": 4,
+            "utility": 0.9942773294203963,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      },
+      {
+        "fixture": "long accented eighths",
+        "resourceClass": "compact",
+        "regime": "automatic",
+        "attacks": 1044,
+        "medianMs": 22.135,
+        "mediumControlMedianMs": 23.13,
+        "charts": [
+          {
+            "difficulty": "easy",
+            "chart": "50fef6699112356070ba5091e203c69c1316d623b512e1c902d001366998933c",
+            "notes": "d8825648bb6e0e18f3da95c4588467088d221b1ea717caed53a8f0071177f146",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "7db78c6f795e14c65ff47da018bf2dbe535193d88f2ba921daeeaef2764645cb",
+            "noteCount": 501,
+            "candidates": 4,
+            "utility": 0.8134225089971272,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "normal",
+            "chart": "0c1a75c9af36f216dc33a34e6652b03556b0794afc7cadc92cc874608d39d09b",
+            "notes": "da8715f3fb924b0dbf4e3f6c88c021cb38b604cf45fa8465b8a56639a5283674",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "091830c769987f3b6da90da5a49ae680e49533f958f247aa2396b228cce91d83",
+            "noteCount": 1042,
+            "candidates": 4,
+            "utility": 0.9691692052040534,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "hard",
+            "chart": "2a9754703647df1f23c6c6b6cdbf713e39cc6afa1797b91943199acec254f4e1",
+            "notes": "47e464a4d191d7dca4f4c4686d01fa2b81fe9bd33cdcc1d1f25371b0e54061ba",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1185,
+            "candidates": 3,
+            "utility": 0.9553481012658228,
+            "policyRevision": "automatic-1"
+          },
+          {
+            "difficulty": "expert",
+            "chart": "db09db3b0cf4892100789c379b9b6e856dffe6636abcd82c1d0ddeaa36c1a61e",
+            "notes": "6760c8b812e09964188e44ecc11c0a0604038687c4ccb977cda4818a515dc214",
+            "timing": "a273013ab87b98c8ba0c8b5cc33fefcfdaf3689bd93c169638d658e4bdbd38f0",
+            "heads": "db5c46e7da99f8e12827a811b1dc97764ed0f9d255d5628dd530de8b7434c8bd",
+            "noteCount": 1363,
+            "candidates": 4,
+            "utility": 0.9942773294203963,
+            "policyRevision": "automatic-1"
+          }
+        ]
+      }
+    ],
+    "peakProcessRssKiB": 151740
+  }
+}

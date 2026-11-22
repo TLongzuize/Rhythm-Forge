@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Bundle the project into ONE self-contained HTML file (for claude.ai artifacts). Usage: python3 scripts/build-artifact.py [out.html]"""
-import re,base64,sys,os
+import re,base64,sys,os,json
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'))
 core=re.sub(r"^import [^\n]*\n",'',open('core.js').read(),count=1,flags=re.M); app=open('app.js').read(); css=open('src/styles.css').read()+open('src/osu.css').read()+open('src/rf-fix.css').read(); html=open('index.html').read()
 names=re.findall(r'^export (?:async )?(?:function|const|let|class) ([A-Za-z0-9_$]+)',core,re.M)
@@ -35,22 +35,46 @@ score=re.sub(r'^export (?=(?:async )?(?:function|const|let|class))','',score_sou
 performance_source=open('performance-analysis.js').read(); performance_exports=re.findall(r'^export (?:async )?(?:function|const|let|class) ([A-Za-z0-9_$]+)',performance_source,re.M)
 performance=re.sub(r"^import \{[^}]*\} from './score-v2\.js';\n","",performance_source,count=1,flags=re.M)
 performance=re.sub(r'^export (?=(?:async )?(?:function|const|let|class))','',performance,flags=re.M)
+# Embed a real classic Worker for file://. Its private scope isolates the V3
+# modules from the historical flattened application namespace.
+def flatten_v3(path):
+    source = open('v3/'+path+'.js').read()
+    source = re.sub(r"^import[ \t]+\{[^}]*\}[ \t]+from[ \t]+['\"][^'\"]+['\"];[ \t]*\n", '', source, flags=re.M)
+    assert not re.search(r'^import\s', source, flags=re.M), f'Cannot flatten imports in v3/{path}.js.'
+    return re.sub(r'^export ', '', source, flags=re.M)
+
+# Use the same core chart validator in the offline worker as the module worker.
+# Scope the core privately so its helpers cannot collide with V3 modules.
+worker_core = "const validateChart=(()=>{\n" + core + "\nreturn validateChart;})();\n"
+worker_source = worker_core + '\n'.join(flatten_v3(m) for m in ['timing','effort','attack-spectrum','sustain','timeline','composer','quality','arrangement','engine','worker'])
+client_source = flatten_v3('client')
+worker_factory = "return new Worker(new URL('./worker.js', import.meta.url), { type: 'module' });"
+assert worker_factory in client_source
+client_source = client_source.replace(worker_factory, "const url = URL.createObjectURL(new Blob([" + json.dumps(worker_source) + "],{type:'text/javascript'})); try { return new Worker(url); } finally { URL.revokeObjectURL(url); }")
+mods += '\nconst runV3=(()=>{\n'+client_source+'\nreturn runV3;})();\n'
+app=app.replace("import { runV3 } from './v3/client.js';","")
 app=app.replace("import { V2_MODES as MODES } from './rfgen-v2.js';","").replace("import { generateAllRfV2Async, generateRfV2Async } from './genclient.js';","")
 app=re.sub(r"^import \{[^}]*\} from './core\.js';\n","",app,count=1,flags=re.M|re.S)
 app=re.sub(r"^import \{[^}]*\} from './score-v2\.js';\n","",app,count=1,flags=re.M|re.S)
 app=re.sub(r"^import \{[^}]*\} from './performance-analysis\.js';\n","",app,count=1,flags=re.M|re.S)
 app=app.replace("const AUDIO_DEMO = './public/audio/forge-demo.wav';","const DEMO_BLOB=(()=>{const b=atob(DEMO_B64),u=new Uint8Array(b.length);for(let i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return new Blob([u],{type:'audio/wav'});})();const AUDIO_DEMO=URL.createObjectURL(DEMO_BLOB);")
 assert 'DEMO_BLOB' in app
-intro_b64=base64.b64encode(open('public/video/rf-generator-v2.mp4','rb').read()).decode()
-app=app.replace("const V2_INTRO_VIDEO = './public/video/rf-generator-v2.mp4';",f"const V2_INTRO_VIDEO = 'data:video/mp4;base64,{intro_b64}';")
-v3_b64=base64.b64encode(open('public/video/rf-generator-v3.mp4','rb').read()).decode()
-app=app.replace("const V3_INTRO_VIDEO = './public/video/rf-generator-v3.mp4';",f"const V3_INTRO_VIDEO = 'data:video/mp4;base64,{v3_b64}';")
 app=app.replace("await fetch(AUDIO_DEMO)","({ok:true,status:200,blob:async()=>DEMO_BLOB})")
 b64=base64.b64encode(open('public/audio/forge-demo.wav','rb').read()).decode()
 cache=re.sub(r"^export (?=(?:async )?(?:function|const|let|class))",'',open('cache.js').read(),flags=re.M)
 mods=mods.replace("new Worker(new URL('./gen-worker.js', import.meta.url), { type: 'module' })","(()=>{throw Error('worker disabled')})()")
 assert 'import.meta' not in mods
-script=f"const DEMO_B64='{b64}';\n{cache}\nconst RF=(()=>{{\n{core}\nreturn {{{','.join(names)}}};\n}})();\nconst {{{imp}}}=RF;\n{mods}\n{sg}\nconst RFScore=(()=>{{\n{score}\nreturn {{{','.join(score_exports)}}};\n}})();\nconst {{{','.join(score_exports)}}}=RFScore;\nconst RFPerformance=(()=>{{\nconst {{SCORE_V2_JUDGEMENT_VALUES}}=RFScore;\n{performance}\nreturn {{{','.join(performance_exports)}}};\n}})();\nconst {{{','.join(performance_exports)}}}=RFPerformance;\n{app}"
+autoplay = re.sub(r'^import [^\n]*\n', '', open('autoplay.js').read(), flags=re.M)
+autoplay = re.sub(r'^export ', '', autoplay, flags=re.M)
+app = app.replace("import { planAutoplay, planReplay } from './autoplay.js';", '')
+script=f"const DEMO_B64='{b64}';\n{cache}\nconst RF=(()=>{{\n{core}\nreturn {{{','.join(names)}}};\n}})();\nconst {{{imp}}}=RF;\n{mods}\n{sg}\nconst RFScore=(()=>{{\n{score}\nreturn {{{','.join(score_exports)}}};\n}})();\nconst {{{','.join(score_exports)}}}=RFScore;\nconst RFPerformance=(()=>{{\nconst {{SCORE_V2_JUDGEMENT_VALUES}}=RFScore;\n{performance}\nreturn {{{','.join(performance_exports)}}};\n}})();\nconst {{{','.join(performance_exports)}}}=RFPerformance;\n{autoplay}\n{app}"
+with open('public/fonts/orbitron-latin.woff2', 'rb') as font:
+    orbitron = base64.b64encode(font.read()).decode('ascii')
+with open('public/fonts/orbitron-OFL.txt', encoding='utf-8') as license_file:
+    orbitron_license = license_file.read()
+font_path = "../public/fonts/orbitron-latin.woff2"
+assert font_path in css, 'The standalone stylesheet must reference the bundled Orbitron font.'
+css = f'/*\n{orbitron_license}\n*/\n' + css.replace(font_path, f'data:font/woff2;base64,{orbitron}')
 html=html.replace('<link rel="stylesheet" href="/src/styles.css" />',f'<style>{css}</style>')
 html=html.replace('<link rel="stylesheet" href="/src/osu.css" />','').replace('<link rel="stylesheet" href="/src/rf-fix.css" />','')
 html=re.sub(r'<link rel="preconnect"[^>]*>','',html)

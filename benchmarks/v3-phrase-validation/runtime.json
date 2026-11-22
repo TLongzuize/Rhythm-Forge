@@ -1,0 +1,386 @@
+{
+  "results": [
+    {
+      "name": "Galaxy Collapse",
+      "seconds": 407.0933333333333,
+      "attacks": 5154,
+      "baselineMs": [
+        1317,
+        1335,
+        1272
+      ],
+      "revisedMs": [
+        3090,
+        3142,
+        3061
+      ],
+      "generation": {
+        "baseline": [
+          {
+            "standard": {
+              "elapsedMs": 188,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            "compact": {
+              "elapsedMs": 98,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 107,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            "compact": {
+              "elapsedMs": 87,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 110,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            "compact": {
+              "elapsedMs": 75,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "current": [
+          {
+            "standard": {
+              "elapsedMs": 206,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            "compact": {
+              "elapsedMs": 97,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 113,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            "compact": {
+              "elapsedMs": 83,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 116,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            "compact": {
+              "elapsedMs": 105,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unity",
+      "seconds": 248.9643537414966,
+      "attacks": 1823,
+      "baselineMs": [
+        878,
+        874,
+        899
+      ],
+      "revisedMs": [
+        1841,
+        1780,
+        1811
+      ],
+      "generation": {
+        "baseline": [
+          {
+            "standard": {
+              "elapsedMs": 87,
+              "candidates": [
+                4,
+                3,
+                4,
+                3
+              ]
+            },
+            "compact": {
+              "elapsedMs": 47,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 58,
+              "candidates": [
+                4,
+                3,
+                4,
+                3
+              ]
+            },
+            "compact": {
+              "elapsedMs": 63,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 58,
+              "candidates": [
+                4,
+                3,
+                4,
+                3
+              ]
+            },
+            "compact": {
+              "elapsedMs": 38,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          }
+        ],
+        "current": [
+          {
+            "standard": {
+              "elapsedMs": 116,
+              "candidates": [
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            "compact": {
+              "elapsedMs": 47,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 66,
+              "candidates": [
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            "compact": {
+              "elapsedMs": 43,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 87,
+              "candidates": [
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            "compact": {
+              "elapsedMs": 47,
+              "candidates": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Galaxy splice, 12 min",
+      "seconds": 720,
+      "attacks": 8629,
+      "baselineMs": [
+        1965,
+        1957
+      ],
+      "revisedMs": [
+        5503,
+        5454
+      ],
+      "generation": {
+        "baseline": [
+          {
+            "standard": {
+              "elapsedMs": 141,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "compact": {
+              "elapsedMs": 133,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 113,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "compact": {
+              "elapsedMs": 110,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "current": [
+          {
+            "standard": {
+              "elapsedMs": 145,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "compact": {
+              "elapsedMs": 135,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "standard": {
+              "elapsedMs": 137,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "compact": {
+              "elapsedMs": 123,
+              "candidates": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "peakProcessRssKiB": 476468
+}

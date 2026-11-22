@@ -1,0 +1,50 @@
+[
+  {
+    "isolated": "baseline",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 6935,
+    "peakRssKiB": 146516,
+    "revision": "phrase-1"
+  },
+  {
+    "isolated": "current",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 6136,
+    "peakRssKiB": 205440,
+    "revision": "spectral-1 before buffer reuse"
+  },
+  {
+    "isolated": "baseline",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 3710,
+    "peakRssKiB": 192792,
+    "revision": "spectral-1 before buffer reuse"
+  },
+  {
+    "isolated": "current",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 3191,
+    "peakRssKiB": 183488,
+    "revision": "spectral-1 after buffer reuse"
+  },
+  {
+    "isolated": "current",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 3180,
+    "peakRssKiB": 184900,
+    "revision": "spectral-1 after buffer reuse"
+  },
+  {
+    "isolated": "baseline",
+    "track": "Galaxy Collapse",
+    "node": "v24.16.0",
+    "analysisMs": 3658,
+    "peakRssKiB": 218640,
+    "revision": "spectral-1 before buffer reuse"
+  }
+]

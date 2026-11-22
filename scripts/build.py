@@ -6,8 +6,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
 if DIST.exists(): shutil.rmtree(DIST)
 DIST.mkdir(parents=True)
-for item in ['index.html', 'app.js', 'core.js', 'score-v2.js', 'performance-analysis.js', 'smartgen.js', 'tempomap.js', 'beatgrid.js', 'patterns.js', 'difficulty.js', 'compose.js', 'analysis-worker.js', 'cache.js', 'sections.js', 'quality-extra.js', 'autofix.js', 'genclient.js', 'gen-worker.js', 'rfgen-v2.js']:
+for item in ['index.html', 'app.js', 'autoplay.js', 'core.js', 'score-v2.js', 'performance-analysis.js', 'smartgen.js', 'tempomap.js', 'beatgrid.js', 'patterns.js', 'difficulty.js', 'compose.js', 'analysis-worker.js', 'cache.js', 'sections.js', 'quality-extra.js', 'autofix.js', 'genclient.js', 'gen-worker.js', 'rfgen-v2.js']:
     shutil.copy2(ROOT / item, DIST / item)
+shutil.copytree(ROOT / 'v3', DIST / 'v3')
 shutil.copytree(ROOT / 'src', DIST / 'src', dirs_exist_ok=True, ignore=shutil.ignore_patterns('*.tsx', '*.ts'))
 shutil.copytree(ROOT / 'public', DIST / 'public', dirs_exist_ok=True)
 for f in ['favicon.ico','favicon.svg','apple-touch-icon.png']:

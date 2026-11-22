@@ -1,0 +1,2460 @@
+{
+  "stage": "holdout",
+  "peakRssKiB": 286848,
+  "summary": [
+    {
+      "track": "no-no-no",
+      "filename": "TheFatRat - No No No.mp3",
+      "recordingSha": "678b70a189972650fe8029409bc5802a25b1bb82c2494a8fd92c690fb0dec95e",
+      "duration": 181951.56462585033,
+      "analysisMs": 1424.543,
+      "detectedAttacks": 1901,
+      "bpm": 148.0264413370951,
+      "charts": {
+        "easy": {
+          "ms": 72.68,
+          "candidates": 4,
+          "v2": {
+            "notes": 381,
+            "heads": 381,
+            "nps": 2.094,
+            "hps": 2.094,
+            "peak1": 4,
+            "peak2": 7,
+            "gaps": [
+              0,
+              0,
+              0,
+              3,
+              62,
+              315
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.631,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 2,
+            "maxBurst": 1,
+            "slots": 38,
+            "offbeat": 33,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              381,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 15,
+            "medianHoldMs": 758,
+            "heldMs": 11364,
+            "fingers": [
+              101,
+              85,
+              115,
+              80
+            ],
+            "peakFinger": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "peakHand": [
+              3,
+              3
+            ],
+            "exact": 7,
+            "near": 292,
+            "avgDetectorGapMs": 17.52,
+            "coveredEvents": 292,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 123,
+            "heads": 123,
+            "nps": 0.676,
+            "hps": 0.676,
+            "peak1": 3,
+            "peak2": 5,
+            "gaps": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              122
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": null,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 69,
+            "offbeat": 0,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              123,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 20,
+            "medianHoldMs": 411,
+            "heldMs": 8608,
+            "fingers": [
+              38,
+              24,
+              37,
+              24
+            ],
+            "peakFinger": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "peakHand": [
+              2,
+              2
+            ],
+            "exact": 123,
+            "near": 123,
+            "avgDetectorGapMs": 0.258,
+            "coveredEvents": 123,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 342,
+            "heads": 342,
+            "nps": 1.88,
+            "hps": 1.88,
+            "peak1": 4,
+            "peak2": 6,
+            "gaps": [
+              0,
+              0,
+              0,
+              0,
+              41,
+              300
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 1,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 98,
+            "offbeat": 7,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              342,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 44,
+            "medianHoldMs": 396,
+            "heldMs": 18951,
+            "fingers": [
+              92,
+              73,
+              83,
+              94
+            ],
+            "peakFinger": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "peakHand": [
+              2,
+              3
+            ],
+            "exact": 342,
+            "near": 342,
+            "avgDetectorGapMs": 0.249,
+            "coveredEvents": 342,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 0,
+            "rollSteps": 0
+          },
+          "prior": {
+            "notes": 338,
+            "heads": 338,
+            "nps": 1.858,
+            "hps": 1.858,
+            "peak1": 4,
+            "peak2": 6,
+            "gaps": [
+              0,
+              0,
+              0,
+              0,
+              41,
+              296
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 1,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 98,
+            "offbeat": 7,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              338,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 44,
+            "medianHoldMs": 396,
+            "heldMs": 18951,
+            "fingers": [
+              92,
+              72,
+              81,
+              93
+            ],
+            "peakFinger": [
+              2,
+              2,
+              1,
+              2
+            ],
+            "peakHand": [
+              2,
+              2
+            ],
+            "exact": 338,
+            "near": 338,
+            "avgDetectorGapMs": 0.25,
+            "coveredEvents": 338,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 0,
+            "recoveredAttacks": 0,
+            "brackets": 0,
+            "tonalAttacks": 0,
+            "phraseNotes": 4
+          }
+        },
+        "normal": {
+          "ms": 23.34,
+          "candidates": 4,
+          "v2": {
+            "notes": 726,
+            "heads": 709,
+            "nps": 3.99,
+            "hps": 3.897,
+            "peak1": 7,
+            "peak2": 13,
+            "gaps": [
+              0,
+              0,
+              0,
+              572,
+              36,
+              100
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.547,
+            "jackPairs": 37,
+            "maxJackRun": 2,
+            "maxJackMs": 203,
+            "maxStream": 12,
+            "maxBurst": 1,
+            "slots": 88,
+            "offbeat": 81,
+            "patternWindows": 426,
+            "patterns": {
+              "jack": 59,
+              "trill": 22,
+              "roll": 31,
+              "zigzag": 101,
+              "alternatingStream": 0,
+              "mixed": 162,
+              "chordstream": 51
+            },
+            "chordSizes": [
+              0,
+              692,
+              17,
+              0,
+              0
+            ],
+            "chordKeys": 17,
+            "holdCount": 39,
+            "medianHoldMs": 568,
+            "heldMs": 22398,
+            "fingers": [
+              165,
+              198,
+              196,
+              167
+            ],
+            "peakFinger": [
+              4,
+              3,
+              3,
+              3
+            ],
+            "peakHand": [
+              5,
+              6
+            ],
+            "exact": 11,
+            "near": 525,
+            "avgDetectorGapMs": 17.237,
+            "coveredEvents": 525,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 219,
+            "heads": 219,
+            "nps": 1.204,
+            "hps": 1.204,
+            "peak1": 5,
+            "peak2": 9,
+            "gaps": [
+              0,
+              0,
+              0,
+              32,
+              5,
+              181
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.946,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 93,
+            "offbeat": 16,
+            "patternWindows": 4,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 4,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              219,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 35,
+            "medianHoldMs": 379,
+            "heldMs": 14917,
+            "fingers": [
+              64,
+              46,
+              63,
+              46
+            ],
+            "peakFinger": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "peakHand": [
+              3,
+              3
+            ],
+            "exact": 219,
+            "near": 219,
+            "avgDetectorGapMs": 0.258,
+            "coveredEvents": 219,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 613,
+            "heads": 533,
+            "nps": 3.369,
+            "hps": 2.929,
+            "peak1": 7,
+            "peak2": 12,
+            "gaps": [
+              0,
+              0,
+              2,
+              226,
+              102,
+              202
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.918,
+            "jackPairs": 3,
+            "maxJackRun": 2,
+            "maxJackMs": 214,
+            "maxStream": 2,
+            "maxBurst": 1,
+            "slots": 148,
+            "offbeat": 52,
+            "patternWindows": 51,
+            "patterns": {
+              "jack": 2,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 22,
+              "alternatingStream": 0,
+              "mixed": 9,
+              "chordstream": 18
+            },
+            "chordSizes": [
+              0,
+              453,
+              80,
+              0,
+              0
+            ],
+            "chordKeys": 80,
+            "holdCount": 46,
+            "medianHoldMs": 379,
+            "heldMs": 18792,
+            "fingers": [
+              152,
+              158,
+              143,
+              160
+            ],
+            "peakFinger": [
+              3,
+              3,
+              3,
+              2
+            ],
+            "peakHand": [
+              4,
+              4
+            ],
+            "exact": 533,
+            "near": 533,
+            "avgDetectorGapMs": 0.251,
+            "coveredEvents": 533,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 3,
+            "rollSteps": 0
+          },
+          "prior": {
+            "notes": 604,
+            "heads": 525,
+            "nps": 3.32,
+            "hps": 2.885,
+            "peak1": 7,
+            "peak2": 11,
+            "gaps": [
+              0,
+              0,
+              2,
+              214,
+              100,
+              208
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.94,
+            "jackPairs": 3,
+            "maxJackRun": 2,
+            "maxJackMs": 214,
+            "maxStream": 2,
+            "maxBurst": 1,
+            "slots": 146,
+            "offbeat": 50,
+            "patternWindows": 37,
+            "patterns": {
+              "jack": 1,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 20,
+              "alternatingStream": 0,
+              "mixed": 2,
+              "chordstream": 14
+            },
+            "chordSizes": [
+              0,
+              446,
+              79,
+              0,
+              0
+            ],
+            "chordKeys": 79,
+            "holdCount": 46,
+            "medianHoldMs": 379,
+            "heldMs": 18792,
+            "fingers": [
+              151,
+              153,
+              142,
+              158
+            ],
+            "peakFinger": [
+              3,
+              3,
+              3,
+              2
+            ],
+            "peakHand": [
+              4,
+              4
+            ],
+            "exact": 525,
+            "near": 525,
+            "avgDetectorGapMs": 0.251,
+            "coveredEvents": 525,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 1,
+            "recoveredAttacks": 0,
+            "brackets": 0,
+            "tonalAttacks": 0,
+            "phraseNotes": 8
+          }
+        },
+        "hard": {
+          "ms": 66.291,
+          "candidates": 4,
+          "v2": {
+            "notes": 900,
+            "heads": 858,
+            "nps": 4.946,
+            "hps": 4.716,
+            "peak1": 9,
+            "peak2": 14,
+            "gaps": [
+              0,
+              0,
+              8,
+              785,
+              28,
+              36
+            ],
+            "rapidFinger": 4,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.638,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 60,
+            "maxBurst": 2,
+            "slots": 98,
+            "offbeat": 88,
+            "patternWindows": 690,
+            "patterns": {
+              "jack": 0,
+              "trill": 17,
+              "roll": 30,
+              "zigzag": 258,
+              "alternatingStream": 0,
+              "mixed": 264,
+              "chordstream": 121
+            },
+            "chordSizes": [
+              0,
+              816,
+              42,
+              0,
+              0
+            ],
+            "chordKeys": 42,
+            "holdCount": 55,
+            "medianHoldMs": 527,
+            "heldMs": 28811,
+            "fingers": [
+              198,
+              253,
+              252,
+              197
+            ],
+            "peakFinger": [
+              3,
+              3,
+              3,
+              4
+            ],
+            "peakHand": [
+              6,
+              5
+            ],
+            "exact": 13,
+            "near": 632,
+            "avgDetectorGapMs": 16.933,
+            "coveredEvents": 632,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 727,
+            "heads": 637,
+            "nps": 3.996,
+            "hps": 3.501,
+            "peak1": 9,
+            "peak2": 16,
+            "gaps": [
+              0,
+              80,
+              102,
+              222,
+              71,
+              161
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.771,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 9,
+            "maxBurst": 7,
+            "slots": 146,
+            "offbeat": 57,
+            "patternWindows": 194,
+            "patterns": {
+              "jack": 0,
+              "trill": 35,
+              "roll": 0,
+              "zigzag": 100,
+              "alternatingStream": 0,
+              "mixed": 32,
+              "chordstream": 27
+            },
+            "chordSizes": [
+              0,
+              547,
+              90,
+              0,
+              0
+            ],
+            "chordKeys": 90,
+            "holdCount": 54,
+            "medianHoldMs": 391,
+            "heldMs": 23205,
+            "fingers": [
+              162,
+              202,
+              202,
+              161
+            ],
+            "peakFinger": [
+              4,
+              4,
+              4,
+              3
+            ],
+            "peakHand": [
+              6,
+              6
+            ],
+            "exact": 637,
+            "near": 637,
+            "avgDetectorGapMs": 0.25,
+            "coveredEvents": 637,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 914,
+            "heads": 795,
+            "nps": 5.023,
+            "hps": 4.369,
+            "peak1": 10,
+            "peak2": 18,
+            "gaps": [
+              0,
+              103,
+              182,
+              298,
+              95,
+              116
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.79,
+            "jackPairs": 4,
+            "maxJackRun": 2,
+            "maxJackMs": 209,
+            "maxStream": 12,
+            "maxBurst": 8,
+            "slots": 184,
+            "offbeat": 86,
+            "patternWindows": 345,
+            "patterns": {
+              "jack": 4,
+              "trill": 33,
+              "roll": 2,
+              "zigzag": 148,
+              "alternatingStream": 0,
+              "mixed": 29,
+              "chordstream": 129
+            },
+            "chordSizes": [
+              0,
+              676,
+              119,
+              0,
+              0
+            ],
+            "chordKeys": 119,
+            "holdCount": 58,
+            "medianHoldMs": 382,
+            "heldMs": 24036,
+            "fingers": [
+              207,
+              247,
+              259,
+              201
+            ],
+            "peakFinger": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "peakHand": [
+              6,
+              6
+            ],
+            "exact": 795,
+            "near": 795,
+            "avgDetectorGapMs": 0.249,
+            "coveredEvents": 795,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 5,
+            "rollSteps": 12
+          },
+          "prior": {
+            "notes": 893,
+            "heads": 787,
+            "nps": 4.908,
+            "hps": 4.325,
+            "peak1": 10,
+            "peak2": 18,
+            "gaps": [
+              0,
+              100,
+              175,
+              293,
+              100,
+              118
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.783,
+            "jackPairs": 4,
+            "maxJackRun": 2,
+            "maxJackMs": 209,
+            "maxStream": 12,
+            "maxBurst": 8,
+            "slots": 183,
+            "offbeat": 85,
+            "patternWindows": 323,
+            "patterns": {
+              "jack": 6,
+              "trill": 37,
+              "roll": 2,
+              "zigzag": 154,
+              "alternatingStream": 0,
+              "mixed": 23,
+              "chordstream": 101
+            },
+            "chordSizes": [
+              0,
+              681,
+              106,
+              0,
+              0
+            ],
+            "chordKeys": 106,
+            "holdCount": 58,
+            "medianHoldMs": 382,
+            "heldMs": 24036,
+            "fingers": [
+              202,
+              242,
+              251,
+              198
+            ],
+            "peakFinger": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "peakHand": [
+              6,
+              6
+            ],
+            "exact": 787,
+            "near": 787,
+            "avgDetectorGapMs": 0.25,
+            "coveredEvents": 787,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 13,
+            "recoveredAttacks": 8,
+            "brackets": 0,
+            "tonalAttacks": 5,
+            "phraseNotes": 0
+          }
+        },
+        "expert": {
+          "ms": 56.893,
+          "candidates": 4,
+          "v2": {
+            "notes": 942,
+            "heads": 875,
+            "nps": 5.177,
+            "hps": 4.809,
+            "peak1": 10,
+            "peak2": 17,
+            "gaps": [
+              0,
+              8,
+              7,
+              806,
+              19,
+              34
+            ],
+            "rapidFinger": 3,
+            "tightFinger": 1,
+            "rapidHand": 10,
+            "alternate": 0.602,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 89,
+            "maxBurst": 3,
+            "slots": 98,
+            "offbeat": 88,
+            "patternWindows": 730,
+            "patterns": {
+              "jack": 0,
+              "trill": 36,
+              "roll": 49,
+              "zigzag": 218,
+              "alternatingStream": 0,
+              "mixed": 248,
+              "chordstream": 179
+            },
+            "chordSizes": [
+              0,
+              808,
+              67,
+              0,
+              0
+            ],
+            "chordKeys": 67,
+            "holdCount": 51,
+            "medianHoldMs": 527,
+            "heldMs": 25331,
+            "fingers": [
+              183,
+              274,
+              286,
+              199
+            ],
+            "peakFinger": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "peakHand": [
+              6,
+              6
+            ],
+            "exact": 13,
+            "near": 645,
+            "avgDetectorGapMs": 16.821,
+            "coveredEvents": 645,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 1041,
+            "heads": 940,
+            "nps": 5.721,
+            "hps": 5.166,
+            "peak1": 13,
+            "peak2": 23,
+            "gaps": [
+              127,
+              177,
+              179,
+              263,
+              83,
+              110
+            ],
+            "rapidFinger": 1,
+            "tightFinger": 0,
+            "rapidHand": 13,
+            "alternate": 0.788,
+            "jackPairs": 1,
+            "maxJackRun": 2,
+            "maxJackMs": 191,
+            "maxStream": 24,
+            "maxBurst": 10,
+            "slots": 201,
+            "offbeat": 101,
+            "patternWindows": 508,
+            "patterns": {
+              "jack": 1,
+              "trill": 91,
+              "roll": 1,
+              "zigzag": 202,
+              "alternatingStream": 0,
+              "mixed": 91,
+              "chordstream": 122
+            },
+            "chordSizes": [
+              0,
+              839,
+              101,
+              0,
+              0
+            ],
+            "chordKeys": 101,
+            "holdCount": 54,
+            "medianHoldMs": 368,
+            "heldMs": 21795,
+            "fingers": [
+              237,
+              287,
+              281,
+              236
+            ],
+            "peakFinger": [
+              5,
+              5,
+              5,
+              5
+            ],
+            "peakHand": [
+              7,
+              7
+            ],
+            "exact": 940,
+            "near": 940,
+            "avgDetectorGapMs": 0.25,
+            "coveredEvents": 940,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 1127,
+            "heads": 980,
+            "nps": 6.194,
+            "hps": 5.386,
+            "peak1": 13,
+            "peak2": 23,
+            "gaps": [
+              128,
+              194,
+              203,
+              273,
+              80,
+              101
+            ],
+            "rapidFinger": 4,
+            "tightFinger": 0,
+            "rapidHand": 20,
+            "alternate": 0.782,
+            "jackPairs": 6,
+            "maxJackRun": 2,
+            "maxJackMs": 204,
+            "maxStream": 24,
+            "maxBurst": 11,
+            "slots": 209,
+            "offbeat": 108,
+            "patternWindows": 572,
+            "patterns": {
+              "jack": 12,
+              "trill": 66,
+              "roll": 5,
+              "zigzag": 187,
+              "alternatingStream": 0,
+              "mixed": 85,
+              "chordstream": 217
+            },
+            "chordSizes": [
+              0,
+              833,
+              147,
+              0,
+              0
+            ],
+            "chordKeys": 147,
+            "holdCount": 57,
+            "medianHoldMs": 360,
+            "heldMs": 23079,
+            "fingers": [
+              257,
+              310,
+              309,
+              251
+            ],
+            "peakFinger": [
+              5,
+              5,
+              5,
+              4
+            ],
+            "peakHand": [
+              7,
+              7
+            ],
+            "exact": 980,
+            "near": 980,
+            "avgDetectorGapMs": 0.249,
+            "coveredEvents": 980,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 2,
+            "rollSteps": 8
+          },
+          "prior": {
+            "notes": 1095,
+            "heads": 964,
+            "nps": 6.018,
+            "hps": 5.298,
+            "peak1": 13,
+            "peak2": 23,
+            "gaps": [
+              128,
+              185,
+              191,
+              266,
+              91,
+              102
+            ],
+            "rapidFinger": 3,
+            "tightFinger": 0,
+            "rapidHand": 18,
+            "alternate": 0.773,
+            "jackPairs": 5,
+            "maxJackRun": 2,
+            "maxJackMs": 204,
+            "maxStream": 24,
+            "maxBurst": 11,
+            "slots": 206,
+            "offbeat": 105,
+            "patternWindows": 529,
+            "patterns": {
+              "jack": 11,
+              "trill": 73,
+              "roll": 4,
+              "zigzag": 198,
+              "alternatingStream": 0,
+              "mixed": 89,
+              "chordstream": 154
+            },
+            "chordSizes": [
+              0,
+              833,
+              131,
+              0,
+              0
+            ],
+            "chordKeys": 131,
+            "holdCount": 57,
+            "medianHoldMs": 360,
+            "heldMs": 23079,
+            "fingers": [
+              251,
+              302,
+              300,
+              242
+            ],
+            "peakFinger": [
+              5,
+              5,
+              5,
+              4
+            ],
+            "peakHand": [
+              7,
+              7
+            ],
+            "exact": 964,
+            "near": 964,
+            "avgDetectorGapMs": 0.25,
+            "coveredEvents": 964,
+            "availableEvents": 1901,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 16,
+            "recoveredAttacks": 16,
+            "brackets": 7,
+            "tonalAttacks": 10,
+            "phraseNotes": 0
+          }
+        }
+      }
+    },
+    {
+      "track": "abnormal",
+      "filename": "FUNK ABNORMAL (Slowed) - DJ V12.mp3",
+      "recordingSha": "297482de62afe15c68f2eab009f2f764454dbb97cadf60ad2e46952988e3c3ca",
+      "duration": 101099.68253968254,
+      "analysisMs": 1039.713,
+      "detectedAttacks": 963,
+      "bpm": 115.17437919301793,
+      "charts": {
+        "easy": {
+          "ms": 7.352,
+          "candidates": 3,
+          "v2": {
+            "notes": 192,
+            "heads": 192,
+            "nps": 1.899,
+            "hps": 1.899,
+            "peak1": 4,
+            "peak2": 6,
+            "gaps": [
+              0,
+              0,
+              3,
+              0,
+              4,
+              184
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.857,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 2,
+            "maxBurst": 2,
+            "slots": 6,
+            "offbeat": 2,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              192,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 7,
+            "medianHoldMs": 519,
+            "heldMs": 4265,
+            "fingers": [
+              41,
+              52,
+              60,
+              39
+            ],
+            "peakFinger": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "peakHand": [
+              3,
+              3
+            ],
+            "exact": 3,
+            "near": 163,
+            "avgDetectorGapMs": 19.142,
+            "coveredEvents": 163,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 116,
+            "heads": 116,
+            "nps": 1.147,
+            "hps": 1.147,
+            "peak1": 3,
+            "peak2": 5,
+            "gaps": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              115
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": null,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 15,
+            "offbeat": 2,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              116,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 10,
+            "medianHoldMs": 558,
+            "heldMs": 5528,
+            "fingers": [
+              33,
+              22,
+              27,
+              34
+            ],
+            "peakFinger": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "peakHand": [
+              2,
+              2
+            ],
+            "exact": 116,
+            "near": 116,
+            "avgDetectorGapMs": 0.261,
+            "coveredEvents": 116,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 181,
+            "heads": 181,
+            "nps": 1.79,
+            "hps": 1.79,
+            "peak1": 4,
+            "peak2": 7,
+            "gaps": [
+              0,
+              0,
+              0,
+              0,
+              27,
+              153
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.852,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 23,
+            "offbeat": 7,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              181,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 14,
+            "medianHoldMs": 558,
+            "heldMs": 7285,
+            "fingers": [
+              50,
+              38,
+              45,
+              48
+            ],
+            "peakFinger": [
+              2,
+              1,
+              2,
+              2
+            ],
+            "peakHand": [
+              2,
+              3
+            ],
+            "exact": 181,
+            "near": 181,
+            "avgDetectorGapMs": 0.258,
+            "coveredEvents": 181,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 0,
+            "rollSteps": 0
+          },
+          "prior": {
+            "notes": 177,
+            "heads": 177,
+            "nps": 1.751,
+            "hps": 1.751,
+            "peak1": 3,
+            "peak2": 6,
+            "gaps": [
+              0,
+              0,
+              0,
+              0,
+              19,
+              157
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.947,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 22,
+            "offbeat": 6,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              177,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 14,
+            "medianHoldMs": 558,
+            "heldMs": 7285,
+            "fingers": [
+              48,
+              37,
+              44,
+              48
+            ],
+            "peakFinger": [
+              2,
+              1,
+              1,
+              2
+            ],
+            "peakHand": [
+              2,
+              2
+            ],
+            "exact": 177,
+            "near": 177,
+            "avgDetectorGapMs": 0.26,
+            "coveredEvents": 177,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 0,
+            "recoveredAttacks": 0,
+            "brackets": 0,
+            "tonalAttacks": 0,
+            "phraseNotes": 4
+          }
+        },
+        "normal": {
+          "ms": 10.537,
+          "candidates": 3,
+          "v2": {
+            "notes": 358,
+            "heads": 329,
+            "nps": 3.541,
+            "hps": 3.254,
+            "peak1": 6,
+            "peak2": 11,
+            "gaps": [
+              0,
+              0,
+              4,
+              0,
+              278,
+              46
+            ],
+            "rapidFinger": 1,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.533,
+            "jackPairs": 1,
+            "maxJackRun": 2,
+            "maxJackMs": 129,
+            "maxStream": 2,
+            "maxBurst": 2,
+            "slots": 11,
+            "offbeat": 6,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              300,
+              29,
+              0,
+              0
+            ],
+            "chordKeys": 29,
+            "holdCount": 16,
+            "medianHoldMs": 514,
+            "heldMs": 7622,
+            "fingers": [
+              82,
+              94,
+              96,
+              86
+            ],
+            "peakFinger": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "peakHand": [
+              4,
+              4
+            ],
+            "exact": 3,
+            "near": 257,
+            "avgDetectorGapMs": 19.586,
+            "coveredEvents": 257,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 196,
+            "heads": 196,
+            "nps": 1.939,
+            "hps": 1.939,
+            "peak1": 5,
+            "peak2": 8,
+            "gaps": [
+              0,
+              0,
+              0,
+              2,
+              75,
+              118
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.584,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 1,
+            "maxBurst": 1,
+            "slots": 23,
+            "offbeat": 8,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              196,
+              0,
+              0,
+              0
+            ],
+            "chordKeys": 0,
+            "holdCount": 13,
+            "medianHoldMs": 556,
+            "heldMs": 6920,
+            "fingers": [
+              50,
+              48,
+              51,
+              47
+            ],
+            "peakFinger": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "peakHand": [
+              3,
+              2
+            ],
+            "exact": 196,
+            "near": 196,
+            "avgDetectorGapMs": 0.263,
+            "coveredEvents": 196,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 339,
+            "heads": 295,
+            "nps": 3.353,
+            "hps": 2.918,
+            "peak1": 6,
+            "peak2": 11,
+            "gaps": [
+              0,
+              0,
+              2,
+              24,
+              188,
+              80
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.922,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 2,
+            "maxBurst": 1,
+            "slots": 39,
+            "offbeat": 22,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              251,
+              44,
+              0,
+              0
+            ],
+            "chordKeys": 44,
+            "holdCount": 15,
+            "medianHoldMs": 556,
+            "heldMs": 8113,
+            "fingers": [
+              83,
+              82,
+              84,
+              90
+            ],
+            "peakFinger": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "peakHand": [
+              4,
+              4
+            ],
+            "exact": 295,
+            "near": 295,
+            "avgDetectorGapMs": 0.261,
+            "coveredEvents": 295,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 0,
+            "rollSteps": 0
+          },
+          "prior": {
+            "notes": 332,
+            "heads": 288,
+            "nps": 3.284,
+            "hps": 2.849,
+            "peak1": 6,
+            "peak2": 11,
+            "gaps": [
+              0,
+              0,
+              2,
+              24,
+              174,
+              87
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.958,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 2,
+            "maxBurst": 1,
+            "slots": 37,
+            "offbeat": 20,
+            "patternWindows": 0,
+            "patterns": {
+              "jack": 0,
+              "trill": 0,
+              "roll": 0,
+              "zigzag": 0,
+              "alternatingStream": 0,
+              "mixed": 0,
+              "chordstream": 0
+            },
+            "chordSizes": [
+              0,
+              244,
+              44,
+              0,
+              0
+            ],
+            "chordKeys": 44,
+            "holdCount": 15,
+            "medianHoldMs": 556,
+            "heldMs": 8113,
+            "fingers": [
+              82,
+              81,
+              82,
+              87
+            ],
+            "peakFinger": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "peakHand": [
+              4,
+              4
+            ],
+            "exact": 288,
+            "near": 288,
+            "avgDetectorGapMs": 0.26,
+            "coveredEvents": 288,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 0,
+            "recoveredAttacks": 0,
+            "brackets": 0,
+            "tonalAttacks": 0,
+            "phraseNotes": 7
+          }
+        },
+        "hard": {
+          "ms": 47.301,
+          "candidates": 4,
+          "v2": {
+            "notes": 716,
+            "heads": 636,
+            "nps": 7.082,
+            "hps": 6.291,
+            "peak1": 11,
+            "peak2": 21,
+            "gaps": [
+              0,
+              0,
+              570,
+              4,
+              51,
+              10
+            ],
+            "rapidFinger": 40,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.674,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 39,
+            "maxBurst": 95,
+            "slots": 53,
+            "offbeat": 48,
+            "patternWindows": 479,
+            "patterns": {
+              "jack": 0,
+              "trill": 3,
+              "roll": 14,
+              "zigzag": 121,
+              "alternatingStream": 0,
+              "mixed": 91,
+              "chordstream": 250
+            },
+            "chordSizes": [
+              0,
+              556,
+              80,
+              0,
+              0
+            ],
+            "chordKeys": 80,
+            "holdCount": 38,
+            "medianHoldMs": 389,
+            "heldMs": 15658,
+            "fingers": [
+              180,
+              178,
+              190,
+              168
+            ],
+            "peakFinger": [
+              5,
+              4,
+              4,
+              4
+            ],
+            "peakHand": [
+              7,
+              7
+            ],
+            "exact": 6,
+            "near": 430,
+            "avgDetectorGapMs": 18.643,
+            "coveredEvents": 430,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 365,
+            "heads": 320,
+            "nps": 3.61,
+            "hps": 3.165,
+            "peak1": 8,
+            "peak2": 13,
+            "gaps": [
+              0,
+              6,
+              77,
+              29,
+              124,
+              83
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.689,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 6,
+            "maxBurst": 5,
+            "slots": 37,
+            "offbeat": 22,
+            "patternWindows": 26,
+            "patterns": {
+              "jack": 0,
+              "trill": 11,
+              "roll": 0,
+              "zigzag": 9,
+              "alternatingStream": 0,
+              "mixed": 5,
+              "chordstream": 1
+            },
+            "chordSizes": [
+              0,
+              275,
+              45,
+              0,
+              0
+            ],
+            "chordKeys": 45,
+            "holdCount": 13,
+            "medianHoldMs": 558,
+            "heldMs": 8088,
+            "fingers": [
+              74,
+              108,
+              101,
+              82
+            ],
+            "peakFinger": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "peakHand": [
+              4,
+              5
+            ],
+            "exact": 320,
+            "near": 320,
+            "avgDetectorGapMs": 0.256,
+            "coveredEvents": 320,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 477,
+            "heads": 426,
+            "nps": 4.718,
+            "hps": 4.214,
+            "peak1": 8,
+            "peak2": 15,
+            "gaps": [
+              0,
+              11,
+              144,
+              65,
+              164,
+              41
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.752,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 9,
+            "maxBurst": 5,
+            "slots": 52,
+            "offbeat": 35,
+            "patternWindows": 78,
+            "patterns": {
+              "jack": 0,
+              "trill": 31,
+              "roll": 0,
+              "zigzag": 18,
+              "alternatingStream": 0,
+              "mixed": 14,
+              "chordstream": 15
+            },
+            "chordSizes": [
+              0,
+              375,
+              51,
+              0,
+              0
+            ],
+            "chordKeys": 51,
+            "holdCount": 16,
+            "medianHoldMs": 536,
+            "heldMs": 8769,
+            "fingers": [
+              92,
+              143,
+              141,
+              101
+            ],
+            "peakFinger": [
+              3,
+              4,
+              4,
+              3
+            ],
+            "peakHand": [
+              5,
+              5
+            ],
+            "exact": 426,
+            "near": 426,
+            "avgDetectorGapMs": 0.257,
+            "coveredEvents": 426,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 0,
+            "rollSteps": 0
+          },
+          "prior": {
+            "notes": 470,
+            "heads": 422,
+            "nps": 4.649,
+            "hps": 4.174,
+            "peak1": 8,
+            "peak2": 15,
+            "gaps": [
+              0,
+              9,
+              140,
+              63,
+              167,
+              42
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 0,
+            "alternate": 0.759,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 7,
+            "maxBurst": 5,
+            "slots": 52,
+            "offbeat": 35,
+            "patternWindows": 67,
+            "patterns": {
+              "jack": 0,
+              "trill": 30,
+              "roll": 0,
+              "zigzag": 17,
+              "alternatingStream": 0,
+              "mixed": 10,
+              "chordstream": 10
+            },
+            "chordSizes": [
+              0,
+              374,
+              48,
+              0,
+              0
+            ],
+            "chordKeys": 48,
+            "holdCount": 16,
+            "medianHoldMs": 536,
+            "heldMs": 8769,
+            "fingers": [
+              91,
+              140,
+              141,
+              98
+            ],
+            "peakFinger": [
+              3,
+              4,
+              4,
+              3
+            ],
+            "peakHand": [
+              5,
+              5
+            ],
+            "exact": 422,
+            "near": 422,
+            "avgDetectorGapMs": 0.258,
+            "coveredEvents": 422,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 3,
+            "recoveredAttacks": 4,
+            "brackets": 0,
+            "tonalAttacks": 2,
+            "phraseNotes": 0
+          }
+        },
+        "expert": {
+          "ms": 22.301,
+          "candidates": 3,
+          "v2": {
+            "notes": 766,
+            "heads": 639,
+            "nps": 7.577,
+            "hps": 6.32,
+            "peak1": 13,
+            "peak2": 21,
+            "gaps": [
+              0,
+              2,
+              553,
+              32,
+              44,
+              7
+            ],
+            "rapidFinger": 43,
+            "tightFinger": 0,
+            "rapidHand": 3,
+            "alternate": 0.603,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 47,
+            "maxBurst": 80,
+            "slots": 47,
+            "offbeat": 43,
+            "patternWindows": 505,
+            "patterns": {
+              "jack": 0,
+              "trill": 8,
+              "roll": 21,
+              "zigzag": 62,
+              "alternatingStream": 0,
+              "mixed": 61,
+              "chordstream": 353
+            },
+            "chordSizes": [
+              0,
+              512,
+              127,
+              0,
+              0
+            ],
+            "chordKeys": 127,
+            "holdCount": 41,
+            "medianHoldMs": 389,
+            "heldMs": 15660,
+            "fingers": [
+              188,
+              197,
+              214,
+              167
+            ],
+            "peakFinger": [
+              5,
+              4,
+              5,
+              4
+            ],
+            "peakHand": [
+              7,
+              8
+            ],
+            "exact": 6,
+            "near": 431,
+            "avgDetectorGapMs": 18.497,
+            "coveredEvents": 431,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "baseline": {
+            "notes": 555,
+            "heads": 479,
+            "nps": 5.49,
+            "hps": 4.738,
+            "peak1": 10,
+            "peak2": 17,
+            "gaps": [
+              20,
+              37,
+              167,
+              69,
+              143,
+              42
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 1,
+            "alternate": 0.702,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 9,
+            "maxBurst": 7,
+            "slots": 55,
+            "offbeat": 37,
+            "patternWindows": 126,
+            "patterns": {
+              "jack": 0,
+              "trill": 37,
+              "roll": 0,
+              "zigzag": 19,
+              "alternatingStream": 0,
+              "mixed": 21,
+              "chordstream": 49
+            },
+            "chordSizes": [
+              0,
+              403,
+              76,
+              0,
+              0
+            ],
+            "chordKeys": 76,
+            "holdCount": 16,
+            "medianHoldMs": 556,
+            "heldMs": 9106,
+            "fingers": [
+              106,
+              156,
+              172,
+              121
+            ],
+            "peakFinger": [
+              4,
+              5,
+              4,
+              4
+            ],
+            "peakHand": [
+              6,
+              7
+            ],
+            "exact": 479,
+            "near": 479,
+            "avgDetectorGapMs": 0.259,
+            "coveredEvents": 479,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "current": {
+            "notes": 598,
+            "heads": 502,
+            "nps": 5.915,
+            "hps": 4.965,
+            "peak1": 10,
+            "peak2": 18,
+            "gaps": [
+              22,
+              47,
+              182,
+              71,
+              141,
+              38
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 4,
+            "alternate": 0.736,
+            "jackPairs": 1,
+            "maxJackRun": 2,
+            "maxJackMs": 200,
+            "maxStream": 9,
+            "maxBurst": 8,
+            "slots": 55,
+            "offbeat": 37,
+            "patternWindows": 148,
+            "patterns": {
+              "jack": 1,
+              "trill": 27,
+              "roll": 0,
+              "zigzag": 28,
+              "alternatingStream": 0,
+              "mixed": 15,
+              "chordstream": 77
+            },
+            "chordSizes": [
+              0,
+              406,
+              96,
+              0,
+              0
+            ],
+            "chordKeys": 96,
+            "holdCount": 19,
+            "medianHoldMs": 556,
+            "heldMs": 10720,
+            "fingers": [
+              120,
+              169,
+              182,
+              127
+            ],
+            "peakFinger": [
+              3,
+              5,
+              4,
+              4
+            ],
+            "peakHand": [
+              6,
+              7
+            ],
+            "exact": 502,
+            "near": 502,
+            "avgDetectorGapMs": 0.258,
+            "coveredEvents": 502,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "warnings": [],
+          "intent": {
+            "rapidJacks": 0,
+            "rollSteps": 0
+          },
+          "prior": {
+            "notes": 584,
+            "heads": 493,
+            "nps": 5.776,
+            "hps": 4.876,
+            "peak1": 10,
+            "peak2": 17,
+            "gaps": [
+              20,
+              41,
+              175,
+              71,
+              147,
+              38
+            ],
+            "rapidFinger": 0,
+            "tightFinger": 0,
+            "rapidHand": 2,
+            "alternate": 0.732,
+            "jackPairs": 0,
+            "maxJackRun": 0,
+            "maxJackMs": 0,
+            "maxStream": 9,
+            "maxBurst": 7,
+            "slots": 55,
+            "offbeat": 37,
+            "patternWindows": 131,
+            "patterns": {
+              "jack": 0,
+              "trill": 27,
+              "roll": 0,
+              "zigzag": 22,
+              "alternatingStream": 0,
+              "mixed": 15,
+              "chordstream": 67
+            },
+            "chordSizes": [
+              0,
+              402,
+              91,
+              0,
+              0
+            ],
+            "chordKeys": 91,
+            "holdCount": 19,
+            "medianHoldMs": 556,
+            "heldMs": 10720,
+            "fingers": [
+              117,
+              167,
+              180,
+              120
+            ],
+            "peakFinger": [
+              3,
+              5,
+              4,
+              4
+            ],
+            "peakHand": [
+              6,
+              7
+            ],
+            "exact": 493,
+            "near": 493,
+            "avgDetectorGapMs": 0.258,
+            "coveredEvents": 493,
+            "availableEvents": 963,
+            "quiet": 0,
+            "collisions": 0,
+            "releaseConflicts": 0
+          },
+          "technique": {
+            "addedChords": 5,
+            "recoveredAttacks": 9,
+            "brackets": 1,
+            "tonalAttacks": 6,
+            "phraseNotes": 0
+          }
+        }
+      }
+    }
+  ]
+}

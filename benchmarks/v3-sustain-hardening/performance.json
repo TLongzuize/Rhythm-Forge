@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "name": "Galaxy Collapse",
+      "seconds": 407.0933333333333,
+      "attacks": 5154,
+      "baselineMs": [
+        2746,
+        2476,
+        2149
+      ],
+      "revisedMs": [
+        2498,
+        2155,
+        2283
+      ]
+    },
+    {
+      "name": "Unity",
+      "seconds": 248.9643537414966,
+      "attacks": 1823,
+      "baselineMs": [
+        1463,
+        1468,
+        1611
+      ],
+      "revisedMs": [
+        1524,
+        1483,
+        2001
+      ]
+    },
+    {
+      "name": "Galaxy splice, 12 min",
+      "seconds": 720,
+      "attacks": 8629,
+      "baselineMs": [
+        3773,
+        3164
+      ],
+      "revisedMs": [
+        3368,
+        3339
+      ]
+    }
+  ],
+  "peakProcessRssKiB": 362020
+}

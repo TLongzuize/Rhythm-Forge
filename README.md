@@ -5,12 +5,12 @@
 
   **A four-lane rhythm game that turns your music into playable charts — right in your browser.**
 
-  ![Version 0.2.2](https://img.shields.io/badge/version-v0.2.2-ff66aa)
+  ![Version 0.3.0](https://img.shields.io/badge/version-v0.3.0-ff66aa)
   ![Status Alpha](https://img.shields.io/badge/status-alpha-orange)
   ![Runtime dependencies: zero](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen)
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
 
-  [![Play Rhythm Forge](https://img.shields.io/badge/PLAY%20ONLINE-Rhythm%20Forge-7a5cff?style=for-the-badge)](https://rfplay.vercel.app/)
+  [![Play Rhythm Forge](https://img.shields.io/badge/PLAY%20ONLINE-Rhythm%20Forge-7a5cff?style=for-the-badge)](https://tlongzuize.github.io/Rhythm-Forge/)
 
   [Download latest release](https://github.com/TLongzuize/Rhythm-Forge/releases/latest)
 
@@ -24,12 +24,12 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [What's new in v0.2.1](#whats-new-in-v021)
-- [v0.2.2 Small Bug Fixes](#v022-small-bug-fixes)
+- [What's new in v0.3.0](#whats-new-in-v030)
 - [Features](#features)
 - [Play online](#play-online)
 - [Getting started](#getting-started)
 - [How to play](#how-to-play)
+- [Autoplay, replay, and Local rank](#autoplay-replay-and-local-rank)
 - [Chart generator](#chart-generator)
 - [Chart editor](#chart-editor)
 - [Scoring and performance analysis](#scoring-and-performance-analysis)
@@ -52,32 +52,23 @@ Rhythm Forge is a local-first, four-key browser rhythm game, chart generator, an
 
 The project is built with plain HTML, CSS, and JavaScript. It has **no runtime package dependencies** and needs no application server or account. Your imported songs, charts, settings, and results stay in your browser.
 
-> **Version 0.2.2 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
+> **Version 0.3.0 — Alpha.** The project is actively evolving. Features, saved data formats, and balance may change; keep exports of charts you want to preserve.
 
-## What's new in v0.2.1
+## What's new in v0.3.0
 
-Version 0.2.1 polishes the quality-first v0.2.0 overhaul with a smoother HUD and deeper playfield customization:
+- **RF Generator V2** is the default and recommended engine. RF Generator V1 remains available for legacy generation. RF Generator V3 is available as **Experimental** and can miss attacks or chords and produce inconsistent difficulty on some tracks.
+- **Autoplay** plays the chart with 100% accuracy. **Autoplay like human** uses a configurable accuracy target and varies input timing. Both modes are unranked, with seeking and a five-second rewind.
+- **Watch replay** shows the recorded judgements of a manual play. Open a score from **Song select → Local rank** to view its result and replay when a recording is available.
+- Playback prepares audio during the loader and avoids redundant seeks at the start of a song. The gameplay HUD uses the bundled Orbitron font, including offline.
+- The welcome screen opens directly into the game. User-selected background images and videos remain available in Settings.
 
-- Score, accuracy, combo, live BPM, CPS, peak CPS, RP, health, and progress now animate smoothly toward their live values.
-- Accuracy has a dedicated non-overlapping row, while the desktop health bar is larger and easier to read.
-- Set an independent color for each lane plus a separate accent for the HUD, guides, health, and progress.
-- Choose the new Arrow skin with the lane order Left, Down, Up, Right, and independently scale notes and receptor buttons from `0.50×` to `2.00×`.
-- Long-note bodies, heads, and tails inherit the selected note skin instead of always using a round capsule.
-- **RF Generator V2** remains the default quality-first engine, with fractional BPM, local tempo maps, onset compensation, and conservative evidence-ranked holds.
-
-See [CHANGELOG.md](CHANGELOG.md) for the complete release notes.
-
-### v0.2.2 Small Bug Fixes
-
-- Orb holds have a continuous body with matching round ends. Other note skins show one head and a hold body.
-- Welcome, song list, and video transitions are smoother and respect Reduced Motion.
-- The updated V2 introduction uses the demo waveform and a generated chart. The V3 concept teaser has a new four-lane reveal.
+See the [changelog](CHANGELOG.md) for release history.
 
 ## Features
 
-### Introducing RF Generator V2 — Our Most Intelligent Generator
+### RF Generator V2 — Our Advanced Generator
 
-RF Generator V2 is Rhythm Forge's most advanced available chart generator. Its engine connects audio evidence, continuous tempo maps, section energy, and playable patterns to turn a local track into four difficulty charts. Watch the introduction from the welcome screen.
+RF Generator V2 is Rhythm Forge's default chart generator. Its engine connects audio evidence, continuous tempo maps, section energy, and playable patterns to turn a local track into four difficulty charts.
 
 - **Detailed timing analysis.** Fractional-BPM refinement, tempo-alias stabilization, continuous segment-local tempo maps, and onset-latency compensation support musical timing across the track.
 - **Musically supported long notes.** Sustained-audio evidence, lane clearance, grid-safe tails, bounded hold ratios, and active-hold limits govern hold placement.
@@ -85,11 +76,15 @@ RF Generator V2 is Rhythm Forge's most advanced available chart generator. Its e
 - **Four difficulties and five styles.** Easy, Normal, Hard, and Expert combine with Balanced, Beat Focus, Melodic, Technical, and Relax modes.
 - **Repeatable local generation.** Seeds reproduce charts and support variations. Audio processing happens on your device.
 
-The archived 12-track comparison covers 48 charts per engine. Note-weighted hold share was 26.8% for V1 and 4.4% for V2. A local Node.js demo Hard benchmark measured median generation times of 2.0 ms for V1 and 160.5 ms for V2 over 12 runs per engine after warm-up, excluding audio analysis. V2 spends more computation on chart planning. Results depend on the track and device, and these measurements do not establish universal synchronization improvements. See the [real-audio report](benchmarks/real-audio-v1-v2-report.json) and [video rendering script](scripts/render-v2-intro.py) for the data and measurement context.
+The archived 12-track comparison covers 48 charts per engine. Note-weighted hold share was 26.8% for V1 and 4.4% for V2. A local Node.js demo Hard benchmark measured median generation times of 2.0 ms for V1 and 160.5 ms for V2 over 12 runs per engine after warm-up, excluding audio analysis. V2 spends more computation on chart planning. Results depend on the track and device, and these measurements do not establish universal synchronization improvements. See the [real-audio report](benchmarks/real-audio-v1-v2-report.json) for the data and measurement context.
 
-### RF Generator V3 — Our Flagship Generator
+### RF Generator V3 — Next-Generation Chart Generator
 
-**Coming soon...** Watch the V3 teaser alongside the V2 introduction on the welcome screen. The teaser previews the next RF chapter. Feature specifications, performance figures, and a release date will be announced later.
+The current V3 build combines measured spectral arrivals with recurring rhythmic figures and voiced accents. V2 remains the default. [Engineering evidence](benchmarks/v3-event-validation/REPORT.md) · [Six playable comparisons](benchmarks/v3-event-validation/README.md)
+
+**Experimental.** Select **Generate → RF Generator V3** to generate the four difficulties. V3 measures attacks in the decoded audio, groups them into phrases, and compares playable lane layouts. Search runs automatically within a deterministic budget tuned to song length and device resource limits. The difficulty determines spacing, chords and hold limits. V3 runs locally in a Web Worker, including in the standalone HTML.
+
+The development report includes measured V2 comparisons, timing-fixture results and the listening-test protocol. [V3 development report](RF_GENERATOR_V3.md)
 
 ### Play
 
@@ -120,20 +115,15 @@ The archived 12-track comparison covers 48 charts per engine. Note-weighted hold
 
 ## Play online
 
-Play Rhythm Forge on Vercel:
-
-- [rfplay.vercel.app](https://rfplay.vercel.app/)
-- [rf4k.vercel.app](https://rf4k.vercel.app/)
-- [rhythm-forge-4k.vercel.app](https://rhythm-forge-4k.vercel.app/)
-- [rhythm-forge-play.vercel.app](https://rhythm-forge-play.vercel.app/)
-
-The [GitHub Pages deployment](https://tlongzuize.github.io/Rhythm-Forge/) is also available as a fallback.
+- [Play on GitHub Pages](https://tlongzuize.github.io/Rhythm-Forge/), updated by the repository deployment workflow.
+- [Download the latest release](https://github.com/TLongzuize/Rhythm-Forge/releases/latest), then open the standalone HTML in your browser.
+- [Vercel mirror](https://rfplay.vercel.app/).
 
 To embed the game on another website, use this iframe:
 
 ```html
 <iframe
-  src="https://rfplay.vercel.app/"
+  src="https://tlongzuize.github.io/Rhythm-Forge/"
   title="Play Rhythm Forge"
   width="100%"
   height="720"
@@ -147,7 +137,7 @@ GitHub sanitizes iframe markup in repository READMEs, so use the links above to 
 
 ## Getting started
 
-1. Open [Rhythm Forge on Vercel](https://rfplay.vercel.app/).
+1. Open [Rhythm Forge on GitHub Pages](https://tlongzuize.github.io/Rhythm-Forge/) or open the downloaded standalone HTML.
 2. Click the logo or start screen once to allow the browser to play audio.
 3. Choose **Play** and select the built-in **NEON CIRCUIT** demo, or use **Import** to add an audio file from your device.
 4. Open **Generate**, analyze the song, and create its charts.
@@ -172,7 +162,23 @@ Keys can be changed in Settings. On touch devices, tap or hold the matching lane
 - **Timing feels off?** Adjust the global timing offset in Settings or the offset for the selected song.
 - **No sound after opening the page?** Click once in the game. Browsers require a user gesture before starting audio.
 
+## Autoplay, replay, and Local rank
+
+1. In **Song select**, pick the song and difficulty. Choose **Autoplay** for a perfect demonstration or enter a **Target accuracy** from 0–100% and choose **Autoplay like human**. Its default target is 98%, and short charts may finish slightly above or below the target.
+2. Use the timeline beneath Hit Error or **−5s** to revisit a passage. Seeking works during playback and while paused.
+3. After playing manually, choose **Watch replay** on the results screen. You can also open a saved score from **Song select → Local rank** and watch its replay when the recording and original audio are available. Older scores can still show their results if they have no recorded judgements.
+
+Autoplay and replays do not affect personal scores, play history, or the skill profile. Saved replays are stored in the same browser and site as their scores. Practice attempts can be replayed from their results screen during the current session.
+
 ## Chart generator
+
+| Engine | Status | When to use it |
+|---|---|---|
+| RF Generator V1 | Legacy | Generate with the original engine. |
+| RF Generator V2 | Default | Use for regular play and consistent chart generation. |
+| RF Generator V3 | Experimental | Try the next-generation engine and review the chart before playing. |
+
+An explicitly selected engine is remembered in the current browser. All engines generate Easy, Normal, Hard, and Expert. The generator offers Balanced, Beat Focus, Melodic, Technical, and Relax modes, plus seed and timing controls. V3's density control ranges from 0.55× to 1.45× and defaults to 1.00×.
 
 The generator analyzes a selected song and composes charts from its rhythm:
 
@@ -280,7 +286,7 @@ Before the first deployment, open the repository's [Pages settings](https://gith
 
 To host elsewhere, run the standalone build command and publish the resulting HTML file as the host's `index.html`. The regular source build uses root-relative asset paths and may need path changes when hosted below a domain subpath.
 
-Stable releases are created from tags such as `v0.2.1`; tags containing `-pre` create pre-releases. The [release workflow](.github/workflows/release.yml) and [pre-release workflow](.github/workflows/prerelease.yml) attach a standalone HTML game and a ZIP package containing the game, README, changelog, and MIT license to each GitHub Release.
+Public releases are created from tags such as `v0.3.0`; tags containing `-pre` create pre-releases. The [release workflow](.github/workflows/release.yml) and [pre-release workflow](.github/workflows/prerelease.yml) attach a standalone HTML game and a ZIP package containing the game, README, changelog, and MIT license to each GitHub Release.
 
 ## Project structure
 
@@ -288,6 +294,7 @@ Stable releases are created from tags such as `v0.2.1`; tags containing `-pre` c
 .
 ├── index.html                 # Application shell
 ├── app.js                     # UI, gameplay, editor, and local storage
+├── autoplay.js                # Autoplay and replay scheduling
 ├── core.js                    # Audio analysis, settings, chart validation
 ├── smartgen.js                # Chart generation orchestration
 ├── tempomap.js, beatgrid.js   # Tempo and beat-grid analysis
@@ -300,7 +307,8 @@ Stable releases are created from tags such as `v0.2.1`; tags containing `-pre` c
 ├── analysis-worker.js         # Audio-analysis worker
 ├── gen-worker.js, genclient.js # Chart-generation worker and client
 ├── src/                       # Application styles
-├── public/                    # Icons and bundled demo audio
+├── v3/                        # Experimental V3 engine and worker
+├── public/                    # Icons, bundled fonts, and demo audio
 ├── scripts/                   # Build, server, test, and benchmark scripts
 └── tests/                     # Automated tests
 ```

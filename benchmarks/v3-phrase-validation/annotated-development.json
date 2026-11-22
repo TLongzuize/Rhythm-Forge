@@ -1,0 +1,1706 @@
+{
+  "split": "development",
+  "sampleRate": 22050,
+  "tolerancesMs": [
+    25,
+    50
+  ],
+  "report": [
+    {
+      "track": "cello1",
+      "audioSha256": "e323ba2d2dcd838456d39944dc1726737a28d7319b6433deb52f80cd230e5c89",
+      "consensusSha256": "db0c8218058cc46d221874ffdbd59346f4fa4c15a6f002b1be9160ec0b1b6bb3",
+      "individualSha256": "ef92ecc4d171f5377732553ddf522aa14dfc3676042b4a7435b1529b80f0a121",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 33,
+              "annotated": 61,
+              "matched": 12,
+              "meanErrorMs": 12.02,
+              "p95ErrorMs": 24.32
+            },
+            {
+              "detected": 33,
+              "annotated": 61,
+              "matched": 17,
+              "meanErrorMs": 18.85,
+              "p95ErrorMs": 43.63
+            }
+          ],
+          "individual": [
+            {
+              "detected": 33,
+              "annotated": 65,
+              "matched": 10,
+              "meanErrorMs": 12.57,
+              "p95ErrorMs": 21.97
+            },
+            {
+              "detected": 33,
+              "annotated": 65,
+              "matched": 17,
+              "meanErrorMs": 22.79,
+              "p95ErrorMs": 49.67
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 16,
+              "annotated": 61,
+              "matched": 3,
+              "meanErrorMs": 7.95,
+              "p95ErrorMs": 12.39
+            },
+            {
+              "detected": 16,
+              "annotated": 61,
+              "matched": 7,
+              "meanErrorMs": 23.26,
+              "p95ErrorMs": 44.69
+            }
+          ],
+          "individual": [
+            {
+              "detected": 16,
+              "annotated": 65,
+              "matched": 6,
+              "meanErrorMs": 11.17,
+              "p95ErrorMs": 17.56
+            },
+            {
+              "detected": 16,
+              "annotated": 65,
+              "matched": 7,
+              "meanErrorMs": 14.49,
+              "p95ErrorMs": 34.35
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 20,
+              "annotated": 61,
+              "matched": 6,
+              "meanErrorMs": 13.29,
+              "p95ErrorMs": 20.45
+            },
+            {
+              "detected": 20,
+              "annotated": 61,
+              "matched": 12,
+              "meanErrorMs": 25.17,
+              "p95ErrorMs": 46.42
+            }
+          ],
+          "individual": [
+            {
+              "detected": 20,
+              "annotated": 65,
+              "matched": 5,
+              "meanErrorMs": 17.62,
+              "p95ErrorMs": 22.08
+            },
+            {
+              "detected": 20,
+              "annotated": 65,
+              "matched": 11,
+              "meanErrorMs": 28.46,
+              "p95ErrorMs": 49.42
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 27,
+              "annotated": 61,
+              "matched": 10,
+              "meanErrorMs": 11.05,
+              "p95ErrorMs": 20.45
+            },
+            {
+              "detected": 27,
+              "annotated": 61,
+              "matched": 16,
+              "meanErrorMs": 19.87,
+              "p95ErrorMs": 43.33
+            }
+          ],
+          "individual": [
+            {
+              "detected": 27,
+              "annotated": 65,
+              "matched": 9,
+              "meanErrorMs": 12.55,
+              "p95ErrorMs": 22.08
+            },
+            {
+              "detected": 27,
+              "annotated": 65,
+              "matched": 17,
+              "meanErrorMs": 24.74,
+              "p95ErrorMs": 49.42
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 8,
+              "annotated": 61,
+              "matched": 4,
+              "meanErrorMs": 7.68,
+              "p95ErrorMs": 13.07
+            },
+            {
+              "detected": 8,
+              "annotated": 61,
+              "matched": 5,
+              "meanErrorMs": 12.48,
+              "p95ErrorMs": 31.68
+            }
+          ],
+          "individual": [
+            {
+              "detected": 8,
+              "annotated": 65,
+              "matched": 4,
+              "meanErrorMs": 6.21,
+              "p95ErrorMs": 12.77
+            },
+            {
+              "detected": 8,
+              "annotated": 65,
+              "matched": 6,
+              "meanErrorMs": 17.92,
+              "p95ErrorMs": 44.41
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 61,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 61,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 65,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 65,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "classic3",
+      "audioSha256": "17564aa76a5ce6a2a39698f8de116beb6b163f15d5b98a26e748f9a7e4aa834e",
+      "consensusSha256": "6f705bf675d5e0a3b75977fd46097533a59e3ee8ebe890da6192bc041388c8c1",
+      "individualSha256": "e6d83942bfe5c5d99e7bd6168fa768b9cfba3e7dad0d6dc6c5acdf530b680cd3",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 3,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 3,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 3,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 3,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 6,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 6,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 6,
+              "annotated": 12,
+              "matched": 1,
+              "meanErrorMs": 6.8,
+              "p95ErrorMs": 6.8
+            },
+            {
+              "detected": 6,
+              "annotated": 12,
+              "matched": 1,
+              "meanErrorMs": 6.8,
+              "p95ErrorMs": 6.8
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 2,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 2,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 2,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 2,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 2,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 2,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 2,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 2,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 4,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 12,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "distguit1",
+      "audioSha256": "2a642eb2faefcb1428a3cb088cb70f7f086e47aafb9578451c1769f516f96703",
+      "consensusSha256": "13bba66055336350d9f38494910828d1752a2a374871f37d3933809c8ae99a2d",
+      "individualSha256": "c7b0765e65ca29cad472411750389a637d8677a985eaa709fc74ac893e24db3e",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 32,
+              "annotated": 19,
+              "matched": 13,
+              "meanErrorMs": 8.91,
+              "p95ErrorMs": 20.16
+            },
+            {
+              "detected": 32,
+              "annotated": 19,
+              "matched": 15,
+              "meanErrorMs": 12.85,
+              "p95ErrorMs": 48.01
+            }
+          ],
+          "individual": [
+            {
+              "detected": 32,
+              "annotated": 20,
+              "matched": 14,
+              "meanErrorMs": 11.37,
+              "p95ErrorMs": 23.35
+            },
+            {
+              "detected": 32,
+              "annotated": 20,
+              "matched": 17,
+              "meanErrorMs": 16.32,
+              "p95ErrorMs": 46.03
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 2,
+              "annotated": 19,
+              "matched": 2,
+              "meanErrorMs": 9.79,
+              "p95ErrorMs": 17.76
+            },
+            {
+              "detected": 2,
+              "annotated": 19,
+              "matched": 2,
+              "meanErrorMs": 9.79,
+              "p95ErrorMs": 17.76
+            }
+          ],
+          "individual": [
+            {
+              "detected": 2,
+              "annotated": 20,
+              "matched": 2,
+              "meanErrorMs": 7.64,
+              "p95ErrorMs": 14.69
+            },
+            {
+              "detected": 2,
+              "annotated": 20,
+              "matched": 2,
+              "meanErrorMs": 7.64,
+              "p95ErrorMs": 14.69
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 18,
+              "annotated": 19,
+              "matched": 10,
+              "meanErrorMs": 7.54,
+              "p95ErrorMs": 20.1
+            },
+            {
+              "detected": 18,
+              "annotated": 19,
+              "matched": 11,
+              "meanErrorMs": 9.52,
+              "p95ErrorMs": 29.23
+            }
+          ],
+          "individual": [
+            {
+              "detected": 18,
+              "annotated": 20,
+              "matched": 11,
+              "meanErrorMs": 11.35,
+              "p95ErrorMs": 23.2
+            },
+            {
+              "detected": 18,
+              "annotated": 20,
+              "matched": 14,
+              "meanErrorMs": 18.21,
+              "p95ErrorMs": 48.49
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 23,
+              "annotated": 19,
+              "matched": 11,
+              "meanErrorMs": 8.93,
+              "p95ErrorMs": 20.1
+            },
+            {
+              "detected": 23,
+              "annotated": 19,
+              "matched": 14,
+              "meanErrorMs": 14.84,
+              "p95ErrorMs": 47.63
+            }
+          ],
+          "individual": [
+            {
+              "detected": 23,
+              "annotated": 20,
+              "matched": 12,
+              "meanErrorMs": 11.81,
+              "p95ErrorMs": 23.2
+            },
+            {
+              "detected": 23,
+              "annotated": 20,
+              "matched": 16,
+              "meanErrorMs": 18.1,
+              "p95ErrorMs": 45.68
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 8,
+              "annotated": 19,
+              "matched": 3,
+              "meanErrorMs": 13.28,
+              "p95ErrorMs": 16.92
+            },
+            {
+              "detected": 8,
+              "annotated": 19,
+              "matched": 5,
+              "meanErrorMs": 24.03,
+              "p95ErrorMs": 47.63
+            }
+          ],
+          "individual": [
+            {
+              "detected": 8,
+              "annotated": 20,
+              "matched": 3,
+              "meanErrorMs": 11.22,
+              "p95ErrorMs": 16.42
+            },
+            {
+              "detected": 8,
+              "annotated": 20,
+              "matched": 5,
+              "meanErrorMs": 19.98,
+              "p95ErrorMs": 36.27
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 19,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 19,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 20,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 20,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "jazz3",
+      "audioSha256": "f6d5ba2d1cf38575c87a131e6f1888c45a8ffd72e561bba9fb9a2471cfb291a5",
+      "consensusSha256": "739a5a78ee96d61869eb143e9cd1f0ac02d4220c5ce3b44e2fceafa4bde50b5d",
+      "individualSha256": "531fc7ed50bb78be7ebaeae94c4e9210b5f4059daa1ff5ab6d3f4e3dbc53eb8b",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 58,
+              "annotated": 53,
+              "matched": 34,
+              "meanErrorMs": 7.27,
+              "p95ErrorMs": 18.35
+            },
+            {
+              "detected": 58,
+              "annotated": 53,
+              "matched": 40,
+              "meanErrorMs": 11.73,
+              "p95ErrorMs": 35.52
+            }
+          ],
+          "individual": [
+            {
+              "detected": 58,
+              "annotated": 61,
+              "matched": 34,
+              "meanErrorMs": 8.9,
+              "p95ErrorMs": 23.2
+            },
+            {
+              "detected": 58,
+              "annotated": 61,
+              "matched": 39,
+              "meanErrorMs": 12.05,
+              "p95ErrorMs": 34.83
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 7,
+              "annotated": 53,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 7,
+              "annotated": 53,
+              "matched": 1,
+              "meanErrorMs": 25.61,
+              "p95ErrorMs": 25.61
+            }
+          ],
+          "individual": [
+            {
+              "detected": 7,
+              "annotated": 61,
+              "matched": 1,
+              "meanErrorMs": 23.5,
+              "p95ErrorMs": 23.5
+            },
+            {
+              "detected": 7,
+              "annotated": 61,
+              "matched": 2,
+              "meanErrorMs": 29.88,
+              "p95ErrorMs": 36.27
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 48,
+              "annotated": 53,
+              "matched": 33,
+              "meanErrorMs": 7.43,
+              "p95ErrorMs": 18.56
+            },
+            {
+              "detected": 48,
+              "annotated": 53,
+              "matched": 38,
+              "meanErrorMs": 11.19,
+              "p95ErrorMs": 42.61
+            }
+          ],
+          "individual": [
+            {
+              "detected": 48,
+              "annotated": 61,
+              "matched": 33,
+              "meanErrorMs": 9.08,
+              "p95ErrorMs": 23.21
+            },
+            {
+              "detected": 48,
+              "annotated": 61,
+              "matched": 38,
+              "meanErrorMs": 12.47,
+              "p95ErrorMs": 40.28
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 49,
+              "annotated": 53,
+              "matched": 33,
+              "meanErrorMs": 7.43,
+              "p95ErrorMs": 18.56
+            },
+            {
+              "detected": 49,
+              "annotated": 53,
+              "matched": 39,
+              "meanErrorMs": 11.82,
+              "p95ErrorMs": 42.61
+            }
+          ],
+          "individual": [
+            {
+              "detected": 49,
+              "annotated": 61,
+              "matched": 33,
+              "meanErrorMs": 9.08,
+              "p95ErrorMs": 23.21
+            },
+            {
+              "detected": 49,
+              "annotated": 61,
+              "matched": 39,
+              "meanErrorMs": 13.05,
+              "p95ErrorMs": 40.28
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 1,
+              "annotated": 53,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 1,
+              "annotated": 53,
+              "matched": 1,
+              "meanErrorMs": 35.73,
+              "p95ErrorMs": 35.73
+            }
+          ],
+          "individual": [
+            {
+              "detected": 1,
+              "annotated": 61,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 1,
+              "annotated": 61,
+              "matched": 1,
+              "meanErrorMs": 35.04,
+              "p95ErrorMs": 35.04
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 53,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 53,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 61,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 61,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "pop1",
+      "audioSha256": "169e913f3c5a43c66b0512d13d4d328cde8ea52d830981ba536c0bfa3a908ec5",
+      "consensusSha256": "114e646655cd7e14636ede4615a96e933e05c5d378160d062bcbe1cb76c8edc8",
+      "individualSha256": "35d6ba6958bf1f405da82626c96f1f8460015ce5089261f523dc7a849e1897a5",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 45,
+              "annotated": 27,
+              "matched": 17,
+              "meanErrorMs": 5.87,
+              "p95ErrorMs": 11.95
+            },
+            {
+              "detected": 45,
+              "annotated": 27,
+              "matched": 18,
+              "meanErrorMs": 8.2,
+              "p95ErrorMs": 47.86
+            }
+          ],
+          "individual": [
+            {
+              "detected": 45,
+              "annotated": 32,
+              "matched": 20,
+              "meanErrorMs": 5.79,
+              "p95ErrorMs": 12.29
+            },
+            {
+              "detected": 45,
+              "annotated": 32,
+              "matched": 21,
+              "meanErrorMs": 7.76,
+              "p95ErrorMs": 15.1
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 14,
+              "annotated": 27,
+              "matched": 2,
+              "meanErrorMs": 7.56,
+              "p95ErrorMs": 12.61
+            },
+            {
+              "detected": 14,
+              "annotated": 27,
+              "matched": 4,
+              "meanErrorMs": 19.64,
+              "p95ErrorMs": 35.03
+            }
+          ],
+          "individual": [
+            {
+              "detected": 14,
+              "annotated": 32,
+              "matched": 3,
+              "meanErrorMs": 12.8,
+              "p95ErrorMs": 17.32
+            },
+            {
+              "detected": 14,
+              "annotated": 32,
+              "matched": 4,
+              "meanErrorMs": 18.81,
+              "p95ErrorMs": 36.86
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 33,
+              "annotated": 27,
+              "matched": 15,
+              "meanErrorMs": 5.29,
+              "p95ErrorMs": 12.15
+            },
+            {
+              "detected": 33,
+              "annotated": 27,
+              "matched": 16,
+              "meanErrorMs": 7.95,
+              "p95ErrorMs": 47.76
+            }
+          ],
+          "individual": [
+            {
+              "detected": 33,
+              "annotated": 32,
+              "matched": 17,
+              "meanErrorMs": 4.94,
+              "p95ErrorMs": 15.34
+            },
+            {
+              "detected": 33,
+              "annotated": 32,
+              "matched": 19,
+              "meanErrorMs": 8.39,
+              "p95ErrorMs": 47.01
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 39,
+              "annotated": 27,
+              "matched": 18,
+              "meanErrorMs": 6.2,
+              "p95ErrorMs": 12.68
+            },
+            {
+              "detected": 39,
+              "annotated": 27,
+              "matched": 19,
+              "meanErrorMs": 8.39,
+              "p95ErrorMs": 47.76
+            }
+          ],
+          "individual": [
+            {
+              "detected": 39,
+              "annotated": 32,
+              "matched": 20,
+              "meanErrorMs": 5.69,
+              "p95ErrorMs": 12.62
+            },
+            {
+              "detected": 39,
+              "annotated": 32,
+              "matched": 22,
+              "meanErrorMs": 8.6,
+              "p95ErrorMs": 28.38
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 6,
+              "annotated": 27,
+              "matched": 3,
+              "meanErrorMs": 10.74,
+              "p95ErrorMs": 12.68
+            },
+            {
+              "detected": 6,
+              "annotated": 27,
+              "matched": 3,
+              "meanErrorMs": 10.74,
+              "p95ErrorMs": 12.68
+            }
+          ],
+          "individual": [
+            {
+              "detected": 6,
+              "annotated": 32,
+              "matched": 3,
+              "meanErrorMs": 9.94,
+              "p95ErrorMs": 12.62
+            },
+            {
+              "detected": 6,
+              "annotated": 32,
+              "matched": 3,
+              "meanErrorMs": 9.94,
+              "p95ErrorMs": 12.62
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 1,
+              "annotated": 27,
+              "matched": 1,
+              "meanErrorMs": 12.68,
+              "p95ErrorMs": 12.68
+            },
+            {
+              "detected": 1,
+              "annotated": 27,
+              "matched": 1,
+              "meanErrorMs": 12.68,
+              "p95ErrorMs": 12.68
+            }
+          ],
+          "individual": [
+            {
+              "detected": 1,
+              "annotated": 32,
+              "matched": 1,
+              "meanErrorMs": 10.51,
+              "p95ErrorMs": 10.51
+            },
+            {
+              "detected": 1,
+              "annotated": 32,
+              "matched": 1,
+              "meanErrorMs": 10.51,
+              "p95ErrorMs": 10.51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "rock1",
+      "audioSha256": "e29a7647c5d66e63f448d204444e586688e736deef1258fb0d1fb54d4adc4a23",
+      "consensusSha256": "10c5ff0db735d8e56e87f7fccef57a295bf5288247edc2efaca8008f605ecac0",
+      "individualSha256": "8746d8fc9a6088b1d6521ff6d4423fde72c16af6282f41f69e304ac3e44cf3c7",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 70,
+              "annotated": 59,
+              "matched": 42,
+              "meanErrorMs": 6.04,
+              "p95ErrorMs": 13.76
+            },
+            {
+              "detected": 70,
+              "annotated": 59,
+              "matched": 49,
+              "meanErrorMs": 10.69,
+              "p95ErrorMs": 40.76
+            }
+          ],
+          "individual": [
+            {
+              "detected": 70,
+              "annotated": 62,
+              "matched": 43,
+              "meanErrorMs": 6.16,
+              "p95ErrorMs": 20.83
+            },
+            {
+              "detected": 70,
+              "annotated": 62,
+              "matched": 50,
+              "meanErrorMs": 11,
+              "p95ErrorMs": 45.14
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 28,
+              "annotated": 59,
+              "matched": 4,
+              "meanErrorMs": 4.6,
+              "p95ErrorMs": 9.52
+            },
+            {
+              "detected": 28,
+              "annotated": 59,
+              "matched": 9,
+              "meanErrorMs": 26.81,
+              "p95ErrorMs": 49.53
+            }
+          ],
+          "individual": [
+            {
+              "detected": 28,
+              "annotated": 62,
+              "matched": 4,
+              "meanErrorMs": 4.69,
+              "p95ErrorMs": 13.47
+            },
+            {
+              "detected": 28,
+              "annotated": 62,
+              "matched": 10,
+              "meanErrorMs": 28.51,
+              "p95ErrorMs": 47.14
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 56,
+              "annotated": 59,
+              "matched": 41,
+              "meanErrorMs": 6.14,
+              "p95ErrorMs": 14.11
+            },
+            {
+              "detected": 56,
+              "annotated": 59,
+              "matched": 47,
+              "meanErrorMs": 10.24,
+              "p95ErrorMs": 41.04
+            }
+          ],
+          "individual": [
+            {
+              "detected": 56,
+              "annotated": 62,
+              "matched": 42,
+              "meanErrorMs": 6.26,
+              "p95ErrorMs": 21.33
+            },
+            {
+              "detected": 56,
+              "annotated": 62,
+              "matched": 48,
+              "meanErrorMs": 10.47,
+              "p95ErrorMs": 41.01
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 65,
+              "annotated": 59,
+              "matched": 43,
+              "meanErrorMs": 6.01,
+              "p95ErrorMs": 14.11
+            },
+            {
+              "detected": 65,
+              "annotated": 59,
+              "matched": 50,
+              "meanErrorMs": 10.57,
+              "p95ErrorMs": 41.04
+            }
+          ],
+          "individual": [
+            {
+              "detected": 65,
+              "annotated": 62,
+              "matched": 44,
+              "meanErrorMs": 6.11,
+              "p95ErrorMs": 21.33
+            },
+            {
+              "detected": 65,
+              "annotated": 62,
+              "matched": 52,
+              "meanErrorMs": 11.41,
+              "p95ErrorMs": 43.31
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 11,
+              "annotated": 59,
+              "matched": 2,
+              "meanErrorMs": 3.23,
+              "p95ErrorMs": 3.65
+            },
+            {
+              "detected": 11,
+              "annotated": 59,
+              "matched": 4,
+              "meanErrorMs": 23.9,
+              "p95ErrorMs": 48.49
+            }
+          ],
+          "individual": [
+            {
+              "detected": 11,
+              "annotated": 62,
+              "matched": 2,
+              "meanErrorMs": 2.86,
+              "p95ErrorMs": 4.53
+            },
+            {
+              "detected": 11,
+              "annotated": 62,
+              "matched": 4,
+              "meanErrorMs": 22.76,
+              "p95ErrorMs": 43.31
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 2,
+              "annotated": 59,
+              "matched": 1,
+              "meanErrorMs": 3.65,
+              "p95ErrorMs": 3.65
+            },
+            {
+              "detected": 2,
+              "annotated": 59,
+              "matched": 1,
+              "meanErrorMs": 3.65,
+              "p95ErrorMs": 3.65
+            }
+          ],
+          "individual": [
+            {
+              "detected": 2,
+              "annotated": 62,
+              "matched": 1,
+              "meanErrorMs": 1.2,
+              "p95ErrorMs": 1.2
+            },
+            {
+              "detected": 2,
+              "annotated": 62,
+              "matched": 2,
+              "meanErrorMs": 22.25,
+              "p95ErrorMs": 43.31
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "synthbass1",
+      "audioSha256": "4e4cb5f8499aedc5a9f0ec02c4eb66345fe71df8f1419eeeb427d18f0eebd17b",
+      "consensusSha256": "9e21ee07eb5cdc6d9b65a66d12e255665c67ae8047ff66a0ee95bdb2b0c845ba",
+      "individualSha256": "d79428d7f07ef3094d684b6a56ce1070fa04b70462aa2178fd3121489707ec22",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 31,
+              "annotated": 23,
+              "matched": 23,
+              "meanErrorMs": 6.9,
+              "p95ErrorMs": 14.47
+            },
+            {
+              "detected": 31,
+              "annotated": 23,
+              "matched": 23,
+              "meanErrorMs": 6.9,
+              "p95ErrorMs": 14.47
+            }
+          ],
+          "individual": [
+            {
+              "detected": 31,
+              "annotated": 25,
+              "matched": 25,
+              "meanErrorMs": 6.91,
+              "p95ErrorMs": 13.69
+            },
+            {
+              "detected": 31,
+              "annotated": 25,
+              "matched": 25,
+              "meanErrorMs": 6.91,
+              "p95ErrorMs": 13.69
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 6,
+              "annotated": 23,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 6,
+              "annotated": 23,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 6,
+              "annotated": 25,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 6,
+              "annotated": 25,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 27,
+              "annotated": 23,
+              "matched": 23,
+              "meanErrorMs": 6.96,
+              "p95ErrorMs": 14.93
+            },
+            {
+              "detected": 27,
+              "annotated": 23,
+              "matched": 23,
+              "meanErrorMs": 6.96,
+              "p95ErrorMs": 14.93
+            }
+          ],
+          "individual": [
+            {
+              "detected": 27,
+              "annotated": 25,
+              "matched": 25,
+              "meanErrorMs": 6.97,
+              "p95ErrorMs": 13.67
+            },
+            {
+              "detected": 27,
+              "annotated": 25,
+              "matched": 25,
+              "meanErrorMs": 6.97,
+              "p95ErrorMs": 13.67
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 30,
+              "annotated": 23,
+              "matched": 23,
+              "meanErrorMs": 6.96,
+              "p95ErrorMs": 14.93
+            },
+            {
+              "detected": 30,
+              "annotated": 23,
+              "matched": 23,
+              "meanErrorMs": 6.96,
+              "p95ErrorMs": 14.93
+            }
+          ],
+          "individual": [
+            {
+              "detected": 30,
+              "annotated": 25,
+              "matched": 25,
+              "meanErrorMs": 6.97,
+              "p95ErrorMs": 13.67
+            },
+            {
+              "detected": 30,
+              "annotated": 25,
+              "matched": 25,
+              "meanErrorMs": 6.97,
+              "p95ErrorMs": 13.67
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 3,
+              "annotated": 23,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 3,
+              "annotated": 23,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 3,
+              "annotated": 25,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 3,
+              "annotated": 25,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 0,
+              "annotated": 23,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 23,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ],
+          "individual": [
+            {
+              "detected": 0,
+              "annotated": 25,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            },
+            {
+              "detected": 0,
+              "annotated": 25,
+              "matched": 0,
+              "meanErrorMs": null,
+              "p95ErrorMs": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "track": "techno2",
+      "audioSha256": "e48304b769ef73a0b9bc368315898b1221dc4bd95274d0affd0e88ba85ce2f37",
+      "consensusSha256": "d8a4cdc72755ba2a3a4ea8528d4b1e047b7549464fb01f41e84e60e686bd205f",
+      "individualSha256": "d44188c44ee66b6fba1c00b4ceaebb5dfd73b8c2aedfd9668fda210934cf59e5",
+      "scores": {
+        "broadBand": {
+          "consensus": [
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 33,
+              "meanErrorMs": 7.73,
+              "p95ErrorMs": 21.82
+            },
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 34,
+              "meanErrorMs": 8.27,
+              "p95ErrorMs": 22.55
+            }
+          ],
+          "individual": [
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 32,
+              "meanErrorMs": 8.21,
+              "p95ErrorMs": 20.29
+            },
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 34,
+              "meanErrorMs": 9.23,
+              "p95ErrorMs": 25.36
+            }
+          ]
+        },
+        "spectralOnly": {
+          "consensus": [
+            {
+              "detected": 8,
+              "annotated": 56,
+              "matched": 7,
+              "meanErrorMs": 13.06,
+              "p95ErrorMs": 19.29
+            },
+            {
+              "detected": 8,
+              "annotated": 56,
+              "matched": 7,
+              "meanErrorMs": 13.06,
+              "p95ErrorMs": 19.29
+            }
+          ],
+          "individual": [
+            {
+              "detected": 8,
+              "annotated": 56,
+              "matched": 7,
+              "meanErrorMs": 12.49,
+              "p95ErrorMs": 21.19
+            },
+            {
+              "detected": 8,
+              "annotated": 56,
+              "matched": 7,
+              "meanErrorMs": 12.49,
+              "p95ErrorMs": 21.19
+            }
+          ]
+        },
+        "contextChart": {
+          "consensus": [
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 33,
+              "meanErrorMs": 7.73,
+              "p95ErrorMs": 22.11
+            },
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 34,
+              "meanErrorMs": 8.26,
+              "p95ErrorMs": 22.85
+            }
+          ],
+          "individual": [
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 32,
+              "meanErrorMs": 8.17,
+              "p95ErrorMs": 20.56
+            },
+            {
+              "detected": 34,
+              "annotated": 56,
+              "matched": 34,
+              "meanErrorMs": 9.19,
+              "p95ErrorMs": 25.02
+            }
+          ]
+        },
+        "phraseChart": {
+          "consensus": [
+            {
+              "detected": 38,
+              "annotated": 56,
+              "matched": 37,
+              "meanErrorMs": 8.21,
+              "p95ErrorMs": 22.11
+            },
+            {
+              "detected": 38,
+              "annotated": 56,
+              "matched": 38,
+              "meanErrorMs": 8.68,
+              "p95ErrorMs": 22.85
+            }
+          ],
+          "individual": [
+            {
+              "detected": 38,
+              "annotated": 56,
+              "matched": 36,
+              "meanErrorMs": 8.5,
+              "p95ErrorMs": 20.56
+            },
+            {
+              "detected": 38,
+              "annotated": 56,
+              "matched": 38,
+              "meanErrorMs": 9.39,
+              "p95ErrorMs": 25.02
+            }
+          ]
+        },
+        "chartNewHeads": {
+          "consensus": [
+            {
+              "detected": 5,
+              "annotated": 56,
+              "matched": 5,
+              "meanErrorMs": 13.79,
+              "p95ErrorMs": 21.1
+            },
+            {
+              "detected": 5,
+              "annotated": 56,
+              "matched": 5,
+              "meanErrorMs": 13.79,
+              "p95ErrorMs": 21.1
+            }
+          ],
+          "individual": [
+            {
+              "detected": 5,
+              "annotated": 56,
+              "matched": 5,
+              "meanErrorMs": 13.3,
+              "p95ErrorMs": 24
+            },
+            {
+              "detected": 5,
+              "annotated": 56,
+              "matched": 5,
+              "meanErrorMs": 13.3,
+              "p95ErrorMs": 24
+            }
+          ]
+        },
+        "chartNewSpectral": {
+          "consensus": [
+            {
+              "detected": 4,
+              "annotated": 56,
+              "matched": 4,
+              "meanErrorMs": 11.96,
+              "p95ErrorMs": 14.83
+            },
+            {
+              "detected": 4,
+              "annotated": 56,
+              "matched": 4,
+              "meanErrorMs": 11.96,
+              "p95ErrorMs": 14.83
+            }
+          ],
+          "individual": [
+            {
+              "detected": 4,
+              "annotated": 56,
+              "matched": 4,
+              "meanErrorMs": 10.62,
+              "p95ErrorMs": 16.93
+            },
+            {
+              "detected": 4,
+              "annotated": 56,
+              "matched": 4,
+              "meanErrorMs": 10.62,
+              "p95ErrorMs": 16.93
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
